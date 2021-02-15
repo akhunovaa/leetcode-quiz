@@ -8,9 +8,10 @@ public class Exam {
     public static void main(String[] args) {
 
         Solution solution = new Solution();
-        int digit = 19;
-        boolean isDigitHappy = solution.isHappy(digit);
-        System.out.println("Is digit is happy: " + isDigitHappy);
+        int[] nums = {2, 11, 7, 15};
+        int target = 9;
+        int[] answer = solution.twoSum3(nums, target);
+        System.out.println("Sum of this array: " + Arrays.toString(answer) + " will give the target: " + target);
     }
 
     private void run() {
