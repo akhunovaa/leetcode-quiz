@@ -282,6 +282,49 @@ public class Solution {
             heapify(array, length, largest);
         }
     }
+
+    // Быстрая сортировка
+    // Quick Sort
+    // O(n^2)
+
+    /**
+     На фоне алгоритмов сортировки со сложностью O(nlog n), выглядит не очень :(
+     На практике быстрая сортировка применяется широко.
+     Судите сами: у алгоритма очень хорошее среднее время запуска, также равное O(nlog n),
+     он эффективен для больших потоков ввода. И на этом преимущества не заканчиваются!
+     Алгоритм не занимает дополнительного пространства,
+     вся сортировка происходит «на месте», отсутствуют затратные вызовы распределения,
+     из-за чего его часто предпочитают сортировке слиянием.
+     */
+
+    //сложность O(n^2)
+    public int[] quickSort(int[] array, int begin, int end) {
+        if (end <= begin) return array;
+        int pivot = partition(array, begin, end);
+        quickSort(array, begin, pivot-1);
+        quickSort(array, pivot+1, end);
+        return array;
+    }
+
+    static int partition(int[] array, int begin, int end) {
+        int pivot = end;
+
+        int counter = begin;
+        for (int i = begin; i < end; i++) {
+            if (array[i] < array[pivot]) {
+                int temp = array[counter];
+                array[counter] = array[i];
+                array[i] = temp;
+                counter++;
+            }
+        }
+        int temp = array[pivot];
+        array[pivot] = array[counter];
+        array[counter] = temp;
+
+        return counter;
+    }
+
         /*
      * Template for using hash map to find duplicates.
      * Replace ReturnType with the actual type of your return value.

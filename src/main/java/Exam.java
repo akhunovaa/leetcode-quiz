@@ -18,7 +18,7 @@ public class Exam {
 //        int[] nums = {x, x, x, x, 0, x, x, x, x, x, x, x, x, x, 4, x, x, x, x, x};
 
         //int[] answer = solution.mergeSort(nums, 0, nums.length - 1);
-        int[] answer = solution.heapSort(nums);
+        int[] answer = solution.quickSort(nums, 0, nums.length - 1);
         //System.out.println("Sum of this array: " + Arrays.toString(answer) + " will give the target: " + target);
         System.out.println(Arrays.toString(answer));
     }
