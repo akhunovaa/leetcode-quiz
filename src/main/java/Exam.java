@@ -8,7 +8,8 @@ public class Exam {
     public static void main(String[] args) {
 
         Solution solution = new Solution();
-        int[] nums = {3, 5, 7, 8, 4, 2, 1, 9, 6};
+        //int[] nums = {3, 5, 7, 8, 4, 2, 1, 9, 6};
+        int[] nums = {8, 5, 6, 3, 1, 2, 4};
         //int[] nums = {4, 2, 1, 5, 3};
         //int[] nums = {4, 1, 2, 4, 2};
 //
