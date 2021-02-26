@@ -30,6 +30,20 @@ public class Solution {
         return a;
     }
 
+//    public int singleNumber2(int[] nums) {
+//        int result = 0;
+//        int[] count = new int[list.size() - 1];
+//        for (int i = 1; i <= n + 1; i++) {
+//            result ^= i;
+//        }
+//
+//        for (int i : nums) {
+//            result ^= i;
+//        }
+//
+//        return result;
+//    }
+
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> numSet = new HashSet<>();
         Set<Integer> resultSet = new HashSet<>();
@@ -78,7 +92,185 @@ public class Solution {
         return sum;
     }
 
-    /*
+    // O(n ^ 2) наихудший случай
+    public void bubbleSort2(int[] array) {
+        boolean sorted = false;
+        int temp;
+        while(!sorted) {
+            sorted = true;
+            for (int i = 0; i < array.length - 1; i++) {
+                if (array[i] > array[i + 1]) {
+                    temp = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = temp;
+                    sorted = false;
+                }
+            }
+        }
+    }
+    // O(n ^ 2) наихудший случай
+    public int[] bubbleSort(int[] array) {
+        boolean sorted = false;
+        while(!sorted) {
+            sorted = true;
+            for (int i = 0; i < array.length - 1; i++) {
+                if (array[i] > array[i + 1]) {
+                    array[i] = array[i] ^ array[i + 1];
+                    array[i + 1] = array[i] ^ array[i + 1];
+                    array[i] = array[i] ^ array[i + 1];
+                    sorted = false;
+                }
+            }
+        }
+        return array;
+    }
+
+    public int[] insertionSort(int[] array) {
+        for (int i = 1; i < array.length; i++) {
+            //берем [i + 1] элемент из массива
+            int current = array[i];
+            //берем [0] индекс массива
+            int j = i - 1;
+            //итерируем пока о не станет ближе к нулю или равным нулю
+            //и пока второй элемент из массива не будет меньше первого элемента
+            while(j >= 0 && current < array[j]) {
+                array[j+1] = array[j];
+                j--;
+            }
+            // в этой точке мы вышли, так что j так же -1
+            // или в первом элементе, где текущий >= a[j]
+            array[j+1] = current;
+        }
+        return array;
+    }
+
+
+    // Selection Sort
+    // Сортировка выбором
+
+    // O(n ^ 2) наихудший случай
+    public int[] selectionSort(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            int min = array[i];
+            int minId = i;
+            for (int j = i+1; j < array.length; j++) {
+                if (array[j] < min) {
+                    min = array[j];
+                    minId = j;
+                }
+            }
+            // замена
+            array[i] = array[i] ^ array[minId];
+            array[minId] = array[i] ^ array[minId];
+            array[i] = min;
+        }
+        return array;
+    }
+
+
+    //Сортировка слиянием
+    //Merge Sort
+
+    //O(nlog n)
+    public int[] mergeSort(int[] array, int left, int right) {
+        if (right <= left) {
+            return array;
+        }
+        int mid = (left+right)/2;
+        mergeSort(array, left, mid);
+        mergeSort(array, mid+1, right);
+        merge(array, left, mid, right);
+        return array;
+    }
+
+    void merge(int[] array, int left, int mid, int right) {
+        // вычисляем длину
+        int lengthLeft = mid - left + 1;
+        int lengthRight = right - mid;
+
+        // создаем временные подмассивы
+        int leftArray[] = new int [lengthLeft];
+        int rightArray[] = new int [lengthRight];
+
+        // копируем отсортированные массивы во временные
+        for (int i = 0; i < lengthLeft; i++)
+            leftArray[i] = array[left+i];
+        for (int i = 0; i < lengthRight; i++)
+            rightArray[i] = array[mid+i+1];
+
+        // итераторы содержат текущий индекс временного подмассива
+        int leftIndex = 0;
+        int rightIndex = 0;
+
+        // копируем из leftArray и rightArray обратно в массив
+        for (int i = left; i < right + 1; i++) {
+            // если остаются нескопированные элементы в R и L, копируем минимальный
+            if (leftIndex < lengthLeft && rightIndex < lengthRight) {
+                if (leftArray[leftIndex] < rightArray[rightIndex]) {
+                    array[i] = leftArray[leftIndex];
+                    leftIndex++;
+                }
+                else {
+                    array[i] = rightArray[rightIndex];
+                    rightIndex++;
+                }
+            }
+            // если все элементы были скопированы из rightArray, скопировать остальные из leftArray
+            else if (leftIndex < lengthLeft) {
+                array[i] = leftArray[leftIndex];
+                leftIndex++;
+            }
+            // если все элементы были скопированы из leftArray, скопировать остальные из rightArray
+            else if (rightIndex < lengthRight) {
+                array[i] = rightArray[rightIndex];
+                rightIndex++;
+            }
+        }
+    }
+
+    public int[] heapSort(int[] array) {
+        if (array.length == 0) return array;
+
+        // Строим кучу
+        int length = array.length;
+        // проходим от первого без ответвлений к корню
+        for (int i = length / 2-1; i >= 0; i--)
+            heapify(array, length, i);
+
+        for (int i = length-1; i >= 0; i--) {
+            int temp = array[0];
+            array[0] = array[i];
+            array[i] = temp;
+
+            heapify(array, i, 0);
+        }
+        return array;
+    }
+
+    public void heapify(int[] array, int length, int i) {
+        int leftChild = 2*i+1;
+        int rightChild = 2*i+2;
+        int largest = i;
+
+        // если левый дочерний больше родительского
+        if (leftChild < length && array[leftChild] > array[largest]) {
+            largest = leftChild;
+        }
+
+        // если правый дочерний больше родительского
+        if (rightChild < length && array[rightChild] > array[largest]) {
+            largest = rightChild;
+        }
+
+        // если должна произойти замена
+        if (largest != i) {
+            int temp = array[i];
+            array[i] = array[largest];
+            array[largest] = temp;
+            heapify(array, length, largest);
+        }
+    }
+        /*
      * Template for using hash map to find duplicates.
      * Replace ReturnType with the actual type of your return value.
      */

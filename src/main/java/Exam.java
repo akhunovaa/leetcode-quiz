@@ -8,10 +8,18 @@ public class Exam {
     public static void main(String[] args) {
 
         Solution solution = new Solution();
-        int[] nums = {2, 11, 7, 15};
-        int target = 9;
-        int[] answer = solution.twoSum3(nums, target);
-        System.out.println("Sum of this array: " + Arrays.toString(answer) + " will give the target: " + target);
+        int[] nums = {3, 5, 7, 8, 4, 2, 1, 9, 6};
+        //int[] nums = {4, 2, 1, 5, 3};
+        //int[] nums = {4, 1, 2, 4, 2};
+//
+//        int[] nums = {0, 1, 2, 3, 0, 5, 6, 7, 8, 9};
+//        int[] nums = {0, 1, 2, 3, 0, 5, 6, 7, 8, 9, 0, 1, 2, 3, 0, 5, 6, 7, 8, 9};
+//        int[] nums = {x, x, x, x, 0, x, x, x, x, x, x, x, x, x, 4, x, x, x, x, x};
+
+        //int[] answer = solution.mergeSort(nums, 0, nums.length - 1);
+        int[] answer = solution.heapSort(nums);
+        //System.out.println("Sum of this array: " + Arrays.toString(answer) + " will give the target: " + target);
+        System.out.println(Arrays.toString(answer));
     }
 
     private void run() {
