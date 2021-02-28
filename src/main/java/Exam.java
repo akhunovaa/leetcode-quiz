@@ -1,5 +1,6 @@
 import map.MyHashMap;
 import set.Solution;
+import ulam.Ulam;
 
 import java.util.Arrays;
 
@@ -18,9 +19,11 @@ public class Exam {
 //        int[] nums = {x, x, x, x, 0, x, x, x, x, x, x, x, x, x, 4, x, x, x, x, x};
 
         //int[] answer = solution.mergeSort(nums, 0, nums.length - 1);
-        int[] answer = solution.quickSort(nums, 0, nums.length - 1);
+//        int[] answer = solution.quickSort(nums, 0, nums.length - 1);
         //System.out.println("Sum of this array: " + Arrays.toString(answer) + " will give the target: " + target);
-        System.out.println(Arrays.toString(answer));
+//        System.out.println(Arrays.toString(answer));
+        Ulam ulam = new Ulam(809);
+        ulam.printPrimes();
     }
 
     private void run() {
