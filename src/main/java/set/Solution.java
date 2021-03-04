@@ -392,4 +392,32 @@ public class Solution {
         }
         throw new IllegalArgumentException("No two sum solution");
     }
+
+    public boolean hasUniqueChars(String str) {
+        String test = str.toLowerCase();
+        char[] cc = test.toCharArray();
+
+        for (int i = 0; i < cc.length; i++) {
+            char c = cc[i];
+            for (int j = i+1; j < cc.length; j++) {
+                char x = cc[j];
+                if ((x ^ c) == 0) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public int removeDuplicates(int[] nums) {
+        if (nums.length == 0) return 0;
+        int i = 0;
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+        return i + 1;
+    }
 }

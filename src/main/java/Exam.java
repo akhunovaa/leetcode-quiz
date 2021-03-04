@@ -22,8 +22,19 @@ public class Exam {
 //        int[] answer = solution.quickSort(nums, 0, nums.length - 1);
         //System.out.println("Sum of this array: " + Arrays.toString(answer) + " will give the target: " + target);
 //        System.out.println(Arrays.toString(answer));
-        Ulam ulam = new Ulam(809);
-        ulam.printPrimes();
+//        Ulam ulam = new Ulam(809);
+//        ulam.printPrimes();
+
+//        int x = 1;
+//        int y = 0;
+//        x ^= y;
+//        y ^= x;
+//        x ^= y;
+//        System.out.println(x);
+//        System.out.println(y)
+
+        boolean answer = solution.hasUniqueChars("azat");
+        System.out.println(answer);
     }
 
     private void run() {

@@ -27,17 +27,11 @@ public class Ulam {
                     if(matrix[j][i] < 10) {
                         //System.err.print(" ");
                     }
-                    if (isPrime(matrix[j][i])){
-                        //System.err.print(matrix[j][i] + " ");
-                    } else {
-                        //System.out.print(matrix[j][i] + " ");
-                    }
-                    //System.out.print(matrix[j][i] + " ");
+                    System.out.print(matrix[j][i] + " ");
                 }
-                //System.out.print("\n");
+                System.out.print("\n");
             }
         }
-        // any other iteration
         else {
             if (goRight){
                 //go right
@@ -59,12 +53,10 @@ public class Ulam {
                     matrix[x - i][y] = iterator;
                     iterator++;
                 }
-                //go down
                 for (int j = 0; j < length; j++){
                     matrix[x - length + 1][y + j + 1] = iterator;
                     iterator++;
                 }
-                //next iteration
                 fillUlam(matrix, x - length + 2, y + length, !goRight, length + 1, iterator);
             }
 
