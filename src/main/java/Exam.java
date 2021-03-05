@@ -33,7 +33,9 @@ public class Exam {
 //        System.out.println(x);
 //        System.out.println(y)
 
-        boolean answer = solution.hasUniqueChars("azat");
+//        boolean answer = solution.hasUniqueChars("azat");
+//        System.out.println(answer);
+        int answer = solution.reverse(123);
         System.out.println(answer);
     }
 

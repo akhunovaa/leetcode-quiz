@@ -7,6 +7,25 @@ import java.util.Set;
 
 public class Solution {
 
+    static int partition(int[] array, int begin, int end) {
+        int pivot = end;
+
+        int counter = begin;
+        for (int i = begin; i < end; i++) {
+            if (array[i] < array[pivot]) {
+                int temp = array[counter];
+                array[counter] = array[i];
+                array[i] = temp;
+                counter++;
+            }
+        }
+        int temp = array[pivot];
+        array[pivot] = array[counter];
+        array[counter] = temp;
+
+        return counter;
+    }
+
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> hashset = new HashSet<>(nums.length);
         for (int key : nums) {
@@ -16,18 +35,6 @@ public class Solution {
             hashset.add(key);
         }
         return false;
-    }
-
-    public int singleNumber(int[] nums) {
-        int a = 0;
-        for (int i : nums) {
-            // {4, 1, 2, 1, 2};
-            // если исключаем 0 по числу, оно превратится в это число.
-            // если вы исключаем это число на само себя, оно превратится в 0
-            // следовательно, последнее оставшееся число и будет числом одиночкой
-            a ^= i;
-        }
-        return a;
     }
 
 //    public int singleNumber2(int[] nums) {
@@ -43,6 +50,18 @@ public class Solution {
 //
 //        return result;
 //    }
+
+    public int singleNumber(int[] nums) {
+        int a = 0;
+        for (int i : nums) {
+            // {4, 1, 2, 1, 2};
+            // если исключаем 0 по числу, оно превратится в это число.
+            // если вы исключаем это число на само себя, оно превратится в 0
+            // следовательно, последнее оставшееся число и будет числом одиночкой
+            a ^= i;
+        }
+        return a;
+    }
 
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> numSet = new HashSet<>();
@@ -96,7 +115,7 @@ public class Solution {
     public void bubbleSort2(int[] array) {
         boolean sorted = false;
         int temp;
-        while(!sorted) {
+        while (!sorted) {
             sorted = true;
             for (int i = 0; i < array.length - 1; i++) {
                 if (array[i] > array[i + 1]) {
@@ -108,10 +127,11 @@ public class Solution {
             }
         }
     }
+
     // O(n ^ 2) наихудший случай
     public int[] bubbleSort(int[] array) {
         boolean sorted = false;
-        while(!sorted) {
+        while (!sorted) {
             sorted = true;
             for (int i = 0; i < array.length - 1; i++) {
                 if (array[i] > array[i + 1]) {
@@ -125,6 +145,10 @@ public class Solution {
         return array;
     }
 
+
+    // Selection Sort
+    // Сортировка выбором
+
     public int[] insertionSort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             //берем [i + 1] элемент из массива
@@ -133,27 +157,27 @@ public class Solution {
             int j = i - 1;
             //итерируем пока о не станет ближе к нулю или равным нулю
             //и пока второй элемент из массива не будет меньше первого элемента
-            while(j >= 0 && current < array[j]) {
-                array[j+1] = array[j];
+            while (j >= 0 && current < array[j]) {
+                array[j + 1] = array[j];
                 j--;
             }
             // в этой точке мы вышли, так что j так же -1
             // или в первом элементе, где текущий >= a[j]
-            array[j+1] = current;
+            array[j + 1] = current;
         }
         return array;
     }
 
 
-    // Selection Sort
-    // Сортировка выбором
+    //Сортировка слиянием
+    //Merge Sort
 
     // O(n ^ 2) наихудший случай
     public int[] selectionSort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int min = array[i];
             int minId = i;
-            for (int j = i+1; j < array.length; j++) {
+            for (int j = i + 1; j < array.length; j++) {
                 if (array[j] < min) {
                     min = array[j];
                     minId = j;
@@ -167,21 +191,20 @@ public class Solution {
         return array;
     }
 
-
-    //Сортировка слиянием
-    //Merge Sort
-
     //O(nlog n)
     public int[] mergeSort(int[] array, int left, int right) {
         if (right <= left) {
             return array;
         }
-        int mid = (left+right)/2;
+        int mid = (left + right) / 2;
         mergeSort(array, left, mid);
-        mergeSort(array, mid+1, right);
+        mergeSort(array, mid + 1, right);
         merge(array, left, mid, right);
         return array;
     }
+
+    //Пирамидальная сортировка
+    //Heap Sort
 
     void merge(int[] array, int left, int mid, int right) {
         // вычисляем длину
@@ -189,14 +212,14 @@ public class Solution {
         int lengthRight = right - mid;
 
         // создаем временные подмассивы
-        int leftArray[] = new int [lengthLeft];
-        int rightArray[] = new int [lengthRight];
+        int leftArray[] = new int[lengthLeft];
+        int rightArray[] = new int[lengthRight];
 
         // копируем отсортированные массивы во временные
         for (int i = 0; i < lengthLeft; i++)
-            leftArray[i] = array[left+i];
+            leftArray[i] = array[left + i];
         for (int i = 0; i < lengthRight; i++)
-            rightArray[i] = array[mid+i+1];
+            rightArray[i] = array[mid + i + 1];
 
         // итераторы содержат текущий индекс временного подмассива
         int leftIndex = 0;
@@ -209,8 +232,7 @@ public class Solution {
                 if (leftArray[leftIndex] < rightArray[rightIndex]) {
                     array[i] = leftArray[leftIndex];
                     leftIndex++;
-                }
-                else {
+                } else {
                     array[i] = rightArray[rightIndex];
                     rightIndex++;
                 }
@@ -228,16 +250,13 @@ public class Solution {
         }
     }
 
-    //Пирамидальная сортировка
-    //Heap Sort
-
     /**
-     В худшем случае рекурсивный вызов дойдет до самой вершины пирамиды
-     прыжками к родителям каждого узла в отношении i/2.
-     Всего потребуется log n прыжков до вершины, значит, сложность равна O(log n).
-     Это ещё не всё!
-     В связи с циклами for, которые итерируют весь массив, сложность heapSort() равна O(n).
-     Это дает нам суммарную сложность пирамидальной сортировки O(nlog n).
+     * В худшем случае рекурсивный вызов дойдет до самой вершины пирамиды
+     * прыжками к родителям каждого узла в отношении i/2.
+     * Всего потребуется log n прыжков до вершины, значит, сложность равна O(log n).
+     * Это ещё не всё!
+     * В связи с циклами for, которые итерируют весь массив, сложность heapSort() равна O(n).
+     * Это дает нам суммарную сложность пирамидальной сортировки O(nlog n).
      */
     // сложность O(nlog n)
     public int[] heapSort(int[] array) {
@@ -259,9 +278,13 @@ public class Solution {
         return array;
     }
 
+    // Быстрая сортировка
+    // Quick Sort
+    // O(n^2)
+
     public void heapify(int[] array, int length, int i) {
-        int leftChild = 2*i+1;
-        int rightChild = 2*i+2;
+        int leftChild = 2 * i + 1;
+        int rightChild = 2 * i + 2;
         int largest = i;
 
         // если левый дочерний больше родительского
@@ -283,49 +306,26 @@ public class Solution {
         }
     }
 
-    // Быстрая сортировка
-    // Quick Sort
-    // O(n^2)
-
     /**
-     На фоне алгоритмов сортировки со сложностью O(nlog n), выглядит не очень :(
-     На практике быстрая сортировка применяется широко.
-     Судите сами: у алгоритма очень хорошее среднее время запуска, также равное O(nlog n),
-     он эффективен для больших потоков ввода. И на этом преимущества не заканчиваются!
-     Алгоритм не занимает дополнительного пространства,
-     вся сортировка происходит «на месте», отсутствуют затратные вызовы распределения,
-     из-за чего его часто предпочитают сортировке слиянием.
+     * На фоне алгоритмов сортировки со сложностью O(nlog n), выглядит не очень :(
+     * На практике быстрая сортировка применяется широко.
+     * Судите сами: у алгоритма очень хорошее среднее время запуска, также равное O(nlog n),
+     * он эффективен для больших потоков ввода. И на этом преимущества не заканчиваются!
+     * Алгоритм не занимает дополнительного пространства,
+     * вся сортировка происходит «на месте», отсутствуют затратные вызовы распределения,
+     * из-за чего его часто предпочитают сортировке слиянием.
      */
 
     //сложность O(n^2)
     public int[] quickSort(int[] array, int begin, int end) {
         if (end <= begin) return array;
         int pivot = partition(array, begin, end);
-        quickSort(array, begin, pivot-1);
-        quickSort(array, pivot+1, end);
+        quickSort(array, begin, pivot - 1);
+        quickSort(array, pivot + 1, end);
         return array;
     }
 
-    static int partition(int[] array, int begin, int end) {
-        int pivot = end;
-
-        int counter = begin;
-        for (int i = begin; i < end; i++) {
-            if (array[i] < array[pivot]) {
-                int temp = array[counter];
-                array[counter] = array[i];
-                array[i] = temp;
-                counter++;
-            }
-        }
-        int temp = array[pivot];
-        array[pivot] = array[counter];
-        array[counter] = temp;
-
-        return counter;
-    }
-
-        /*
+    /*
      * Template for using hash map to find duplicates.
      * Replace ReturnType with the actual type of your return value.
      */
@@ -399,7 +399,7 @@ public class Solution {
 
         for (int i = 0; i < cc.length; i++) {
             char c = cc[i];
-            for (int j = i+1; j < cc.length; j++) {
+            for (int j = i + 1; j < cc.length; j++) {
                 char x = cc[j];
                 if ((x ^ c) == 0) {
                     return false;
@@ -419,5 +419,22 @@ public class Solution {
             }
         }
         return i + 1;
+    }
+
+    public int reverse(int x) {
+        int answer = 0;
+        String temp = Integer.toString(x);
+        int[] newGuess = new int[temp.length()];
+        for (int i = 0; i < temp.length(); i++) {
+            newGuess[i] = temp.charAt(i) - '0';
+        }
+        newGuess[0] ^= newGuess[newGuess.length - 1];
+        newGuess[newGuess.length - 1] ^= newGuess[0];
+        newGuess[0] ^= newGuess[newGuess.length - 1];
+        for (int i = 0; i < newGuess.length; i++) {
+            int guess = newGuess[i];
+            answer = answer * 10 + guess;
+        }
+        return answer;
     }
 }
