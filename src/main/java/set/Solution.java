@@ -1,9 +1,9 @@
 package set;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import other.Phone;
+
+import java.util.*;
+import java.util.stream.Stream;
 
 public class Solution {
 
@@ -212,8 +212,8 @@ public class Solution {
         int lengthRight = right - mid;
 
         // создаем временные подмассивы
-        int leftArray[] = new int[lengthLeft];
-        int rightArray[] = new int[lengthRight];
+        int[] leftArray = new int[lengthLeft];
+        int[] rightArray = new int[lengthRight];
 
         // копируем отсортированные массивы во временные
         for (int i = 0; i < lengthLeft; i++)
@@ -448,10 +448,28 @@ public class Solution {
             temporaryChar = characters[start];
             characters[start] = characters[end];
             characters[end] = temporaryChar;
-            start ++;
-            end --;
+            start++;
+            end--;
         }
         reversed = new String(characters);
         return text.equals(reversed);
+    }
+
+    public void streamCheckTest() {
+        Stream.of(new Phone(1, "1"), new Phone(2, "2"))
+                .map(Objects::toString)
+                .peek(System.out::println)
+                .peek(System.out::println)
+                .filter(s -> s.startsWith("2"))
+                .forEach(System.out::println);
+    }
+
+    public void anotherStreamCheckTest() {
+        List<String> myList = Arrays.asList("a1", "a2", "b1", "c2", "c1");
+        myList.stream()
+                .filter(s -> s.startsWith("c"))
+                .map(String::toUpperCase)
+                .sorted()
+                .forEach(System.out::println);
     }
 }
