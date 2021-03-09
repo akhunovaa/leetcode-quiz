@@ -35,7 +35,8 @@ public class Exam {
 
 //        boolean answer = solution.hasUniqueChars("azat");
 //        System.out.println(answer);
-        int answer = solution.reverse(123);
+//        int answer = solution.reverse(123);
+        boolean answer = solution.isPalindrome("adaa");
         System.out.println(answer);
     }
 

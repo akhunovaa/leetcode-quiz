@@ -437,4 +437,21 @@ public class Solution {
         }
         return answer;
     }
+
+    public boolean isPalindrome(String text) {
+        String reversed;
+        char[] characters = text.toCharArray();
+        int start = 0;
+        int end = characters.length - 1;
+        char temporaryChar;
+        while (end > start) {
+            temporaryChar = characters[start];
+            characters[start] = characters[end];
+            characters[end] = temporaryChar;
+            start ++;
+            end --;
+        }
+        reversed = new String(characters);
+        return text.equals(reversed);
+    }
 }
