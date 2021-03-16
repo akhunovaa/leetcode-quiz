@@ -22,7 +22,7 @@ import java.util.concurrent.RecursiveAction;
 public class Mandelbrot extends Canvas {
 
     // size of fractal in pixels (HEIGHT X HEIGHT)
-    private static final int HEIGHT = 3000;
+    private static final int HEIGHT = 1024;
     // how long to test for orbit divergence
     private static final int NUM_ITERATIONS = 50;
     // maximum grid size to process sequentially
