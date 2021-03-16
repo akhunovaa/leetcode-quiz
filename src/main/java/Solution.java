@@ -1,5 +1,3 @@
-package set;
-
 import other.Phone;
 
 import java.util.*;
@@ -471,5 +469,13 @@ public class Solution {
                 .map(String::toUpperCase)
                 .sorted()
                 .forEach(System.out::println);
+    }
+    public void hashMapCheckTest() {
+        HashMap<String, String> myHashMap = new HashMap<>();
+        myHashMap.put("a1", "test");
+        System.out.println(myHashMap.size());
+        myHashMap.put(null, "null");
+        System.out.println(myHashMap.size());
+        System.out.println(myHashMap.get(null));
     }
 }

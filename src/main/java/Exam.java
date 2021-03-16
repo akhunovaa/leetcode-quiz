@@ -1,9 +1,3 @@
-import map.MyHashMap;
-import set.Solution;
-import ulam.Ulam;
-
-import java.util.Arrays;
-
 public class Exam {
 
     public static void main(String[] args) {
@@ -38,7 +32,7 @@ public class Exam {
 //        int answer = solution.reverse(123);
 //        boolean answer = solution.isPalindrome("adaa");
 //        System.out.println(answer);
-        solution.anotherStreamCheckTest();
+        solution.hashMapCheckTest();
     }
 
     private void run() {
