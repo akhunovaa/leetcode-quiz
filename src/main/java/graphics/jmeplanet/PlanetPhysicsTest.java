@@ -37,11 +37,12 @@ public class PlanetPhysicsTest extends SimpleApplication {
     public static void main(String[] args){
         AppSettings settings = new AppSettings(true);
         settings.setResolution(1024,768);
-        PlanetPhysicsTest app = new PlanetPhysicsTest();
+        settings.setTitle("Офигенный космос на JAVA > a.akhunov@yourapi.ru");
 
-        app.setSettings(settings);
-        app.showSettings = false;
-        app.start();
+        PlanetPhysicsTest application = new PlanetPhysicsTest();
+        application.setSettings(settings);
+        application.setShowSettings(false);
+        application.start();
     }
     
     public PlanetPhysicsTest() {

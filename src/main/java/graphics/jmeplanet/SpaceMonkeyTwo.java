@@ -44,7 +44,7 @@ public class SpaceMonkeyTwo extends SimpleApplication implements ActionListener 
     private CameraNode cameraNode;
     private RigidBodyControl cameraNodePhysicsControl;
 
-    private boolean walkMode = true;
+    private boolean walkMode = false;
 
     private BetterCharacterControl characterControl;
     private Node characterNode;
