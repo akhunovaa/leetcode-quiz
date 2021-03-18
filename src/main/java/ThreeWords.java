@@ -1,3 +1,4 @@
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,11 +11,10 @@ public class ThreeWords {
 
     private static final String commandsLine = "You need to write down the true translation of these words:" + "\n Write the translation of - Dubious\n";
 
-
     public static void main(String[] args) throws InterruptedException {
         // main loop
         while (!needQuit) {
-                getCommand();
+            getCommand();
         }
         while (!canQuit) {
             Thread.sleep(1);
@@ -56,7 +56,6 @@ public class ThreeWords {
         currentPrompt = null;
         return str;
     }
-
 
     private static void print(String str) {
         if (currentPrompt != null) {

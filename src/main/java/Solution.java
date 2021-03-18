@@ -1,3 +1,4 @@
+
 import other.Phone;
 
 import java.util.*;
@@ -48,7 +49,6 @@ public class Solution {
 //
 //        return result;
 //    }
-
     public int singleNumber(int[] nums) {
         int a = 0;
         for (int i : nums) {
@@ -68,7 +68,9 @@ public class Solution {
             numSet.add(i);
         }
         for (int i : nums2) {
-            if (numSet.contains(i)) resultSet.add(i);
+            if (numSet.contains(i)) {
+                resultSet.add(i);
+            }
         }
         int[] resArr = new int[resultSet.size()];
 
@@ -143,10 +145,8 @@ public class Solution {
         return array;
     }
 
-
     // Selection Sort
     // Сортировка выбором
-
     public int[] insertionSort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             //берем [i + 1] элемент из массива
@@ -166,10 +166,8 @@ public class Solution {
         return array;
     }
 
-
     //Сортировка слиянием
     //Merge Sort
-
     // O(n ^ 2) наихудший случай
     public int[] selectionSort(int[] array) {
         for (int i = 0; i < array.length; i++) {
@@ -203,7 +201,6 @@ public class Solution {
 
     //Пирамидальная сортировка
     //Heap Sort
-
     void merge(int[] array, int left, int mid, int right) {
         // вычисляем длину
         int lengthLeft = mid - left + 1;
@@ -214,10 +211,12 @@ public class Solution {
         int[] rightArray = new int[lengthRight];
 
         // копируем отсортированные массивы во временные
-        for (int i = 0; i < lengthLeft; i++)
+        for (int i = 0; i < lengthLeft; i++) {
             leftArray[i] = array[left + i];
-        for (int i = 0; i < lengthRight; i++)
+        }
+        for (int i = 0; i < lengthRight; i++) {
             rightArray[i] = array[mid + i + 1];
+        }
 
         // итераторы содержат текущий индекс временного подмассива
         int leftIndex = 0;
@@ -234,13 +233,11 @@ public class Solution {
                     array[i] = rightArray[rightIndex];
                     rightIndex++;
                 }
-            }
-            // если все элементы были скопированы из rightArray, скопировать остальные из leftArray
+            } // если все элементы были скопированы из rightArray, скопировать остальные из leftArray
             else if (leftIndex < lengthLeft) {
                 array[i] = leftArray[leftIndex];
                 leftIndex++;
-            }
-            // если все элементы были скопированы из leftArray, скопировать остальные из rightArray
+            } // если все элементы были скопированы из leftArray, скопировать остальные из rightArray
             else if (rightIndex < lengthRight) {
                 array[i] = rightArray[rightIndex];
                 rightIndex++;
@@ -250,21 +247,24 @@ public class Solution {
 
     /**
      * В худшем случае рекурсивный вызов дойдет до самой вершины пирамиды
-     * прыжками к родителям каждого узла в отношении i/2.
-     * Всего потребуется log n прыжков до вершины, значит, сложность равна O(log n).
-     * Это ещё не всё!
-     * В связи с циклами for, которые итерируют весь массив, сложность heapSort() равна O(n).
-     * Это дает нам суммарную сложность пирамидальной сортировки O(nlog n).
+     * прыжками к родителям каждого узла в отношении i/2. Всего потребуется log
+     * n прыжков до вершины, значит, сложность равна O(log n). Это ещё не всё! В
+     * связи с циклами for, которые итерируют весь массив, сложность heapSort()
+     * равна O(n). Это дает нам суммарную сложность пирамидальной сортировки
+     * O(nlog n).
      */
     // сложность O(nlog n)
     public int[] heapSort(int[] array) {
-        if (array.length == 0) return array;
+        if (array.length == 0) {
+            return array;
+        }
 
         // Строим кучу
         int length = array.length;
         // проходим от первого без ответвлений к корню
-        for (int i = length / 2 - 1; i >= 0; i--)
+        for (int i = length / 2 - 1; i >= 0; i--) {
             heapify(array, length, i);
+        }
 
         for (int i = length - 1; i >= 0; i--) {
             int temp = array[0];
@@ -279,7 +279,6 @@ public class Solution {
     // Быстрая сортировка
     // Quick Sort
     // O(n^2)
-
     public void heapify(int[] array, int length, int i) {
         int leftChild = 2 * i + 1;
         int rightChild = 2 * i + 2;
@@ -305,18 +304,19 @@ public class Solution {
     }
 
     /**
-     * На фоне алгоритмов сортировки со сложностью O(nlog n), выглядит не очень :(
-     * На практике быстрая сортировка применяется широко.
-     * Судите сами: у алгоритма очень хорошее среднее время запуска, также равное O(nlog n),
-     * он эффективен для больших потоков ввода. И на этом преимущества не заканчиваются!
-     * Алгоритм не занимает дополнительного пространства,
-     * вся сортировка происходит «на месте», отсутствуют затратные вызовы распределения,
-     * из-за чего его часто предпочитают сортировке слиянием.
+     * На фоне алгоритмов сортировки со сложностью O(nlog n), выглядит не очень
+     * :( На практике быстрая сортировка применяется широко. Судите сами: у
+     * алгоритма очень хорошее среднее время запуска, также равное O(nlog n), он
+     * эффективен для больших потоков ввода. И на этом преимущества не
+     * заканчиваются! Алгоритм не занимает дополнительного пространства, вся
+     * сортировка происходит «на месте», отсутствуют затратные вызовы
+     * распределения, из-за чего его часто предпочитают сортировке слиянием.
      */
-
     //сложность O(n^2)
     public int[] quickSort(int[] array, int begin, int end) {
-        if (end <= begin) return array;
+        if (end <= begin) {
+            return array;
+        }
         int pivot = partition(array, begin, end);
         quickSort(array, begin, pivot - 1);
         quickSort(array, pivot + 1, end);
@@ -408,7 +408,9 @@ public class Solution {
     }
 
     public int removeDuplicates(int[] nums) {
-        if (nums.length == 0) return 0;
+        if (nums.length == 0) {
+            return 0;
+        }
         int i = 0;
         for (int j = 1; j < nums.length; j++) {
             if (nums[j] != nums[i]) {
@@ -470,6 +472,7 @@ public class Solution {
                 .sorted()
                 .forEach(System.out::println);
     }
+
     public void hashMapCheckTest() {
         HashMap<String, String> myHashMap = new HashMap<>();
         myHashMap.put("a1", "test");

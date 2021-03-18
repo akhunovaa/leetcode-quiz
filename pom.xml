@@ -39,12 +39,54 @@
             <version>4.13</version>
             <scope>test</scope>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>${jme3_g}</groupId>-->
-<!--            <artifactId>jme3-core</artifactId>-->
-<!--            <version>${jme3_v}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
+        <dependency>
+            <groupId>com.jayfella</groupId>
+            <artifactId>jme-world-pager</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-bullet-native</artifactId>
+            <version>3.3.2-stable</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.jmonkeyengine</groupId>
+                    <artifactId>jme3-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.jmonkeyengine</groupId>
+                    <artifactId>jme3-terrain</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.jmonkeyengine</groupId>
+                    <artifactId>jme3-bullet</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-bullet</artifactId>
+            <version>3.3.2-stable</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.jmonkeyengine</groupId>
+                    <artifactId>jme3-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.jmonkeyengine</groupId>
+                    <artifactId>jme3-terrain</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>${jme3_g}</groupId>
+            <artifactId>jme3-core</artifactId>
+            <version>${jme3_v}</version>
+        </dependency>
+
 <!--            <groupId>${jme3_g}</groupId>-->
 <!--            <artifactId>jme3-desktop</artifactId>-->
 <!--            <version>${jme3_v}</version>-->

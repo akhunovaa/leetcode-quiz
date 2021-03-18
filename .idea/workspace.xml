@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7206c8a2-5e5c-43ed-adaf-90adb77fe92a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/JmePlanet/MatDefs/Atmosphere.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/JmePlanet/MatDefs/Atmosphere.j3md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/JmePlanet/MatDefs/Atmosphere.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/JmePlanet/MatDefs/Terrain.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/JmePlanet/MatDefs/Terrain.j3md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/JmePlanet/MatDefs/Terrain.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Materials/Ocean.j3m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Models/Jaime/Jaime.j3m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Models/Jaime/Jaime.j3o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Models/Jaime/NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Models/Jaime/diffuseMap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/blue-glow-1024.dds" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/dirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/grass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/gravel_mud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/moon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/moon_rough.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/moon_sea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/ocean.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/rock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/snow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/test_pattern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/FractalDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/HeightDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MeshCollisionShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Patch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetAppState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetCollisionShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetSimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Quad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SimpleHeightDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkeyTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/PlanetApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/PlanetMeshGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/RollingTheMonkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/WorldOfInception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distr/jme3-jbullet-3.3.2-stable.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThreeWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreeWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/other/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ulam/Ulam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ulam/Ulam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="ca43acf2-f215-4477-9f03-7f736cc7f56a" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oL6X67QjUojemF3iJyXTbYaHqt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.26953125" />
+    <property name="project.structure.side.proportion" value="0.562249" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/MatDefs" />
+      <recent name="$PROJECT_DIR$/assets/Materials" />
+      <recent name="$PROJECT_DIR$/src/main/java/graphics" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="graphics.jmeplanet" />
+      <recent name="graphics.jmonkey.vector" />
+      <recent name="calculator" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/distr" />
+      <recent name="$PROJECT_DIR$/assets/Scenes" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SpaceMonkey">
+    <configuration name="PlanetPhysicsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="graphics.jmeplanet.PlanetPhysicsTest" />
+      <module name="exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphics.jmeplanet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlanetSimpleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphics.jmeplanet.PlanetSimpleTest" />
+      <module name="exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphics.jmeplanet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RollingTheMonkey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphics.jmonkey.RollingTheMonkey" />
+      <module name="exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphics.jmonkey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceMonkey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphics.jmeplanet.SpaceMonkey" />
+      <module name="exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphics.jmeplanet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWorldPager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jayfella.jme.worldpager.TestWorldPager" />
+      <module name="exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jayfella.jme.worldpager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RollingTheMonkey" />
+      <item itemvalue="Application.TestWorldPager" />
+      <item itemvalue="Application.PlanetSimpleTest" />
+      <item itemvalue="Application.PlanetPhysicsTest" />
+      <item itemvalue="Application.SpaceMonkey" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpaceMonkey" />
+        <item itemvalue="Application.PlanetPhysicsTest" />
+        <item itemvalue="Application.PlanetSimpleTest" />
+        <item itemvalue="Application.TestWorldPager" />
+        <item itemvalue="Application.RollingTheMonkey" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7206c8a2-5e5c-43ed-adaf-90adb77fe92a" name="Default Changelist" comment="" />
+      <created>1613053561738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613053561738</updated>
+      <workItem from="1613053562793" duration="7816000" />
+      <workItem from="1613137231850" duration="1512000" />
+      <workItem from="1613216875527" duration="23465000" />
+      <workItem from="1613378420376" duration="15612000" />
+      <workItem from="1613667306070" duration="20000" />
+      <workItem from="1613669763287" duration="1223000" />
+      <workItem from="1613747939806" duration="612000" />
+      <workItem from="1614344568940" duration="15508000" />
+      <workItem from="1614428864530" duration="11463000" />
+      <workItem from="1614592590294" duration="4434000" />
+      <workItem from="1614855537478" duration="2135000" />
+      <workItem from="1614871276905" duration="310000" />
+      <workItem from="1614965636775" duration="591000" />
+      <workItem from="1614982322106" duration="11000" />
+      <workItem from="1615298252022" duration="2554000" />
+      <workItem from="1615303837650" duration="26000" />
+      <workItem from="1615303882473" duration="5298000" />
+      <workItem from="1615313582639" duration="314000" />
+      <workItem from="1615366357535" duration="1365000" />
+      <workItem from="1615625361201" duration="19000" />
+      <workItem from="1615653282086" duration="27927000" />
+      <workItem from="1615801094143" duration="1052000" />
+      <workItem from="1615883058306" duration="13318000" />
+      <workItem from="1615921135484" duration="42309000" />
+      <workItem from="1616026165938" duration="18355000" />
+      <workItem from="1616073035334" duration="2675000" />
+      <workItem from="1616077450378" duration="6166000" />
+    </task>
+    <task id="LOCAL-00001" summary="project init">
+      <created>1613378568445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613378568445</updated>
+    </task>
+    <task id="LOCAL-00002" summary="two Sum">
+      <created>1613417136023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613417136023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавлены различные алгоритмы сортировок">
+      <created>1614371312037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614371312037</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавлены различные алгоритмы сортировок">
+      <created>1614372941891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614372941891</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавлены различные алгоритмы сортировок">
+      <created>1614373428760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614373428760</updated>
+    </task>
+    <task id="LOCAL-00006" summary="быстрая сортировка со сложностью O(n^2)">
+      <created>1614376382453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614376382453</updated>
+    </task>
+    <task id="LOCAL-00007" summary="скатерть Улама">
+      <created>1614509430242</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614509430242</updated>
+    </task>
+    <task id="LOCAL-00008" summary="скатерть Улама">
+      <created>1614857538253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614857538253</updated>
+    </task>
+    <task id="LOCAL-00009" summary="скатерть Улама">
+      <created>1614970586724</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614970586724</updated>
+    </task>
+    <task id="LOCAL-00010" summary="is palindrome word">
+      <created>1615304029520</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615304029520</updated>
+    </task>
+    <task id="LOCAL-00011" summary="stream check">
+      <created>1615311475943</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615311475943</updated>
+    </task>
+    <task id="LOCAL-00012" summary="stream check">
+      <created>1615312427686</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615312427686</updated>
+    </task>
+    <task id="LOCAL-00013" summary="stream check">
+      <created>1615883078276</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615883078277</updated>
+    </task>
+    <task id="LOCAL-00014" summary=" mandelbrot">
+      <created>1615883862813</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615883862813</updated>
+    </task>
+    <task id="LOCAL-00015" summary=" mandelbrot">
+      <created>1615891652657</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615891652657</updated>
+    </task>
+    <task id="LOCAL-00016" summary="game added">
+      <created>1615973138784</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615973138784</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="project init" />
+    <MESSAGE value="two Sum" />
+    <MESSAGE value="добавлены различные алгоритмы сортировок" />
+    <MESSAGE value="быстрая сортировка со сложностью O(n^2)" />
+    <MESSAGE value="скатерть Улама" />
+    <MESSAGE value="is palindrome word" />
+    <MESSAGE value="stream check" />
+    <MESSAGE value=" mandelbrot" />
+    <MESSAGE value="game added" />
+    <option name="LAST_COMMIT_MESSAGE" value="game added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="617" y="365" key="#Notifications" timestamp="1615935359516">
+      <screen x="52" y="25" width="1628" height="1025" />
+    </state>
+    <state x="617" y="365" key="#Notifications/52.25.1628.1025@52.25.1628.1025" timestamp="1615935359516" />
+    <state x="408" y="211" width="1072" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616081752447">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state x="409" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1615303567190" />
+    <state x="408" y="211" width="1072" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081752447" />
+    <state x="410" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616019918651" />
+    <state x="707" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616080034366">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state x="623" y="349" key="#com.intellij.fileTypes.FileTypeChooser/53.25.1627.1025@53.25.1627.1025" timestamp="1616028820818" />
+    <state x="707" y="358" key="#com.intellij.fileTypes.FileTypeChooser/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616080034366" />
+    <state x="733" y="261" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1616015533610">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="733" y="261" key="#com.intellij.ide.macro.MacrosDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616015533610" />
+    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1616081164358">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615309040281" />
+    <state x="912" y="218" key="#com.intellij.ide.util.MemberChooser/53.25.1627.1025@53.25.1627.1025" timestamp="1616029855211" />
+    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081164358" />
+    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616019584721" />
+    <state x="671" y="481" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1616021267312">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="671" y="481" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616021267312" />
+    <state x="682" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1615801122181">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state x="682" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615801122181" />
+    <state x="530" y="495" width="1177" height="585" key="#xdebugger.evaluate" timestamp="1616081407814">
+      <screen x="52" y="25" width="1868" height="1055" />
+    </state>
+    <state x="1308" y="403" key="#xdebugger.evaluate/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615309492115" />
+    <state x="1306" y="443" key="#xdebugger.evaluate/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860743531" />
+    <state x="443" y="477" key="#xdebugger.evaluate/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614372849535" />
+    <state x="2965" y="189" width="611" height="678" key="#xdebugger.evaluate/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613320546975" />
+    <state x="1269" y="486" key="#xdebugger.evaluate/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613589543975" />
+    <state x="891" y="465" key="#xdebugger.evaluate/52.25.1628.1025@52.25.1628.1025" timestamp="1616025481697" />
+    <state x="530" y="495" width="1177" height="585" key="#xdebugger.evaluate/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616081407814" />
+    <state x="1015" y="495" width="887" height="585" key="#xdebugger.evaluate/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616022954341" />
+    <state x="2750" y="399" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972433180" />
+    <state x="550" y="495" width="1370" height="585" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616059596873" />
+    <state x="572" y="197" key="CommitChangelistDialog2" timestamp="1615973138636">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="571" y="197" key="CommitChangelistDialog2/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615312427594" />
+    <state x="567" y="195" key="CommitChangelistDialog2/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@47.23.1873.1057" timestamp="1614970586570" />
+    <state x="568" y="195" key="CommitChangelistDialog2/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614857538096" />
+    <state x="569" y="195" key="CommitChangelistDialog2/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614373428630" />
+    <state x="569" y="195" key="CommitChangelistDialog2/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613417135924" />
+    <state x="571" y="197" key="CommitChangelistDialog2/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615891652556" />
+    <state x="572" y="197" key="CommitChangelistDialog2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615973138636" />
+    <state width="509" height="466" key="DebuggerActiveHint" timestamp="1615667864107">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state width="509" height="466" key="DebuggerActiveHint/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615667864107" />
+    <state x="618" y="443" width="446" height="577" key="DetectedRootsChooserDialog" timestamp="1615921295343">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state x="618" y="443" width="446" height="577" key="DetectedRootsChooserDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615921295343" />
+    <state x="163" y="125" width="1666" height="855" key="DiffContextDialog" timestamp="1616056747709">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="162" y="125" width="1666" height="855" key="DiffContextDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615918931038" />
+    <state x="163" y="125" width="1666" height="855" key="DiffContextDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616056747709" />
+    <state width="1562" height="159" key="GridCell.Tab.0.bottom" timestamp="1616082859217">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1308" height="243" key="GridCell.Tab.0.bottom/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229744" />
+    <state width="1264" height="246" key="GridCell.Tab.0.bottom/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346535" />
+    <state width="1264" height="249" key="GridCell.Tab.0.bottom/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860853034" />
+    <state width="1264" height="246" key="GridCell.Tab.0.bottom/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614376226944" />
+    <state width="1264" height="193" key="GridCell.Tab.0.bottom/46.23.1634.1027@46.23.1634.1027" timestamp="1614804377205" />
+    <state width="1264" height="249" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
+    <state width="1510" height="271" key="GridCell.Tab.0.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335565" />
+    <state width="1510" height="414" key="GridCell.Tab.0.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630095" />
+    <state width="1582" height="268" key="GridCell.Tab.0.bottom/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252774" />
+    <state width="1582" height="268" key="GridCell.Tab.0.bottom/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616073941653" />
+    <state width="1582" height="268" key="GridCell.Tab.0.bottom/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405502" />
+    <state width="1562" height="159" key="GridCell.Tab.0.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616082859217" />
+    <state width="1525" height="239" key="GridCell.Tab.0.bottom/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793233" />
+    <state width="1582" height="268" key="GridCell.Tab.0.bottom/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616063303686" />
+    <state width="1562" height="159" key="GridCell.Tab.0.center" timestamp="1616082859216">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1308" height="243" key="GridCell.Tab.0.center/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229743" />
+    <state width="1264" height="246" key="GridCell.Tab.0.center/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346534" />
+    <state width="1264" height="249" key="GridCell.Tab.0.center/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860853033" />
+    <state width="1264" height="246" key="GridCell.Tab.0.center/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614376226942" />
+    <state width="1264" height="193" key="GridCell.Tab.0.center/46.23.1634.1027@46.23.1634.1027" timestamp="1614804377204" />
+    <state width="1264" height="249" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
+    <state width="1510" height="271" key="GridCell.Tab.0.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335564" />
+    <state width="1510" height="414" key="GridCell.Tab.0.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630094" />
+    <state width="1582" height="268" key="GridCell.Tab.0.center/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252774" />
+    <state width="1582" height="268" key="GridCell.Tab.0.center/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616073941652" />
+    <state width="1582" height="268" key="GridCell.Tab.0.center/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405499" />
+    <state width="1562" height="159" key="GridCell.Tab.0.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616082859216" />
+    <state width="1525" height="239" key="GridCell.Tab.0.center/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793232" />
+    <state width="1582" height="268" key="GridCell.Tab.0.center/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616063303685" />
+    <state width="1562" height="159" key="GridCell.Tab.0.left" timestamp="1616082859216">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1308" height="243" key="GridCell.Tab.0.left/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229742" />
+    <state width="1264" height="246" key="GridCell.Tab.0.left/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346534" />
+    <state width="1264" height="249" key="GridCell.Tab.0.left/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860853032" />
+    <state width="1264" height="246" key="GridCell.Tab.0.left/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614376226942" />
+    <state width="1264" height="193" key="GridCell.Tab.0.left/46.23.1634.1027@46.23.1634.1027" timestamp="1614804377204" />
+    <state width="1264" height="249" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
+    <state width="1510" height="271" key="GridCell.Tab.0.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335563" />
+    <state width="1510" height="414" key="GridCell.Tab.0.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630093" />
+    <state width="1582" height="268" key="GridCell.Tab.0.left/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252773" />
+    <state width="1582" height="268" key="GridCell.Tab.0.left/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616073941651" />
+    <state width="1582" height="268" key="GridCell.Tab.0.left/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405487" />
+    <state width="1562" height="159" key="GridCell.Tab.0.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616082859216" />
+    <state width="1525" height="239" key="GridCell.Tab.0.left/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793231" />
+    <state width="1582" height="268" key="GridCell.Tab.0.left/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616063303685" />
+    <state width="1562" height="159" key="GridCell.Tab.0.right" timestamp="1616082859217">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1308" height="243" key="GridCell.Tab.0.right/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229743" />
+    <state width="1264" height="246" key="GridCell.Tab.0.right/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346535" />
+    <state width="1264" height="249" key="GridCell.Tab.0.right/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860853034" />
+    <state width="1264" height="246" key="GridCell.Tab.0.right/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614376226943" />
+    <state width="1264" height="193" key="GridCell.Tab.0.right/46.23.1634.1027@46.23.1634.1027" timestamp="1614804377204" />
+    <state width="1264" height="249" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
+    <state width="1510" height="271" key="GridCell.Tab.0.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335565" />
+    <state width="1510" height="414" key="GridCell.Tab.0.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630094" />
+    <state width="1582" height="268" key="GridCell.Tab.0.right/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252774" />
+    <state width="1582" height="268" key="GridCell.Tab.0.right/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616073941653" />
+    <state width="1582" height="268" key="GridCell.Tab.0.right/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405501" />
+    <state width="1562" height="159" key="GridCell.Tab.0.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616082859217" />
+    <state width="1525" height="239" key="GridCell.Tab.0.right/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793232" />
+    <state width="1582" height="268" key="GridCell.Tab.0.right/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616063303686" />
+    <state width="1750" height="294" key="GridCell.Tab.1.bottom" timestamp="1616081468501">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1308" height="243" key="GridCell.Tab.1.bottom/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229745" />
+    <state width="1264" height="246" key="GridCell.Tab.1.bottom/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346536" />
+    <state width="1264" height="249" key="GridCell.Tab.1.bottom/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860848899" />
+    <state width="1264" height="246" key="GridCell.Tab.1.bottom/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614376226946" />
+    <state width="1264" height="249" key="GridCell.Tab.1.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180369" />
+    <state width="1510" height="414" key="GridCell.Tab.1.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613589961358" />
+    <state width="1510" height="414" key="GridCell.Tab.1.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630096" />
+    <state width="1388" height="279" key="GridCell.Tab.1.bottom/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756005" />
+    <state width="1750" height="302" key="GridCell.Tab.1.bottom/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677742" />
+    <state width="1388" height="279" key="GridCell.Tab.1.bottom/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148844" />
+    <state width="1750" height="294" key="GridCell.Tab.1.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081468501" />
+    <state width="1525" height="308" key="GridCell.Tab.1.bottom/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438872" />
+    <state width="1582" height="279" key="GridCell.Tab.1.bottom/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060202862" />
+    <state width="1750" height="294" key="GridCell.Tab.1.center" timestamp="1616081468500">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1308" height="243" key="GridCell.Tab.1.center/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229744" />
+    <state width="1264" height="246" key="GridCell.Tab.1.center/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346535" />
+    <state width="1264" height="249" key="GridCell.Tab.1.center/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860848898" />
+    <state width="1264" height="246" key="GridCell.Tab.1.center/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614376226945" />
+    <state width="1264" height="249" key="GridCell.Tab.1.center/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
+    <state width="1510" height="414" key="GridCell.Tab.1.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613589961357" />
+    <state width="1510" height="414" key="GridCell.Tab.1.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630095" />
+    <state width="1388" height="279" key="GridCell.Tab.1.center/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756004" />
+    <state width="1750" height="302" key="GridCell.Tab.1.center/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677741" />
+    <state width="1388" height="279" key="GridCell.Tab.1.center/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148844" />
+    <state width="1750" height="294" key="GridCell.Tab.1.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081468500" />
+    <state width="1525" height="308" key="GridCell.Tab.1.center/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438870" />
+    <state width="1582" height="279" key="GridCell.Tab.1.center/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060202862" />
+    <state width="1750" height="294" key="GridCell.Tab.1.left" timestamp="1616081468499">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1308" height="243" key="GridCell.Tab.1.left/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229744" />
+    <state width="1264" height="246" key="GridCell.Tab.1.left/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346535" />
+    <state width="1264" height="249" key="GridCell.Tab.1.left/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860848897" />
+    <state width="1264" height="246" key="GridCell.Tab.1.left/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614376226944" />
+    <state width="1264" height="249" key="GridCell.Tab.1.left/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
+    <state width="1510" height="414" key="GridCell.Tab.1.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613589961357" />
+    <state width="1510" height="414" key="GridCell.Tab.1.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630095" />
+    <state width="1388" height="279" key="GridCell.Tab.1.left/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756004" />
+    <state width="1750" height="302" key="GridCell.Tab.1.left/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677741" />
+    <state width="1388" height="279" key="GridCell.Tab.1.left/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148843" />
+    <state width="1750" height="294" key="GridCell.Tab.1.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081468499" />
+    <state width="1525" height="308" key="GridCell.Tab.1.left/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438869" />
+    <state width="1582" height="279" key="GridCell.Tab.1.left/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060202862" />
+    <state width="1750" height="294" key="GridCell.Tab.1.right" timestamp="1616081468500">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1308" height="243" key="GridCell.Tab.1.right/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229744" />
+    <state width="1264" height="246" key="GridCell.Tab.1.right/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346536" />
+    <state width="1264" height="249" key="GridCell.Tab.1.right/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860848898" />
+    <state width="1264" height="246" key="GridCell.Tab.1.right/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614376226945" />
+    <state width="1264" height="249" key="GridCell.Tab.1.right/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180369" />
+    <state width="1510" height="414" key="GridCell.Tab.1.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613589961358" />
+    <state width="1510" height="414" key="GridCell.Tab.1.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630095" />
+    <state width="1388" height="279" key="GridCell.Tab.1.right/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756005" />
+    <state width="1750" height="302" key="GridCell.Tab.1.right/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677742" />
+    <state width="1388" height="279" key="GridCell.Tab.1.right/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148844" />
+    <state width="1750" height="294" key="GridCell.Tab.1.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081468500" />
+    <state width="1525" height="308" key="GridCell.Tab.1.right/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438871" />
+    <state width="1582" height="279" key="GridCell.Tab.1.right/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060202862" />
+    <state x="591" y="318" key="Maven.ArtifactSearchDialog" timestamp="1616017873949">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="591" y="318" key="Maven.ArtifactSearchDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616017873949" />
+    <state x="847" y="284" key="RollbackChangesDialog" timestamp="1616060210889">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="847" y="284" key="RollbackChangesDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060210889" />
+    <state x="330" y="132" width="1424" height="843" key="SettingsEditor" timestamp="1616081803716">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state x="328" y="132" key="SettingsEditor/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1615303580344" />
+    <state x="343" y="173" width="1136" height="811" key="SettingsEditor/52.25.1628.1025@52.25.1628.1025" timestamp="1615936826695" />
+    <state x="782" y="180" key="SettingsEditor/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616076423659" />
+    <state x="330" y="132" width="1424" height="843" key="SettingsEditor/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081803716" />
+    <state x="852" y="180" key="SettingsEditor/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616018518362" />
+    <state x="867" y="281" key="VCS.ChangeListViewerDialog" timestamp="1616056707246">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="867" y="281" key="VCS.ChangeListViewerDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616056707246" />
+    <state x="565" y="360" key="Vcs.Push.Dialog.v2" timestamp="1615973139795">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="564" y="360" key="Vcs.Push.Dialog.v2/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615312428803" />
+    <state x="560" y="359" key="Vcs.Push.Dialog.v2/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@47.23.1873.1057" timestamp="1614970588000" />
+    <state x="561" y="359" key="Vcs.Push.Dialog.v2/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614857540272" />
+    <state x="562" y="359" key="Vcs.Push.Dialog.v2/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614373429861" />
+    <state x="562" y="359" key="Vcs.Push.Dialog.v2/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613417137307" />
+    <state x="564" y="360" key="Vcs.Push.Dialog.v2/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615891654009" />
+    <state x="565" y="360" key="Vcs.Push.Dialog.v2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615973139795" />
+    <state x="400" y="328" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1615917416901">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state x="2232" y="172" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613319817035" />
+    <state x="400" y="328" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615917416901" />
+    <state x="520" y="84" width="1291" height="954" key="dock-window-1" timestamp="1614372850695">
+      <screen x="49" y="23" width="1871" height="1057" />
+    </state>
+    <state x="520" y="84" width="1291" height="954" key="dock-window-1/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614372850695" />
+    <state x="176" y="42" width="1070" height="981" key="dock-window-1/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613301157624" />
+    <state x="313" y="67" width="1307" height="966" key="find.popup" timestamp="1616083374015">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state x="2433" y="112" width="598" height="548" key="find.popup/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613060659441" />
+    <state x="549" y="259" width="605" height="547" key="find.popup/52.25.1628.1025@52.25.1628.1025" timestamp="1616028301807" />
+    <state x="549" y="259" width="605" height="547" key="find.popup/53.25.1627.1025@53.25.1627.1025" timestamp="1616050969563" />
+    <state x="313" y="67" width="1307" height="966" key="find.popup/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616083374015" />
+    <state x="314" y="67" width="1306" height="966" key="find.popup/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616058234921" />
+    <state x="540" y="273" key="new project wizard" timestamp="1615708082484">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="540" y="273" key="new project wizard/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615708082484" />
+    <state x="794" y="424" key="refactoring.ChangeSignatureDialog" timestamp="1615672966796">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="794" y="424" key="refactoring.ChangeSignatureDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615672966796" />
+    <state x="706" y="247" width="669" height="675" key="search.everywhere.popup" timestamp="1615915847453">
+      <screen x="54" y="25" width="1866" height="1055" />
+    </state>
+    <state x="703" y="245" width="670" height="676" key="search.everywhere.popup/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614352527625" />
+    <state x="706" y="247" width="669" height="675" key="search.everywhere.popup/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615915847453" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/list/MyLinkedList.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/list/MyLinkedList.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/list/MyLinkedList.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/list/MyLinkedList.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/list/MyLinkedList.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/list/MyLinkedList.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ThreeWords.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ThreeWords.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>197</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Exam.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>261</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>264</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>277</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>268</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>267</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>270</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>275</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>284</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>286</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>290</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>295</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>299</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>321</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>323</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Exam.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Exam.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>439</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>462</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>463</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/calculator/Calculator.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/calculator/CalculatorApplication.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/calculator/CalculatorApplication.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>476</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>477</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Solution.java</url>
+          <line>480</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/HeightDataSource.java</url>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/jME3/lib/jme3-core.jar!/com/jme3/asset/DesktopAssetManager.class</url>
+          <line>368</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmonkey/Application.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/jME3/sources/jme3-core-sources.jar!/com/jme3/material/Material.java</url>
+          <line>466</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/jME3/sources/jme3-core-sources.jar!/com/jme3/app/StatsAppState.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/jME3/sources/jme3-core-sources.jar!/com/jme3/app/StatsAppState.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetCollisionShape.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/jME3/lib/jme3-desktop.jar!/com/jme3/system/NativeLibraryLoader.class</url>
+          <line>322</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Planet.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Planet.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/exam$Exam.ic" NAME="Exam Coverage Results" MODIFIED="1613221999989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

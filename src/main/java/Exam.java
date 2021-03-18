@@ -1,3 +1,4 @@
+
 public class Exam {
 
     public static void main(String[] args) {
@@ -18,7 +19,6 @@ public class Exam {
 //        System.out.println(Arrays.toString(answer));
 //        Ulam ulam = new Ulam(809);
 //        ulam.printPrimes();
-
 //        int x = 1;
 //        int y = 0;
 //        x ^= y;
@@ -26,7 +26,6 @@ public class Exam {
 //        x ^= y;
 //        System.out.println(x);
 //        System.out.println(y)
-
 //        boolean answer = solution.hasUniqueChars("azat");
 //        System.out.println(answer);
 //        int answer = solution.reverse(123);

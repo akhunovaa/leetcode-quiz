@@ -12,9 +12,9 @@ public class Phone {
 
     @Override
     public String toString() {
-        return "Phone{" +
-                "identifier=" + identifier +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                '}';
+        return "Phone{"
+                + "identifier=" + identifier
+                + ", phoneNumber='" + phoneNumber + '\''
+                + '}';
     }
 }
