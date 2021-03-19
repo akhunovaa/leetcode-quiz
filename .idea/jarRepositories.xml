@@ -22,6 +22,11 @@
       <option name="url" value="https://dl.bintray.com" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="bubblecloud-cloudbees-release" />
+      <option name="name" value="bubblecloud-cloudbees-release" />
+      <option name="url" value="http://repository-bubblecloud.forge.cloudbees.com/release/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jcenter2" />
       <option name="name" value="jcenter2" />
       <option name="url" value="https://dl.bintray.com" />

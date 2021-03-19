@@ -76,11 +76,11 @@ public class WorldOfInception extends SimpleApplication implements AnalogListene
         debugTools = new DebugTools(assetManager);
         rootNode.attachChild(debugTools.debugNode);
         poiMaterial = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
-        poiMaterial.setTexture("ColorMap", assetManager.loadTexture("Interface/Logo/Monkey.jpg"));
+        //poiMaterial.setTexture("ColorMap", assetManager.loadTexture("Interface/Logo/Monkey.jpg"));
         poiMesh = new Sphere(16, 16, 1f);
 
         ballMaterial = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
-        ballMaterial.setTexture("ColorMap", assetManager.loadTexture("Interface/Logo/Monkey.jpg"));
+        //ballMaterial.setTexture("ColorMap", assetManager.loadTexture("Interface/Logo/Monkey.jpg"));
         ballMaterial.setColor("Color", ColorRGBA.Red);
         ballMesh = new Sphere(16, 16, 1.0f);
 

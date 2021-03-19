@@ -4,7 +4,7 @@ import com.jme3.app.DebugKeysAppState;
 import com.jme3.app.SimpleApplication;
 import com.jme3.app.StatsAppState;
 import com.jme3.bullet.BulletAppState;
-import com.jme3.bullet.collision.shapes.SphereCollisionShape;
+import com.jme3.bullet.collision.shapes.*;
 import com.jme3.bullet.control.RigidBodyControl;
 import com.jme3.input.KeyInput;
 import com.jme3.input.MouseInput;
@@ -12,19 +12,21 @@ import com.jme3.input.controls.*;
 import com.jme3.light.DirectionalLight;
 import com.jme3.math.ColorRGBA;
 import com.jme3.math.FastMath;
+import com.jme3.math.Plane;
 import com.jme3.math.Vector3f;
 import com.jme3.scene.CameraNode;
 import com.jme3.scene.Node;
 import com.jme3.scene.control.CameraControl;
 import com.jme3.scene.control.CameraControl.ControlDirection;
 import com.jme3.system.AppSettings;
+import com.jme3.system.NativeLibraryLoader;
 
 
 /**
  * PlanetPhysicsTest
  * 
  */
-public class PlanetPhysicsTest extends SimpleApplication {
+public class PlanetPhysicsTest extends SimpleApplication implements ActionListener{
     
     private BulletAppState bulletAppState;
     private PlanetAppState planetAppState;
@@ -39,16 +41,18 @@ public class PlanetPhysicsTest extends SimpleApplication {
         settings.setResolution(1024,768);
         settings.setTitle("Офигенный космос на JAVA > a.akhunov@yourapi.ru");
 
+
         PlanetPhysicsTest application = new PlanetPhysicsTest();
         application.setSettings(settings);
         application.setShowSettings(false);
         application.start();
+
     }
-    
+//
     public PlanetPhysicsTest() {
         super( new StatsAppState(), new DebugKeysAppState() );
     }
- 
+
     @Override
     public void simpleInitApp() {
         // Only show severe errors in log
@@ -58,7 +62,10 @@ public class PlanetPhysicsTest extends SimpleApplication {
         bulletAppState = new BulletAppState();
         stateManager.attach(bulletAppState);
         bulletAppState.getPhysicsSpace().setGravity(Vector3f.ZERO);
-        
+        setDisplayFps(true);
+
+        setDisplayStatView(false);
+
         // setup input
         setupInput();
         
@@ -94,8 +101,11 @@ public class PlanetPhysicsTest extends SimpleApplication {
         FractalDataSource planetDataSource = new FractalDataSource(4);
         planetDataSource.setHeightScale(800f);
         Planet planet = Utility.createEarthLikePlanet(getAssetManager(), 63710.0f, null, planetDataSource);
-        //planet.addControl(new RigidBodyControl(new PlanetCollisionShape(planet.getLocalTranslation(), planet.getRadius(), planetDataSource), 0f));
-        planet.addControl(new RigidBodyControl(new SphereCollisionShape(planet.getRadius()), 0f));
+
+        //
+        planet.addControl(new RigidBodyControl(new PlanetCollisionShape(planet.getLocalTranslation(), planet.getRadius(), planetDataSource), 0f));
+        //CollisionShape sphereCollisionShape = new SphereCollisionShape(planet.getRadius());
+        //planet.addControl(new RigidBodyControl(new SphereCollisionShape(planet.getRadius()), 0f));
         planetAppState.addPlanet(planet);
         rootNode.attachChild(planet);
         bulletAppState.getPhysicsSpace().add(planet);
@@ -106,8 +116,8 @@ public class PlanetPhysicsTest extends SimpleApplication {
         Planet moon = Utility.createMoonLikePlanet(getAssetManager(), 10000, moonDataSource);
         moon.setLocalTranslation(-100000f, 0f, 0f);
 
-        //RigidBodyControl moonPhysicsControl = new RigidBodyControl(new PlanetCollisionShape(moon.getLocalTranslation(), moon.getRadius(), moonDataSource), 0f);
-        RigidBodyControl moonPhysicsControl = new RigidBodyControl(new SphereCollisionShape(moon.getRadius()), 0f);
+        RigidBodyControl moonPhysicsControl = new RigidBodyControl(new PlanetCollisionShape(moon.getLocalTranslation(), moon.getRadius(), moonDataSource), 0f);
+        //RigidBodyControl moonPhysicsControl = new RigidBodyControl(new CapsuleCollisionShape(moon.getRadius(), 300f, 1), 0f);
         moon.addControl(moonPhysicsControl);
         planetAppState.addPlanet(moon);
         rootNode.attachChild(moon);
@@ -118,15 +128,14 @@ public class PlanetPhysicsTest extends SimpleApplication {
     public void simpleUpdate(float tpf) {
         Planet planet = planetAppState.getNearestPlanet();
         if (planet != null && planet.getPlanetToCamera() != null) {
+            planet.rotate(tpf/2, 0, 0);
             cameraNodePhysicsControl.setGravity(planet.getPlanetToCamera().normalize().mult(-100f));
         }   
     }
     
     private void setupInput() {
         // Toggle mouse cursor
-        inputManager.addMapping("TOGGLE_CURSOR", 
-                new MouseButtonTrigger(MouseInput.BUTTON_LEFT),
-                new KeyTrigger(KeyInput.KEY_SPACE));
+//        inputManager.addMapping("TOGGLE_CURSOR", new MouseButtonTrigger(MouseInput.BUTTON_LEFT), new KeyTrigger(KeyInput.KEY_SPACE));
         // Toggle wireframe
         inputManager.addMapping("TOGGLE_WIREFRAME", new KeyTrigger(KeyInput.KEY_T));
         // Toggle physics view
@@ -135,14 +144,10 @@ public class PlanetPhysicsTest extends SimpleApplication {
         inputManager.addMapping("SpeedUp", new KeyTrigger(KeyInput.KEY_PGUP));
         inputManager.addMapping("SpeedDown", new KeyTrigger(KeyInput.KEY_PGDN));
         // Movement keys
-        inputManager.addMapping("RotateLeft", new MouseAxisTrigger(MouseInput.AXIS_X, true),
-                                               new KeyTrigger(KeyInput.KEY_LEFT));
-        inputManager.addMapping("RotateRight", new MouseAxisTrigger(MouseInput.AXIS_X, false),
-                                                new KeyTrigger(KeyInput.KEY_RIGHT));
-        inputManager.addMapping("RotateDown", new MouseAxisTrigger(MouseInput.AXIS_Y, false),
-                                             new KeyTrigger(KeyInput.KEY_UP));
-        inputManager.addMapping("RotateUp", new MouseAxisTrigger(MouseInput.AXIS_Y, true),
-                                               new KeyTrigger(KeyInput.KEY_DOWN));
+        inputManager.addMapping("RotateLeft", new MouseAxisTrigger(MouseInput.BUTTON_LEFT, true));
+        inputManager.addMapping("RotateRight", new MouseAxisTrigger(MouseInput.BUTTON_RIGHT, false));
+        inputManager.addMapping("RotateDown", new MouseAxisTrigger(MouseInput.AXIS_Y, false));
+        inputManager.addMapping("RotateUp", new MouseAxisTrigger(MouseInput.AXIS_Y, true));
         inputManager.addMapping("SpinLeft", new KeyTrigger(KeyInput.KEY_Q));
         inputManager.addMapping("SpinRight", new KeyTrigger(KeyInput.KEY_E));
         inputManager.addMapping("RotateUp", new MouseAxisTrigger(MouseInput.AXIS_Y, true),
@@ -152,7 +157,7 @@ public class PlanetPhysicsTest extends SimpleApplication {
         inputManager.addMapping("MoveForward", new KeyTrigger(KeyInput.KEY_W));
         inputManager.addMapping("MoveBackward", new KeyTrigger(KeyInput.KEY_S));
         inputManager.addListener(actionListener, "TOGGLE_WIREFRAME", "TOGGLE_CURSOR", "TOGGLE_PHYSICS_DEBUG","SpeedUp","SpeedDown");
-        inputManager.addListener(analogListener, "MoveLeft","MoveRight","MoveForward","MoveBackward","RotateLeft","RotateRight","RotateUp","RotateDown","SpinLeft","SpinRight" );          
+        inputManager.addListener(this, "MoveLeft","MoveRight","MoveForward","MoveBackward","RotateLeft","RotateRight","RotateUp","RotateDown","SpinLeft","SpinRight" );
     }
     
     private ActionListener actionListener = new ActionListener(){
@@ -209,37 +214,33 @@ public class PlanetPhysicsTest extends SimpleApplication {
             }  
         }
     };
-    
-    private AnalogListener analogListener = new AnalogListener() {
-        public void onAnalog(String name, float value, float tpf) {
-            
-            if (name.equals("MoveLeft"))
-                cameraNodePhysicsControl.applyCentralForce(getCamera().getLeft().mult(linearSpeed));
-            if (name.equals("MoveRight"))
-                cameraNodePhysicsControl.applyCentralForce(getCamera().getLeft().mult(-linearSpeed));
-            if (name.equals("MoveForward"))
-                cameraNodePhysicsControl.applyCentralForce(getCamera().getDirection().mult(linearSpeed));
-            if (name.equals("MoveBackward"))
-                cameraNodePhysicsControl.applyCentralForce(getCamera().getDirection().mult(-linearSpeed));
-            
-            Vector3f xRotation = cameraNodePhysicsControl.getPhysicsRotation().getRotationColumn(0).normalize();
-            Vector3f yRotation = cameraNodePhysicsControl.getPhysicsRotation().getRotationColumn(1).normalize();
-            Vector3f zRotation = cameraNodePhysicsControl.getPhysicsRotation().getRotationColumn(2).normalize();
 
-            if (name.equals("RotateLeft"))
-                cameraNodePhysicsControl.applyTorque(yRotation.mult(angularSpeed));
-            if (name.equals("RotateRight"))
-                cameraNodePhysicsControl.applyTorque(yRotation.mult(-angularSpeed));
-            if (name.equals("RotateUp"))
-                cameraNodePhysicsControl.applyTorque(xRotation.mult(angularSpeed));
-            if (name.equals("RotateDown"))
-                cameraNodePhysicsControl.applyTorque(xRotation.mult(-angularSpeed));
-            if (name.equals("SpinLeft"))
-                cameraNodePhysicsControl.applyTorque(zRotation.mult(-angularSpeed));
-            if (name.equals("SpinRight"))
-                cameraNodePhysicsControl.applyTorque(zRotation.mult(angularSpeed));
+    @Override
+    public void onAction(String name, boolean isPressed, float tpf) {
+        if (name.equals("MoveLeft"))
+            cameraNodePhysicsControl.applyCentralForce(getCamera().getLeft().mult(linearSpeed));
+        if (name.equals("MoveRight"))
+            cameraNodePhysicsControl.applyCentralForce(getCamera().getLeft().mult(-linearSpeed));
+        if (name.equals("MoveForward"))
+            cameraNodePhysicsControl.applyCentralForce(getCamera().getDirection().mult(linearSpeed));
+        if (name.equals("MoveBackward"))
+            cameraNodePhysicsControl.applyCentralForce(getCamera().getDirection().mult(-linearSpeed));
 
-        }   
-    };
-    
+        Vector3f xRotation = cameraNodePhysicsControl.getPhysicsRotation().getRotationColumn(0).normalize();
+        Vector3f yRotation = cameraNodePhysicsControl.getPhysicsRotation().getRotationColumn(1).normalize();
+        Vector3f zRotation = cameraNodePhysicsControl.getPhysicsRotation().getRotationColumn(2).normalize();
+
+        if (name.equals("RotateLeft"))
+            cameraNodePhysicsControl.applyTorque(yRotation.mult(angularSpeed));
+        if (name.equals("RotateRight"))
+            cameraNodePhysicsControl.applyTorque(yRotation.mult(-angularSpeed));
+        if (name.equals("RotateUp"))
+            cameraNodePhysicsControl.applyTorque(xRotation.mult(angularSpeed));
+        if (name.equals("RotateDown"))
+            cameraNodePhysicsControl.applyTorque(xRotation.mult(-angularSpeed));
+        if (name.equals("SpinLeft"))
+            cameraNodePhysicsControl.applyTorque(zRotation.mult(-angularSpeed));
+        if (name.equals("SpinRight"))
+            cameraNodePhysicsControl.applyTorque(zRotation.mult(angularSpeed));
+    }
 }

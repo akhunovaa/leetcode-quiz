@@ -5,8 +5,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7206c8a2-5e5c-43ed-adaf-90adb77fe92a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/distr/jme3-blender.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-bullet-native.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-bullet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-desktop.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-effects.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-jogg.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-jogl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-lwjgl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-networking.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-niftygui.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-plugins.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-terrain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/jme3-testdata.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/lwjgl-platform-natives-osx.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/lwjgl-platform-natives-osx/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/lwjgl-platform-natives-osx/liblwjgl.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/lwjgl-platform-natives-osx/openal.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/lwjgl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/dense64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/denseC64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-main.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-android-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-android-armv6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-linux-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-linux-armv6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-linux-armv6hf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-linux-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-macosx-universal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-solaris-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-solaris-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-windows-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-windows-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/gson.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/j-ogg-all.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jinput-platform-natives-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jinput-platform-natives-osx.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jinput-platform-natives-windows.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jinput.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-main.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-android-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-android-armv6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-linux-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-linux-armv6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-linux-armv6hf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-linux-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-macosx-universal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-solaris-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-solaris-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-windows-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-windows-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/joal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-main.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-android-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-android-armv6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-linux-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-linux-armv6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-linux-armv6hf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-linux-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-macosx-universal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-solaris-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-solaris-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-windows-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-windows-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jocl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-main.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-android-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-android-armv6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-linux-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-linux-armv6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-linux-armv6hf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-linux-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-macosx-universal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-solaris-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-solaris-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-windows-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-windows-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jsr305.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/jutils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/lwjgl-platform-natives-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/lwjgl-platform-natives-osx.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/lwjgl-platform-natives-windows.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/nifty-default-controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/nifty-examples.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/nifty-style-black.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/nifty.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/simple.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distr/sys/xpp3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid77595.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jme3-bullet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libbulletjme.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liblwjgl.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libopenal.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MeshCollisionShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkeyTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkeyTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MeshCollisionShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetCollisionShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetCollisionShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/WorldOfInception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/WorldOfInception.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +140,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1oL6X67QjUojemF3iJyXTbYaHqt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
@@ -47,13 +156,25 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.26953125" />
-    <property name="project.structure.side.proportion" value="0.562249" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.19058642" />
+    <property name="project.structure.side.proportion" value="0.28530535" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/distr" />
+      <recent name="$PROJECT_DIR$/assets/Scenes" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="graphics.jmeplanet" />
+      <recent name="graphics.jmonkey.vector" />
+      <recent name="calculator" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -63,22 +184,10 @@
       <recent name="$PROJECT_DIR$/src/main/java/graphics" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="graphics.jmeplanet" />
-      <recent name="graphics.jmonkey.vector" />
-      <recent name="calculator" />
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/distr" />
-      <recent name="$PROJECT_DIR$/assets/Scenes" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.PlanetPhysicsTest">
+  <component name="RunManager" selected="Application.SpaceMonkey">
     <configuration name="PlanetPhysicsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH" value="15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="graphics.jmeplanet.PlanetPhysicsTest" />
       <module name="exam" />
@@ -131,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWorldPager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jayfella.jme.worldpager.TestWorldPager" />
+    <configuration name="WorldOfInception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphics.jmonkey.WorldOfInception" />
       <module name="exam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jayfella.jme.worldpager.*" />
+          <option name="PATTERN" value="graphics.jmonkey.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,31 +253,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestWorldPager" />
       <item itemvalue="Application.PlanetSimpleTest" />
       <item itemvalue="Application.PlanetPhysicsTest" />
       <item itemvalue="Application.SpaceMonkey" />
       <item itemvalue="Application.SpaceMonkeyTwo" />
+      <item itemvalue="Application.WorldOfInception" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PlanetPhysicsTest" />
-        <item itemvalue="Application.SpaceMonkeyTwo" />
         <item itemvalue="Application.SpaceMonkey" />
+        <item itemvalue="Application.PlanetPhysicsTest" />
+        <item itemvalue="Application.WorldOfInception" />
+        <item itemvalue="Application.SpaceMonkeyTwo" />
         <item itemvalue="Application.PlanetSimpleTest" />
-        <item itemvalue="Application.TestWorldPager" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +318,7 @@
       <workItem from="1616026165938" duration="18355000" />
       <workItem from="1616073035334" duration="2675000" />
       <workItem from="1616077450378" duration="6840000" />
+      <workItem from="1616180928044" duration="13525000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1613378568445</created>
@@ -336,6 +448,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="project init" />
     <MESSAGE value="two Sum" />
     <MESSAGE value="добавлены различные алгоритмы сортировок" />
@@ -353,28 +466,35 @@
       <screen x="52" y="25" width="1628" height="1025" />
     </state>
     <state x="617" y="365" key="#Notifications/52.25.1628.1025@52.25.1628.1025" timestamp="1615935359516" />
-    <state x="408" y="211" width="1072" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616081752447">
+    <state x="447" y="123" key="#Project_Structure" timestamp="1616186719444">
+      <screen x="52" y="25" width="1868" height="1055" />
+    </state>
+    <state x="447" y="123" key="#Project_Structure/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616186719444" />
+    <state x="448" y="123" key="#Project_Structure/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616182630479" />
+    <state x="449" y="123" key="#Project_Structure/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616175106438" />
+    <state x="408" y="211" width="1072" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616182040724">
       <screen x="53" y="25" width="1867" height="1055" />
     </state>
     <state x="409" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1615303567190" />
-    <state x="408" y="211" width="1072" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081752447" />
+    <state x="408" y="211" width="1072" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616182040724" />
     <state x="410" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616019918651" />
-    <state x="707" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616080034366">
+    <state x="707" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616180876777">
       <screen x="53" y="25" width="1867" height="1055" />
     </state>
     <state x="623" y="349" key="#com.intellij.fileTypes.FileTypeChooser/53.25.1627.1025@53.25.1627.1025" timestamp="1616028820818" />
-    <state x="707" y="358" key="#com.intellij.fileTypes.FileTypeChooser/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616080034366" />
+    <state x="707" y="358" key="#com.intellij.fileTypes.FileTypeChooser/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616180876777" />
+    <state x="708" y="358" key="#com.intellij.fileTypes.FileTypeChooser/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616175386295" />
     <state x="733" y="261" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1616015533610">
       <screen x="54" y="25" width="1866" height="1055" />
     </state>
     <state x="733" y="261" key="#com.intellij.ide.macro.MacrosDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616015533610" />
-    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1616081164358">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1616179409584">
+      <screen x="54" y="25" width="1866" height="1055" />
     </state>
     <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615309040281" />
     <state x="912" y="218" key="#com.intellij.ide.util.MemberChooser/53.25.1627.1025@53.25.1627.1025" timestamp="1616029855211" />
-    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081164358" />
-    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616019584721" />
+    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616178963071" />
+    <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616179409584" />
     <state x="671" y="481" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1616021267312">
       <screen x="54" y="25" width="1866" height="1055" />
     </state>
@@ -383,9 +503,10 @@
       <screen x="53" y="25" width="1867" height="1055" />
     </state>
     <state x="682" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615801122181" />
-    <state x="530" y="495" width="1177" height="585" key="#xdebugger.evaluate" timestamp="1616081407814">
+    <state x="549" y="140" width="1370" height="940" key="#xdebugger.evaluate" timestamp="1616186644953">
       <screen x="52" y="25" width="1868" height="1055" />
     </state>
+    <state x="549" y="140" key="#xdebugger.evaluate/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616186644953" />
     <state x="1308" y="403" key="#xdebugger.evaluate/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615309492115" />
     <state x="1306" y="443" key="#xdebugger.evaluate/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860743531" />
     <state x="443" y="477" key="#xdebugger.evaluate/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614372849535" />
@@ -393,9 +514,9 @@
     <state x="1269" y="486" key="#xdebugger.evaluate/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613589543975" />
     <state x="891" y="465" key="#xdebugger.evaluate/52.25.1628.1025@52.25.1628.1025" timestamp="1616025481697" />
     <state x="530" y="495" width="1177" height="585" key="#xdebugger.evaluate/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616081407814" />
-    <state x="1015" y="495" width="887" height="585" key="#xdebugger.evaluate/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616022954341" />
+    <state x="912" y="385" width="887" height="585" key="#xdebugger.evaluate/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616177064343" />
     <state x="2750" y="399" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972433180" />
-    <state x="550" y="495" width="1370" height="585" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616059596873" />
+    <state x="390" y="140" width="1370" height="940" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616176789690" />
     <state x="571" y="197" key="CommitChangelistDialog2" timestamp="1616084401699">
       <screen x="53" y="25" width="1867" height="1055" />
     </state>
@@ -414,14 +535,16 @@
       <screen x="53" y="25" width="1867" height="1055" />
     </state>
     <state x="618" y="443" width="446" height="577" key="DetectedRootsChooserDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615921295343" />
-    <state x="163" y="125" width="1666" height="855" key="DiffContextDialog" timestamp="1616056747709">
-      <screen x="54" y="25" width="1866" height="1055" />
+    <state x="146" y="122" width="1455" height="831" key="DiffContextDialog" timestamp="1616197621459">
+      <screen x="51" y="25" width="1629" height="1025" />
     </state>
+    <state x="146" y="122" width="1455" height="831" key="DiffContextDialog/51.25.1629.1025@51.25.1629.1025" timestamp="1616197621459" />
     <state x="162" y="125" width="1666" height="855" key="DiffContextDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615918931038" />
     <state x="163" y="125" width="1666" height="855" key="DiffContextDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616056747709" />
-    <state width="1562" height="365" key="GridCell.Tab.0.bottom" timestamp="1616084848341">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state width="1585" height="328" key="GridCell.Tab.0.bottom" timestamp="1616197391471">
+      <screen x="51" y="25" width="1629" height="1025" />
     </state>
+    <state width="1654" height="328" key="GridCell.Tab.0.bottom/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191300021" />
     <state width="1308" height="243" key="GridCell.Tab.0.bottom/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229744" />
     <state width="1264" height="246" key="GridCell.Tab.0.bottom/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346535" />
     <state width="1264" height="249" key="GridCell.Tab.0.bottom/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860853034" />
@@ -430,15 +553,17 @@
     <state width="1264" height="249" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="271" key="GridCell.Tab.0.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335565" />
     <state width="1510" height="414" key="GridCell.Tab.0.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630095" />
+    <state width="1585" height="328" key="GridCell.Tab.0.bottom/51.25.1629.1025@51.25.1629.1025" timestamp="1616197391471" />
     <state width="1582" height="268" key="GridCell.Tab.0.bottom/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252774" />
-    <state width="1582" height="268" key="GridCell.Tab.0.bottom/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616073941653" />
+    <state width="1654" height="328" key="GridCell.Tab.0.bottom/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616181110379" />
     <state width="1582" height="268" key="GridCell.Tab.0.bottom/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405502" />
-    <state width="1562" height="365" key="GridCell.Tab.0.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084848341" />
+    <state width="1654" height="328" key="GridCell.Tab.0.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616183792486" />
     <state width="1525" height="239" key="GridCell.Tab.0.bottom/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793233" />
-    <state width="1582" height="268" key="GridCell.Tab.0.bottom/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616063303686" />
-    <state width="1562" height="365" key="GridCell.Tab.0.center" timestamp="1616084848338">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state width="1654" height="238" key="GridCell.Tab.0.bottom/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896782" />
+    <state width="1585" height="328" key="GridCell.Tab.0.center" timestamp="1616197391468">
+      <screen x="51" y="25" width="1629" height="1025" />
     </state>
+    <state width="1654" height="328" key="GridCell.Tab.0.center/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191300018" />
     <state width="1308" height="243" key="GridCell.Tab.0.center/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229743" />
     <state width="1264" height="246" key="GridCell.Tab.0.center/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346534" />
     <state width="1264" height="249" key="GridCell.Tab.0.center/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860853033" />
@@ -447,15 +572,17 @@
     <state width="1264" height="249" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="271" key="GridCell.Tab.0.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335564" />
     <state width="1510" height="414" key="GridCell.Tab.0.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630094" />
+    <state width="1585" height="328" key="GridCell.Tab.0.center/51.25.1629.1025@51.25.1629.1025" timestamp="1616197391468" />
     <state width="1582" height="268" key="GridCell.Tab.0.center/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252774" />
-    <state width="1582" height="268" key="GridCell.Tab.0.center/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616073941652" />
+    <state width="1654" height="328" key="GridCell.Tab.0.center/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616181110377" />
     <state width="1582" height="268" key="GridCell.Tab.0.center/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405499" />
-    <state width="1562" height="365" key="GridCell.Tab.0.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084848338" />
+    <state width="1654" height="328" key="GridCell.Tab.0.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616183792485" />
     <state width="1525" height="239" key="GridCell.Tab.0.center/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793232" />
-    <state width="1582" height="268" key="GridCell.Tab.0.center/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616063303685" />
-    <state width="1562" height="365" key="GridCell.Tab.0.left" timestamp="1616084848336">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state width="1654" height="238" key="GridCell.Tab.0.center/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896782" />
+    <state width="1585" height="328" key="GridCell.Tab.0.left" timestamp="1616197391467">
+      <screen x="51" y="25" width="1629" height="1025" />
     </state>
+    <state width="1654" height="328" key="GridCell.Tab.0.left/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191300016" />
     <state width="1308" height="243" key="GridCell.Tab.0.left/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229742" />
     <state width="1264" height="246" key="GridCell.Tab.0.left/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346534" />
     <state width="1264" height="249" key="GridCell.Tab.0.left/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860853032" />
@@ -464,15 +591,17 @@
     <state width="1264" height="249" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="271" key="GridCell.Tab.0.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335563" />
     <state width="1510" height="414" key="GridCell.Tab.0.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630093" />
+    <state width="1585" height="328" key="GridCell.Tab.0.left/51.25.1629.1025@51.25.1629.1025" timestamp="1616197391467" />
     <state width="1582" height="268" key="GridCell.Tab.0.left/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252773" />
-    <state width="1582" height="268" key="GridCell.Tab.0.left/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616073941651" />
+    <state width="1654" height="328" key="GridCell.Tab.0.left/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616181110376" />
     <state width="1582" height="268" key="GridCell.Tab.0.left/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405487" />
-    <state width="1562" height="365" key="GridCell.Tab.0.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084848336" />
+    <state width="1654" height="328" key="GridCell.Tab.0.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616183792485" />
     <state width="1525" height="239" key="GridCell.Tab.0.left/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793231" />
-    <state width="1582" height="268" key="GridCell.Tab.0.left/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616063303685" />
-    <state width="1562" height="365" key="GridCell.Tab.0.right" timestamp="1616084848339">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state width="1654" height="238" key="GridCell.Tab.0.left/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896781" />
+    <state width="1585" height="328" key="GridCell.Tab.0.right" timestamp="1616197391469">
+      <screen x="51" y="25" width="1629" height="1025" />
     </state>
+    <state width="1654" height="328" key="GridCell.Tab.0.right/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191300019" />
     <state width="1308" height="243" key="GridCell.Tab.0.right/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229743" />
     <state width="1264" height="246" key="GridCell.Tab.0.right/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346535" />
     <state width="1264" height="249" key="GridCell.Tab.0.right/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860853034" />
@@ -481,15 +610,17 @@
     <state width="1264" height="249" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="271" key="GridCell.Tab.0.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335565" />
     <state width="1510" height="414" key="GridCell.Tab.0.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630094" />
+    <state width="1585" height="328" key="GridCell.Tab.0.right/51.25.1629.1025@51.25.1629.1025" timestamp="1616197391469" />
     <state width="1582" height="268" key="GridCell.Tab.0.right/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252774" />
-    <state width="1582" height="268" key="GridCell.Tab.0.right/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616073941653" />
+    <state width="1654" height="328" key="GridCell.Tab.0.right/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616181110378" />
     <state width="1582" height="268" key="GridCell.Tab.0.right/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405501" />
-    <state width="1562" height="365" key="GridCell.Tab.0.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084848339" />
+    <state width="1654" height="328" key="GridCell.Tab.0.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616183792486" />
     <state width="1525" height="239" key="GridCell.Tab.0.right/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793232" />
-    <state width="1582" height="268" key="GridCell.Tab.0.right/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616063303686" />
-    <state width="1750" height="294" key="GridCell.Tab.1.bottom" timestamp="1616081468501">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state width="1654" height="238" key="GridCell.Tab.0.right/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896782" />
+    <state width="1654" height="278" key="GridCell.Tab.1.bottom" timestamp="1616187555092">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
+    <state width="1654" height="278" key="GridCell.Tab.1.bottom/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616187555092" />
     <state width="1308" height="243" key="GridCell.Tab.1.bottom/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229745" />
     <state width="1264" height="246" key="GridCell.Tab.1.bottom/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346536" />
     <state width="1264" height="249" key="GridCell.Tab.1.bottom/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860848899" />
@@ -500,12 +631,13 @@
     <state width="1388" height="279" key="GridCell.Tab.1.bottom/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756005" />
     <state width="1750" height="302" key="GridCell.Tab.1.bottom/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677742" />
     <state width="1388" height="279" key="GridCell.Tab.1.bottom/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148844" />
-    <state width="1750" height="294" key="GridCell.Tab.1.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081468501" />
+    <state width="1654" height="278" key="GridCell.Tab.1.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181852926" />
     <state width="1525" height="308" key="GridCell.Tab.1.bottom/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438872" />
-    <state width="1582" height="279" key="GridCell.Tab.1.bottom/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060202862" />
-    <state width="1750" height="294" key="GridCell.Tab.1.center" timestamp="1616081468500">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state width="1654" height="278" key="GridCell.Tab.1.bottom/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896776" />
+    <state width="1654" height="278" key="GridCell.Tab.1.center" timestamp="1616187555090">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
+    <state width="1654" height="278" key="GridCell.Tab.1.center/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616187555090" />
     <state width="1308" height="243" key="GridCell.Tab.1.center/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229744" />
     <state width="1264" height="246" key="GridCell.Tab.1.center/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346535" />
     <state width="1264" height="249" key="GridCell.Tab.1.center/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860848898" />
@@ -516,12 +648,13 @@
     <state width="1388" height="279" key="GridCell.Tab.1.center/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756004" />
     <state width="1750" height="302" key="GridCell.Tab.1.center/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677741" />
     <state width="1388" height="279" key="GridCell.Tab.1.center/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148844" />
-    <state width="1750" height="294" key="GridCell.Tab.1.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081468500" />
+    <state width="1654" height="278" key="GridCell.Tab.1.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181852926" />
     <state width="1525" height="308" key="GridCell.Tab.1.center/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438870" />
-    <state width="1582" height="279" key="GridCell.Tab.1.center/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060202862" />
-    <state width="1750" height="294" key="GridCell.Tab.1.left" timestamp="1616081468499">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state width="1654" height="278" key="GridCell.Tab.1.center/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896776" />
+    <state width="1654" height="278" key="GridCell.Tab.1.left" timestamp="1616187555089">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
+    <state width="1654" height="278" key="GridCell.Tab.1.left/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616187555089" />
     <state width="1308" height="243" key="GridCell.Tab.1.left/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229744" />
     <state width="1264" height="246" key="GridCell.Tab.1.left/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346535" />
     <state width="1264" height="249" key="GridCell.Tab.1.left/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860848897" />
@@ -532,12 +665,13 @@
     <state width="1388" height="279" key="GridCell.Tab.1.left/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756004" />
     <state width="1750" height="302" key="GridCell.Tab.1.left/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677741" />
     <state width="1388" height="279" key="GridCell.Tab.1.left/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148843" />
-    <state width="1750" height="294" key="GridCell.Tab.1.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081468499" />
+    <state width="1654" height="278" key="GridCell.Tab.1.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181852925" />
     <state width="1525" height="308" key="GridCell.Tab.1.left/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438869" />
-    <state width="1582" height="279" key="GridCell.Tab.1.left/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060202862" />
-    <state width="1750" height="294" key="GridCell.Tab.1.right" timestamp="1616081468500">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state width="1654" height="278" key="GridCell.Tab.1.left/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896776" />
+    <state width="1654" height="278" key="GridCell.Tab.1.right" timestamp="1616187555091">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
+    <state width="1654" height="278" key="GridCell.Tab.1.right/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616187555091" />
     <state width="1308" height="243" key="GridCell.Tab.1.right/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229744" />
     <state width="1264" height="246" key="GridCell.Tab.1.right/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1614426346536" />
     <state width="1264" height="249" key="GridCell.Tab.1.right/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614860848898" />
@@ -548,28 +682,109 @@
     <state width="1388" height="279" key="GridCell.Tab.1.right/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756005" />
     <state width="1750" height="302" key="GridCell.Tab.1.right/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677742" />
     <state width="1388" height="279" key="GridCell.Tab.1.right/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148844" />
-    <state width="1750" height="294" key="GridCell.Tab.1.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081468500" />
+    <state width="1654" height="278" key="GridCell.Tab.1.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181852926" />
     <state width="1525" height="308" key="GridCell.Tab.1.right/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438871" />
-    <state width="1582" height="279" key="GridCell.Tab.1.right/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060202862" />
+    <state width="1654" height="278" key="GridCell.Tab.1.right/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896776" />
+    <state width="1654" height="328" key="GridCell.Tab.2.bottom" timestamp="1616181238309">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.2.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238309" />
+    <state width="1654" height="328" key="GridCell.Tab.2.center" timestamp="1616181238308">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.2.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238308" />
+    <state width="1654" height="328" key="GridCell.Tab.2.left" timestamp="1616181238307">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.2.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238307" />
+    <state width="1654" height="328" key="GridCell.Tab.2.right" timestamp="1616181238308">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.2.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238308" />
+    <state width="1654" height="328" key="GridCell.Tab.3.bottom" timestamp="1616181238311">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.3.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238311" />
+    <state width="1654" height="328" key="GridCell.Tab.3.center" timestamp="1616181238310">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.3.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238310" />
+    <state width="1654" height="328" key="GridCell.Tab.3.left" timestamp="1616181238309">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.3.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238309" />
+    <state width="1654" height="328" key="GridCell.Tab.3.right" timestamp="1616181238310">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.3.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238310" />
+    <state width="1654" height="328" key="GridCell.Tab.4.bottom" timestamp="1616181238314">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.4.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238314" />
+    <state width="1654" height="328" key="GridCell.Tab.4.center" timestamp="1616181238313">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.4.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238313" />
+    <state width="1654" height="328" key="GridCell.Tab.4.left" timestamp="1616181238312">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.4.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238312" />
+    <state width="1654" height="328" key="GridCell.Tab.4.right" timestamp="1616181238313">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.4.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238313" />
+    <state width="1654" height="328" key="GridCell.Tab.5.bottom" timestamp="1616181238316">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.5.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238316" />
+    <state width="1654" height="328" key="GridCell.Tab.5.center" timestamp="1616181238315">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.5.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238315" />
+    <state width="1654" height="328" key="GridCell.Tab.5.left" timestamp="1616181238314">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.5.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238314" />
+    <state width="1654" height="328" key="GridCell.Tab.5.right" timestamp="1616181238315">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.5.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238315" />
+    <state width="1654" height="328" key="GridCell.Tab.6.bottom" timestamp="1616181238318">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.6.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238318" />
+    <state width="1654" height="328" key="GridCell.Tab.6.center" timestamp="1616181238317">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.6.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238317" />
+    <state width="1654" height="328" key="GridCell.Tab.6.left" timestamp="1616181238316">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.6.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238316" />
+    <state width="1654" height="328" key="GridCell.Tab.6.right" timestamp="1616181238317">
+      <screen x="53" y="25" width="1867" height="1055" />
+    </state>
+    <state width="1654" height="328" key="GridCell.Tab.6.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181238317" />
     <state x="591" y="318" key="Maven.ArtifactSearchDialog" timestamp="1616017873949">
       <screen x="54" y="25" width="1866" height="1055" />
     </state>
     <state x="591" y="318" key="Maven.ArtifactSearchDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616017873949" />
-    <state x="847" y="284" key="RollbackChangesDialog" timestamp="1616060210889">
+    <state x="847" y="284" key="RollbackChangesDialog" timestamp="1616179503262">
       <screen x="54" y="25" width="1866" height="1055" />
     </state>
-    <state x="847" y="284" key="RollbackChangesDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616060210889" />
-    <state x="330" y="132" width="1424" height="843" key="SettingsEditor" timestamp="1616081803716">
+    <state x="847" y="284" key="RollbackChangesDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616179503262" />
+    <state x="270" y="205" width="1296" height="843" key="SettingsEditor" timestamp="1616184220230">
       <screen x="53" y="25" width="1867" height="1055" />
     </state>
     <state x="328" y="132" key="SettingsEditor/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1615303580344" />
     <state x="343" y="173" width="1136" height="811" key="SettingsEditor/52.25.1628.1025@52.25.1628.1025" timestamp="1615936826695" />
     <state x="782" y="180" key="SettingsEditor/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616076423659" />
-    <state x="330" y="132" width="1424" height="843" key="SettingsEditor/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616081803716" />
-    <state x="852" y="180" key="SettingsEditor/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616018518362" />
-    <state x="867" y="281" key="VCS.ChangeListViewerDialog" timestamp="1616056707246">
-      <screen x="54" y="25" width="1866" height="1055" />
+    <state x="270" y="205" width="1424" height="843" key="SettingsEditor/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616184220230" />
+    <state x="428" y="158" width="1296" height="843" key="SettingsEditor/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616176277945" />
+    <state x="761" y="274" key="VCS.ChangeListViewerDialog" timestamp="1616197510002">
+      <screen x="51" y="25" width="1629" height="1025" />
     </state>
+    <state x="761" y="274" key="VCS.ChangeListViewerDialog/51.25.1629.1025@51.25.1629.1025" timestamp="1616197510002" />
     <state x="867" y="281" key="VCS.ChangeListViewerDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616056707246" />
     <state x="564" y="360" key="Vcs.Push.Dialog.v2" timestamp="1616084405651">
       <screen x="53" y="25" width="1867" height="1055" />
@@ -591,14 +806,16 @@
     </state>
     <state x="520" y="84" width="1291" height="954" key="dock-window-1/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614372850695" />
     <state x="176" y="42" width="1070" height="981" key="dock-window-1/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613301157624" />
-    <state x="313" y="67" width="1307" height="966" key="find.popup" timestamp="1616083374015">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state x="187" y="111" width="1141" height="939" key="find.popup" timestamp="1616192119700">
+      <screen x="51" y="25" width="1629" height="1025" />
     </state>
+    <state x="208" y="114" width="1308" height="966" key="find.popup/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191215632" />
     <state x="2433" y="112" width="598" height="548" key="find.popup/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613060659441" />
+    <state x="187" y="111" width="1141" height="939" key="find.popup/51.25.1629.1025@51.25.1629.1025" timestamp="1616192119700" />
     <state x="549" y="259" width="605" height="547" key="find.popup/52.25.1628.1025@52.25.1628.1025" timestamp="1616028301807" />
     <state x="549" y="259" width="605" height="547" key="find.popup/53.25.1627.1025@53.25.1627.1025" timestamp="1616050969563" />
-    <state x="313" y="67" width="1307" height="966" key="find.popup/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616083374015" />
-    <state x="314" y="67" width="1306" height="966" key="find.popup/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616058234921" />
+    <state x="313" y="67" width="1307" height="966" key="find.popup/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616178063920" />
+    <state x="210" y="114" width="1306" height="966" key="find.popup/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616179324996" />
     <state x="540" y="273" key="new project wizard" timestamp="1615708082484">
       <screen x="54" y="25" width="1866" height="1055" />
     </state>
@@ -942,12 +1159,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>91</line>
+          <line>94</line>
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>170</line>
+          <line>173</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -962,43 +1179,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>95</line>
+          <line>98</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>79</line>
+          <line>82</line>
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>69</line>
+          <line>72</line>
           <option name="timeStamp" value="237" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>101</line>
+          <line>104</line>
           <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>148</line>
+          <line>151</line>
           <option name="timeStamp" value="239" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/jME3/sources/jme3-core-sources.jar!/com/jme3/app/StatsAppState.java</url>
-          <line>138</line>
-          <option name="timeStamp" value="240" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/jME3/sources/jme3-core-sources.jar!/com/jme3/app/StatsAppState.java</url>
-          <line>139</line>
-          <option name="timeStamp" value="241" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetCollisionShape.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="248" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/jME3/lib/jme3-desktop.jar!/com/jme3/system/NativeLibraryLoader.class</url>
@@ -1011,9 +1213,92 @@
           <option name="timeStamp" value="251" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Planet.java</url>
-          <line>142</line>
-          <option name="timeStamp" value="252" />
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>241</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jmonkeyengine/jme3-bullet/3.3.2-stable/jme3-bullet-3.3.2-stable.jar!/com/jme3/bullet/objects/PhysicsRigidBody.class</url>
+          <line>384</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jmonkeyengine/jme3-bullet/3.3.2-stable/jme3-bullet-3.3.2-stable.jar!/com/jme3/bullet/objects/PhysicsRigidBody.class</url>
+          <line>390</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jmonkeyengine/jme3-bullet/3.3.2-stable/jme3-bullet-3.3.2-stable.jar!/com/jme3/bullet/objects/PhysicsRigidBody.class</url>
+          <line>391</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jmonkeyengine/jme3-bullet/3.3.2-stable/jme3-bullet-3.3.2-stable.jar!/com/jme3/bullet/objects/PhysicsRigidBody.class</url>
+          <line>434</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/homework/jme3-bullet.jar!/com/jme3/bullet/objects/PhysicsRigidBody.class</url>
+          <line>390</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/homework/jme3-bullet.jar!/com/jme3/bullet/objects/PhysicsRigidBody.class</url>
+          <line>391</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Converter.java</url>
+          <line>193</line>
+          <properties class="graphics.jmeplanet.Converter" method="convert">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="313" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

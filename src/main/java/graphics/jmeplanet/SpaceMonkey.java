@@ -53,14 +53,17 @@ public class SpaceMonkey extends SimpleApplication implements ActionListener {
     private boolean leftStrafe = false, rightStrafe = false, forward = false, backward = false,
             leftRotate = false, rightRotate = false;
     
-    private float linearSpeed = 200f;
+    private float linearSpeed = 3200f;
     private float angularSpeed = 50f;
     
     public static void main(String[] args){
 
-        SpaceMonkey application = new SpaceMonkey();
         AppSettings settings = new AppSettings(true);
-        settings.setTitle("My First JAVA Game");
+        settings.setResolution(1024,768);
+        settings.setTitle("Офигенный космос на JAVA > a.akhunov@yourapi.ru");
+
+
+        SpaceMonkey application = new SpaceMonkey();
         application.setSettings(settings);
         application.setShowSettings(false);
         application.start();
@@ -72,8 +75,8 @@ public class SpaceMonkey extends SimpleApplication implements ActionListener {
     
     @Override
     public void simpleInitApp() {
-//        setDisplayFps(false);
-//        setDisplayStatView(false);
+        setDisplayFps(false);
+        setDisplayStatView(false);
         // Only show severe errors in log
        // java.util.logging.Logger.getLogger("com.jme3").setLevel(java.util.logging.Level.SEVERE);
 
@@ -165,7 +168,7 @@ public class SpaceMonkey extends SimpleApplication implements ActionListener {
         FractalDataSource planetDataSource = new FractalDataSource(4);
         planetDataSource.setHeightScale(800f);
         Planet planet = Utility.createEarthLikePlanet(getAssetManager(), 63710.0f, null, planetDataSource);
-        planet.addControl(new RigidBodyControl(new SphereCollisionShape(planet.getRadius()), 0f));
+        planet.addControl(new RigidBodyControl(new PlanetCollisionShape(planet.getLocalTranslation(), planet.getRadius(), planetDataSource), 0f));
         planetAppState.addPlanet(planet);
         rootNode.attachChild(planet);
         bulletAppState.getPhysicsSpace().add(planet);
@@ -175,7 +178,7 @@ public class SpaceMonkey extends SimpleApplication implements ActionListener {
         moonDataSource.setHeightScale(300f);
         Planet moon = Utility.createMoonLikePlanet(getAssetManager(), 10000, moonDataSource);
         moon.setLocalTranslation(-100000f, 0f, 0f);
-        RigidBodyControl moonPhysicsControl = new RigidBodyControl(new SphereCollisionShape(planet.getRadius()), 0f);
+        RigidBodyControl moonPhysicsControl = new RigidBodyControl(new PlanetCollisionShape(moon.getLocalTranslation(), moon.getRadius(), moonDataSource), 0f);
         moon.addControl(moonPhysicsControl);   
         planetAppState.addPlanet(moon);
         rootNode.attachChild(moon);

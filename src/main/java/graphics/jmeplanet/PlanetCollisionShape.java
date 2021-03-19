@@ -1,6 +1,7 @@
 package graphics.jmeplanet;
 
-import com.bulletphysics.collision.shapes.ConcaveShape;
+
+//import com.bulletphysics.collision.shapes.ConcaveShape;
 import com.jme3.bullet.collision.shapes.CollisionShape;
 import com.jme3.export.InputCapsule;
 import com.jme3.export.JmeExporter;
@@ -31,25 +32,16 @@ public class PlanetCollisionShape extends CollisionShape {
     }
 
     protected void createShape() {
-//        cShape = new PlanetShape(center, radius, dataSource);
-       // cShape.setLocalScaling(Converter.convert(getScale()));
-//        cShape.setMargin(margin);
-//        cShape = new PlanetShape(center, radius, dataSource);
-//        cShape.setLocalScaling(Converter.convert(new Vector3f(1.0F, 1.0F, 1.0F)));
+        cShape = new PlanetShape(center, radius, dataSource);
+        cShape.setLocalScaling(Converter.convert(getScale()));
+        cShape.setMargin(margin);
 //        cShape.setMargin(0.04F);
-//        if (NativeLibraryLoader.isUsingNativeBullet()) {
-//            NativeLibraryLoader.loadNativeLibrary("bulletjme", true);
-//
-//        }
-//        System.loadLibrary("bulletjme");
-//        System.load("bulletjme");
-        objectId = createShape(radius);
-        Logger.getLogger(this.getClass().getName()).log(Level.FINE, "Created Shape {0}", Long.toHexString(objectId));
-        setScale(scale); // Set the scale to 1
-        setMargin(margin);
 
     }
 
-    private native long createShape(float radius);
-    
+//    protected void createShape() {
+//        cShape = new PlanetShape(center, radius, dataSource);
+//        cShape.setScale(new Vector3f(1.0F, 1.0F, 1.0F));
+//        cShape.setMargin(0.04F);
+//    }
 }
