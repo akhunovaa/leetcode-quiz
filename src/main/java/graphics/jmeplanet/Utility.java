@@ -40,6 +40,8 @@ import com.jme3.texture.Texture;
 import com.jme3.texture.TextureCubeMap;
 import graphics.jmeplanet.HeightDataSource;
 import graphics.jmeplanet.Planet;
+import jme3utilities.mesh.DomeMesh;
+import jme3utilities.sky.SkyMaterial;
 
 /**
  * Utility
@@ -101,6 +103,30 @@ public class Utility {
         
         return sky;
     }
+
+    public static Spatial createCloud(AssetManager assetManager, Node rootNode) {
+        DomeMesh mesh = new DomeMesh(60, 16);
+        Geometry geometry = new Geometry("sky dome", mesh);
+        rootNode.attachChild(geometry);
+        geometry.setQueueBucket(Bucket.Sky);
+
+        int objects = 6;
+        int cloudLayers = 6;
+        SkyMaterial material = new SkyMaterial(assetManager, objects, cloudLayers);
+
+        geometry.setMaterial(material);
+        material.initialize();
+//        int maxCloudLayers = material.getMaxCloudLayers();
+//        if (maxCloudLayers > 0) {
+//            material.addClouds(0);
+//        }
+//        if (maxCloudLayers > 1) {
+//            material.addClouds(1);
+//        }
+        material.addClouds(5);
+        material.addHaze();
+        return geometry;
+    }
     
     public static Planet createEarthLikePlanet(AssetManager assetManager, float radius, Material oceanMaterial, HeightDataSource dataSource) {
                
@@ -134,6 +160,12 @@ public class Utility {
         Texture rock = assetManager.loadTexture("Textures/rock.jpg");
         rock.setWrap(Texture.WrapMode.Repeat);
         planetMaterial.setTexture("SlopeColorMap", rock);
+
+//        // cloud texture
+//        Texture cloud = assetManager.loadTexture("Textures/cloud.png");
+//        cloud.setWrap(Texture.WrapMode.Repeat);
+//        planetMaterial.setTexture("Region2ColorMap", cloud);
+//        planetMaterial.setVector3("Region2", new Vector3f(heightScale * 0.16f, heightScale * 1.05f, 0));
           
         // create planet
         Planet planet = new Planet("Planet", radius, planetMaterial, dataSource);

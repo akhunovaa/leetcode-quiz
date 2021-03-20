@@ -196,8 +196,8 @@ public class PlanetPhysicsTest extends SimpleApplication implements ActionListen
                 } else {
                     linearSpeed += 100;
                 }
-                if (linearSpeed > 10000) {
-                    linearSpeed = 10000;
+                if (linearSpeed > 50000) {
+                    linearSpeed = 50000;
                 }
                 System.out.println("Speed:" + linearSpeed);
             }

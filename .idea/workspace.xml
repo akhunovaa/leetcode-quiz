@@ -5,114 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7206c8a2-5e5c-43ed-adaf-90adb77fe92a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/distr/jme3-blender.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-bullet-native.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-bullet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-desktop.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-effects.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-jogg.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-jogl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-lwjgl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-networking.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-niftygui.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-plugins.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-terrain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/jme3-testdata.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/lwjgl-platform-natives-osx.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/lwjgl-platform-natives-osx/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/lwjgl-platform-natives-osx/liblwjgl.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/lwjgl-platform-natives-osx/openal.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/lwjgl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/dense64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/denseC64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-main.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-android-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-android-armv6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-linux-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-linux-armv6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-linux-armv6hf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-linux-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-macosx-universal.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-solaris-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-solaris-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-windows-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt-natives-windows-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gluegen-rt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/gson.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/j-ogg-all.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jinput-platform-natives-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jinput-platform-natives-osx.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jinput-platform-natives-windows.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jinput.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-main.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-android-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-android-armv6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-linux-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-linux-armv6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-linux-armv6hf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-linux-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-macosx-universal.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-solaris-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-solaris-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-windows-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal-natives-windows-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/joal.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-main.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-android-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-android-armv6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-linux-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-linux-armv6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-linux-armv6hf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-linux-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-macosx-universal.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-solaris-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-solaris-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-windows-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl-natives-windows-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jocl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-main.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-android-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-android-armv6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-linux-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-linux-armv6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-linux-armv6hf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-linux-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-macosx-universal.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-solaris-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-solaris-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-windows-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all-natives-windows-i586.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jogl-all.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jsr305.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/jutils.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/lwjgl-platform-natives-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/lwjgl-platform-natives-osx.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/lwjgl-platform-natives-windows.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/nifty-default-controls.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/nifty-examples.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/nifty-style-black.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/nifty.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/simple.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distr/sys/xpp3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid77595.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jme3-bullet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libbulletjme.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liblwjgl.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libopenal.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MeshCollisionShapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets.jmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Light/Lighting.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Light/Lighting.j3md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Light/Lighting.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Misc/Unshaded.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Misc/Unshaded.j3md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Misc/Unshaded.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Post/Fog.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Post/Fog.j3md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/ShaderLib/LogDepthBuffer.glsllib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Models/Models/Jaime/Jaime/Jaime.j3m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Models/Models/Jaime/Jaime/Jaime.j3o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Models/Models/Jaime/Jaime/NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Models/Models/Jaime/Jaime/diffuseMap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/clouds/cyclone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/clouds/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_back6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_bottom4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_front5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_top3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/t0neg0d/Clouds_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/t0neg0d/Sun_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/t0neg0d/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Textures/terrain/height/basin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/CloudGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MeshCollisionShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/cloud/AbstractPointCloudGraphGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/cloud/PointCloudJme3GraphGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/cloud/RawPointCloudGraphGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Interface/Nifty/huds/test-sky-control.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Interface/Nifty/huds/test-sky-material.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Interface/bindings/TestSkyControl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/clouds/cyclone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/clouds/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_back6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_bottom4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_front5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_top3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/t0neg0d/Clouds_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/t0neg0d/Sun_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/t0neg0d/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/terrain/height/basin.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MeshCollisionShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetCollisionShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetCollisionShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MeshCollisionShapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Planet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/WorldOfInception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmonkey/WorldOfInception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetSimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MyNoNamePlanetBotMasterZzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +71,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -152,24 +101,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/JmePlanet/MatDefs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.19058642" />
     <property name="project.structure.side.proportion" value="0.28530535" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/distr" />
-      <recent name="$PROJECT_DIR$/assets/Scenes" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/JmePlanet/MatDefs" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/Materials" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/assets/MatDefs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="graphics.jmeplanet" />
@@ -177,15 +127,27 @@
       <recent name="calculator" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/MatDefs" />
-      <recent name="$PROJECT_DIR$/assets/Materials" />
-      <recent name="$PROJECT_DIR$/src/main/java/graphics" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/distr" />
+      <recent name="$PROJECT_DIR$/assets/Scenes" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpaceMonkey">
+  <component name="RunManager" selected="Application.MyNoNamePlanetBotMasterZzz">
+    <configuration name="MyNoNamePlanetBotMasterZzz" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="graphics.jmeplanet.MyNoNamePlanetBotMasterZzz" />
+      <module name="exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphics.jmeplanet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlanetPhysicsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -203,19 +165,6 @@
     </configuration>
     <configuration name="PlanetSimpleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphics.jmeplanet.PlanetSimpleTest" />
-      <module name="exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphics.jmeplanet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpaceMonkey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphics.jmeplanet.SpaceMonkey" />
       <module name="exam" />
       <extension name="coverage">
         <pattern>
@@ -253,33 +202,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PlanetSimpleTest" />
       <item itemvalue="Application.PlanetPhysicsTest" />
-      <item itemvalue="Application.SpaceMonkey" />
+      <item itemvalue="Application.MyNoNamePlanetBotMasterZzz" />
       <item itemvalue="Application.SpaceMonkeyTwo" />
       <item itemvalue="Application.WorldOfInception" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpaceMonkey" />
-        <item itemvalue="Application.PlanetPhysicsTest" />
-        <item itemvalue="Application.WorldOfInception" />
+        <item itemvalue="Application.MyNoNamePlanetBotMasterZzz" />
         <item itemvalue="Application.SpaceMonkeyTwo" />
         <item itemvalue="Application.PlanetSimpleTest" />
+        <item itemvalue="Application.PlanetPhysicsTest" />
+        <item itemvalue="Application.WorldOfInception" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +254,8 @@
       <workItem from="1616026165938" duration="18355000" />
       <workItem from="1616073035334" duration="2675000" />
       <workItem from="1616077450378" duration="6840000" />
-      <workItem from="1616180928044" duration="13525000" />
+      <workItem from="1616180928044" duration="19080000" />
+      <workItem from="1616232394192" duration="19632000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1613378568445</created>
@@ -439,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616084402078</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="games added">
+      <created>1616197629388</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1616197629388</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,17 +416,20 @@
     <state x="447" y="123" key="#Project_Structure/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616186719444" />
     <state x="448" y="123" key="#Project_Structure/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616182630479" />
     <state x="449" y="123" key="#Project_Structure/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616175106438" />
-    <state x="408" y="211" width="1072" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616182040724">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state x="406" y="211" width="1072" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616234642347">
+      <screen x="51" y="25" width="1869" height="1055" />
     </state>
     <state x="409" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1615303567190" />
+    <state x="406" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616234642347" />
     <state x="408" y="211" width="1072" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616182040724" />
     <state x="410" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616019918651" />
-    <state x="707" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616180876777">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state x="704" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616250423560">
+      <screen x="49" y="25" width="1871" height="1055" />
     </state>
+    <state x="704" y="358" key="#com.intellij.fileTypes.FileTypeChooser/49.25.1871.1055/1920.-57.1680.1025@49.25.1871.1055" timestamp="1616250423560" />
+    <state x="621" y="349" key="#com.intellij.fileTypes.FileTypeChooser/51.25.1629.1025@51.25.1629.1025" timestamp="1616199004842" />
     <state x="623" y="349" key="#com.intellij.fileTypes.FileTypeChooser/53.25.1627.1025@53.25.1627.1025" timestamp="1616028820818" />
-    <state x="707" y="358" key="#com.intellij.fileTypes.FileTypeChooser/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616180876777" />
+    <state x="707" y="358" key="#com.intellij.fileTypes.FileTypeChooser/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616238577622" />
     <state x="708" y="358" key="#com.intellij.fileTypes.FileTypeChooser/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616175386295" />
     <state x="733" y="261" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1616015533610">
       <screen x="54" y="25" width="1866" height="1055" />
@@ -495,16 +442,18 @@
     <state x="912" y="218" key="#com.intellij.ide.util.MemberChooser/53.25.1627.1025@53.25.1627.1025" timestamp="1616029855211" />
     <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616178963071" />
     <state x="1039" y="224" key="#com.intellij.ide.util.MemberChooser/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616179409584" />
-    <state x="671" y="481" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1616021267312">
-      <screen x="54" y="25" width="1866" height="1055" />
+    <state x="670" y="481" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1616243560166">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
+    <state x="590" y="468" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/51.25.1629.1025@51.25.1629.1025" timestamp="1616198761749" />
+    <state x="670" y="481" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616243560166" />
     <state x="671" y="481" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616021267312" />
     <state x="682" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1615801122181">
       <screen x="53" y="25" width="1867" height="1055" />
     </state>
     <state x="682" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615801122181" />
-    <state x="549" y="140" width="1370" height="940" key="#xdebugger.evaluate" timestamp="1616186644953">
-      <screen x="52" y="25" width="1868" height="1055" />
+    <state x="484" y="136" width="1370" height="940" key="#xdebugger.evaluate" timestamp="1616200577973">
+      <screen x="50" y="25" width="1630" height="1025" />
     </state>
     <state x="549" y="140" key="#xdebugger.evaluate/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616186644953" />
     <state x="1308" y="403" key="#xdebugger.evaluate/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615309492115" />
@@ -512,19 +461,21 @@
     <state x="443" y="477" key="#xdebugger.evaluate/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614372849535" />
     <state x="2965" y="189" width="611" height="678" key="#xdebugger.evaluate/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613320546975" />
     <state x="1269" y="486" key="#xdebugger.evaluate/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613589543975" />
+    <state x="484" y="136" key="#xdebugger.evaluate/50.25.1630.1025@50.25.1630.1025" timestamp="1616200577973" />
     <state x="891" y="465" key="#xdebugger.evaluate/52.25.1628.1025@52.25.1628.1025" timestamp="1616025481697" />
     <state x="530" y="495" width="1177" height="585" key="#xdebugger.evaluate/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616081407814" />
     <state x="912" y="385" width="887" height="585" key="#xdebugger.evaluate/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616177064343" />
     <state x="2750" y="399" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972433180" />
     <state x="390" y="140" width="1370" height="940" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616176789690" />
-    <state x="571" y="197" key="CommitChangelistDialog2" timestamp="1616084401699">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state x="503" y="192" key="CommitChangelistDialog2" timestamp="1616197628283">
+      <screen x="51" y="25" width="1629" height="1025" />
     </state>
     <state x="571" y="197" key="CommitChangelistDialog2/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615312427594" />
     <state x="567" y="195" key="CommitChangelistDialog2/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@47.23.1873.1057" timestamp="1614970586570" />
     <state x="568" y="195" key="CommitChangelistDialog2/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614857538096" />
     <state x="569" y="195" key="CommitChangelistDialog2/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614373428630" />
     <state x="569" y="195" key="CommitChangelistDialog2/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613417135924" />
+    <state x="503" y="192" key="CommitChangelistDialog2/51.25.1629.1025@51.25.1629.1025" timestamp="1616197628283" />
     <state x="571" y="197" key="CommitChangelistDialog2/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084401699" />
     <state x="572" y="197" key="CommitChangelistDialog2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615973138636" />
     <state width="509" height="466" key="DebuggerActiveHint" timestamp="1615667864107">
@@ -535,14 +486,14 @@
       <screen x="53" y="25" width="1867" height="1055" />
     </state>
     <state x="618" y="443" width="446" height="577" key="DetectedRootsChooserDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615921295343" />
-    <state x="146" y="122" width="1455" height="831" key="DiffContextDialog" timestamp="1616197621459">
-      <screen x="51" y="25" width="1629" height="1025" />
+    <state x="162" y="125" width="1666" height="855" key="DiffContextDialog" timestamp="1616240412357">
+      <screen x="53" y="25" width="1867" height="1055" />
     </state>
-    <state x="146" y="122" width="1455" height="831" key="DiffContextDialog/51.25.1629.1025@51.25.1629.1025" timestamp="1616197621459" />
-    <state x="162" y="125" width="1666" height="855" key="DiffContextDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1615918931038" />
+    <state x="146" y="122" width="1455" height="831" key="DiffContextDialog/51.25.1629.1025@51.25.1629.1025" timestamp="1616197987422" />
+    <state x="162" y="125" width="1666" height="855" key="DiffContextDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616240412357" />
     <state x="163" y="125" width="1666" height="855" key="DiffContextDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616056747709" />
-    <state width="1585" height="328" key="GridCell.Tab.0.bottom" timestamp="1616197391471">
-      <screen x="51" y="25" width="1629" height="1025" />
+    <state width="1550" height="233" key="GridCell.Tab.0.bottom" timestamp="1616254104305">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
     <state width="1654" height="328" key="GridCell.Tab.0.bottom/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191300021" />
     <state width="1308" height="243" key="GridCell.Tab.0.bottom/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229744" />
@@ -553,15 +504,17 @@
     <state width="1264" height="249" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="271" key="GridCell.Tab.0.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335565" />
     <state width="1510" height="414" key="GridCell.Tab.0.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630095" />
-    <state width="1585" height="328" key="GridCell.Tab.0.bottom/51.25.1629.1025@51.25.1629.1025" timestamp="1616197391471" />
+    <state width="1585" height="278" key="GridCell.Tab.0.bottom/50.25.1630.1025@50.25.1630.1025" timestamp="1616200711945" />
+    <state width="1585" height="278" key="GridCell.Tab.0.bottom/51.25.1629.1025@51.25.1629.1025" timestamp="1616200688518" />
+    <state width="1550" height="233" key="GridCell.Tab.0.bottom/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616252085408" />
     <state width="1582" height="268" key="GridCell.Tab.0.bottom/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252774" />
-    <state width="1654" height="328" key="GridCell.Tab.0.bottom/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616181110379" />
+    <state width="1550" height="233" key="GridCell.Tab.0.bottom/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616254104305" />
     <state width="1582" height="268" key="GridCell.Tab.0.bottom/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405502" />
-    <state width="1654" height="328" key="GridCell.Tab.0.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616183792486" />
+    <state width="1550" height="233" key="GridCell.Tab.0.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616241171390" />
     <state width="1525" height="239" key="GridCell.Tab.0.bottom/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793233" />
     <state width="1654" height="238" key="GridCell.Tab.0.bottom/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896782" />
-    <state width="1585" height="328" key="GridCell.Tab.0.center" timestamp="1616197391468">
-      <screen x="51" y="25" width="1629" height="1025" />
+    <state width="1550" height="233" key="GridCell.Tab.0.center" timestamp="1616254104304">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
     <state width="1654" height="328" key="GridCell.Tab.0.center/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191300018" />
     <state width="1308" height="243" key="GridCell.Tab.0.center/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229743" />
@@ -572,15 +525,17 @@
     <state width="1264" height="249" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="271" key="GridCell.Tab.0.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335564" />
     <state width="1510" height="414" key="GridCell.Tab.0.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630094" />
-    <state width="1585" height="328" key="GridCell.Tab.0.center/51.25.1629.1025@51.25.1629.1025" timestamp="1616197391468" />
+    <state width="1585" height="278" key="GridCell.Tab.0.center/50.25.1630.1025@50.25.1630.1025" timestamp="1616200711943" />
+    <state width="1585" height="278" key="GridCell.Tab.0.center/51.25.1629.1025@51.25.1629.1025" timestamp="1616200688517" />
+    <state width="1550" height="233" key="GridCell.Tab.0.center/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616252085406" />
     <state width="1582" height="268" key="GridCell.Tab.0.center/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252774" />
-    <state width="1654" height="328" key="GridCell.Tab.0.center/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616181110377" />
+    <state width="1550" height="233" key="GridCell.Tab.0.center/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616254104304" />
     <state width="1582" height="268" key="GridCell.Tab.0.center/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405499" />
-    <state width="1654" height="328" key="GridCell.Tab.0.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616183792485" />
+    <state width="1550" height="233" key="GridCell.Tab.0.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616241171389" />
     <state width="1525" height="239" key="GridCell.Tab.0.center/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793232" />
     <state width="1654" height="238" key="GridCell.Tab.0.center/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896782" />
-    <state width="1585" height="328" key="GridCell.Tab.0.left" timestamp="1616197391467">
-      <screen x="51" y="25" width="1629" height="1025" />
+    <state width="1550" height="233" key="GridCell.Tab.0.left" timestamp="1616254104304">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
     <state width="1654" height="328" key="GridCell.Tab.0.left/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191300016" />
     <state width="1308" height="243" key="GridCell.Tab.0.left/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229742" />
@@ -591,15 +546,17 @@
     <state width="1264" height="249" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="271" key="GridCell.Tab.0.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335563" />
     <state width="1510" height="414" key="GridCell.Tab.0.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630093" />
-    <state width="1585" height="328" key="GridCell.Tab.0.left/51.25.1629.1025@51.25.1629.1025" timestamp="1616197391467" />
+    <state width="1585" height="278" key="GridCell.Tab.0.left/50.25.1630.1025@50.25.1630.1025" timestamp="1616200711942" />
+    <state width="1585" height="278" key="GridCell.Tab.0.left/51.25.1629.1025@51.25.1629.1025" timestamp="1616200688517" />
+    <state width="1550" height="233" key="GridCell.Tab.0.left/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616252085405" />
     <state width="1582" height="268" key="GridCell.Tab.0.left/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252773" />
-    <state width="1654" height="328" key="GridCell.Tab.0.left/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616181110376" />
+    <state width="1550" height="233" key="GridCell.Tab.0.left/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616254104304" />
     <state width="1582" height="268" key="GridCell.Tab.0.left/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405487" />
-    <state width="1654" height="328" key="GridCell.Tab.0.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616183792485" />
+    <state width="1550" height="233" key="GridCell.Tab.0.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616241171389" />
     <state width="1525" height="239" key="GridCell.Tab.0.left/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793231" />
     <state width="1654" height="238" key="GridCell.Tab.0.left/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896781" />
-    <state width="1585" height="328" key="GridCell.Tab.0.right" timestamp="1616197391469">
-      <screen x="51" y="25" width="1629" height="1025" />
+    <state width="1550" height="233" key="GridCell.Tab.0.right" timestamp="1616254104304">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
     <state width="1654" height="328" key="GridCell.Tab.0.right/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191300019" />
     <state width="1308" height="243" key="GridCell.Tab.0.right/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615313229743" />
@@ -610,14 +567,16 @@
     <state width="1264" height="249" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="271" key="GridCell.Tab.0.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613591335565" />
     <state width="1510" height="414" key="GridCell.Tab.0.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630094" />
-    <state width="1585" height="328" key="GridCell.Tab.0.right/51.25.1629.1025@51.25.1629.1025" timestamp="1616197391469" />
+    <state width="1585" height="278" key="GridCell.Tab.0.right/50.25.1630.1025@50.25.1630.1025" timestamp="1616200711944" />
+    <state width="1585" height="278" key="GridCell.Tab.0.right/51.25.1629.1025@51.25.1629.1025" timestamp="1616200688518" />
+    <state width="1550" height="233" key="GridCell.Tab.0.right/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616252085407" />
     <state width="1582" height="268" key="GridCell.Tab.0.right/52.25.1628.1025@52.25.1628.1025" timestamp="1616052252774" />
-    <state width="1654" height="328" key="GridCell.Tab.0.right/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616181110378" />
+    <state width="1550" height="233" key="GridCell.Tab.0.right/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616254104304" />
     <state width="1582" height="268" key="GridCell.Tab.0.right/53.25.1627.1025@53.25.1627.1025" timestamp="1616053405501" />
-    <state width="1654" height="328" key="GridCell.Tab.0.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616183792486" />
+    <state width="1550" height="233" key="GridCell.Tab.0.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616241171390" />
     <state width="1525" height="239" key="GridCell.Tab.0.right/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972793232" />
     <state width="1654" height="238" key="GridCell.Tab.0.right/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896782" />
-    <state width="1654" height="278" key="GridCell.Tab.1.bottom" timestamp="1616187555092">
+    <state width="1654" height="278" key="GridCell.Tab.1.bottom" timestamp="1616232384417">
       <screen x="52" y="25" width="1868" height="1055" />
     </state>
     <state width="1654" height="278" key="GridCell.Tab.1.bottom/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616187555092" />
@@ -628,13 +587,15 @@
     <state width="1264" height="249" key="GridCell.Tab.1.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180369" />
     <state width="1510" height="414" key="GridCell.Tab.1.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613589961358" />
     <state width="1510" height="414" key="GridCell.Tab.1.bottom/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630096" />
+    <state width="1585" height="278" key="GridCell.Tab.1.bottom/50.25.1630.1025@50.25.1630.1025" timestamp="1616200670780" />
+    <state width="1585" height="278" key="GridCell.Tab.1.bottom/51.25.1629.1025@51.25.1629.1025" timestamp="1616200688938" />
     <state width="1388" height="279" key="GridCell.Tab.1.bottom/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756005" />
-    <state width="1750" height="302" key="GridCell.Tab.1.bottom/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677742" />
+    <state width="1654" height="278" key="GridCell.Tab.1.bottom/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616232384417" />
     <state width="1388" height="279" key="GridCell.Tab.1.bottom/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148844" />
     <state width="1654" height="278" key="GridCell.Tab.1.bottom/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181852926" />
     <state width="1525" height="308" key="GridCell.Tab.1.bottom/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438872" />
     <state width="1654" height="278" key="GridCell.Tab.1.bottom/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896776" />
-    <state width="1654" height="278" key="GridCell.Tab.1.center" timestamp="1616187555090">
+    <state width="1654" height="278" key="GridCell.Tab.1.center" timestamp="1616232384417">
       <screen x="52" y="25" width="1868" height="1055" />
     </state>
     <state width="1654" height="278" key="GridCell.Tab.1.center/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616187555090" />
@@ -645,13 +606,15 @@
     <state width="1264" height="249" key="GridCell.Tab.1.center/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="414" key="GridCell.Tab.1.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613589961357" />
     <state width="1510" height="414" key="GridCell.Tab.1.center/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630095" />
+    <state width="1585" height="278" key="GridCell.Tab.1.center/50.25.1630.1025@50.25.1630.1025" timestamp="1616200670779" />
+    <state width="1585" height="278" key="GridCell.Tab.1.center/51.25.1629.1025@51.25.1629.1025" timestamp="1616200688937" />
     <state width="1388" height="279" key="GridCell.Tab.1.center/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756004" />
-    <state width="1750" height="302" key="GridCell.Tab.1.center/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677741" />
+    <state width="1654" height="278" key="GridCell.Tab.1.center/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616232384417" />
     <state width="1388" height="279" key="GridCell.Tab.1.center/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148844" />
     <state width="1654" height="278" key="GridCell.Tab.1.center/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181852926" />
     <state width="1525" height="308" key="GridCell.Tab.1.center/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438870" />
     <state width="1654" height="278" key="GridCell.Tab.1.center/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896776" />
-    <state width="1654" height="278" key="GridCell.Tab.1.left" timestamp="1616187555089">
+    <state width="1654" height="278" key="GridCell.Tab.1.left" timestamp="1616232384416">
       <screen x="52" y="25" width="1868" height="1055" />
     </state>
     <state width="1654" height="278" key="GridCell.Tab.1.left/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616187555089" />
@@ -662,13 +625,15 @@
     <state width="1264" height="249" key="GridCell.Tab.1.left/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180368" />
     <state width="1510" height="414" key="GridCell.Tab.1.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613589961357" />
     <state width="1510" height="414" key="GridCell.Tab.1.left/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630095" />
+    <state width="1585" height="278" key="GridCell.Tab.1.left/50.25.1630.1025@50.25.1630.1025" timestamp="1616200670779" />
+    <state width="1585" height="278" key="GridCell.Tab.1.left/51.25.1629.1025@51.25.1629.1025" timestamp="1616200688936" />
     <state width="1388" height="279" key="GridCell.Tab.1.left/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756004" />
-    <state width="1750" height="302" key="GridCell.Tab.1.left/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677741" />
+    <state width="1654" height="278" key="GridCell.Tab.1.left/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616232384416" />
     <state width="1388" height="279" key="GridCell.Tab.1.left/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148843" />
     <state width="1654" height="278" key="GridCell.Tab.1.left/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181852925" />
     <state width="1525" height="308" key="GridCell.Tab.1.left/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438869" />
     <state width="1654" height="278" key="GridCell.Tab.1.left/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616180896776" />
-    <state width="1654" height="278" key="GridCell.Tab.1.right" timestamp="1616187555091">
+    <state width="1654" height="278" key="GridCell.Tab.1.right" timestamp="1616232384417">
       <screen x="52" y="25" width="1868" height="1055" />
     </state>
     <state width="1654" height="278" key="GridCell.Tab.1.right/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616187555091" />
@@ -679,8 +644,10 @@
     <state width="1264" height="249" key="GridCell.Tab.1.right/47.23.1633.1027@47.23.1633.1027" timestamp="1614871180369" />
     <state width="1510" height="414" key="GridCell.Tab.1.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613589961358" />
     <state width="1510" height="414" key="GridCell.Tab.1.right/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613643630095" />
+    <state width="1585" height="278" key="GridCell.Tab.1.right/50.25.1630.1025@50.25.1630.1025" timestamp="1616200670779" />
+    <state width="1585" height="278" key="GridCell.Tab.1.right/51.25.1629.1025@51.25.1629.1025" timestamp="1616200688937" />
     <state width="1388" height="279" key="GridCell.Tab.1.right/52.25.1628.1025@52.25.1628.1025" timestamp="1616050756005" />
-    <state width="1750" height="302" key="GridCell.Tab.1.right/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616080677742" />
+    <state width="1654" height="278" key="GridCell.Tab.1.right/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616232384417" />
     <state width="1388" height="279" key="GridCell.Tab.1.right/53.25.1627.1025@53.25.1627.1025" timestamp="1616051148844" />
     <state width="1654" height="278" key="GridCell.Tab.1.right/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616181852926" />
     <state width="1525" height="308" key="GridCell.Tab.1.right/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972438871" />
@@ -773,27 +740,29 @@
       <screen x="54" y="25" width="1866" height="1055" />
     </state>
     <state x="847" y="284" key="RollbackChangesDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616179503262" />
-    <state x="270" y="205" width="1296" height="843" key="SettingsEditor" timestamp="1616184220230">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state x="782" y="180" width="1296" height="843" key="SettingsEditor" timestamp="1616245952852">
+      <screen x="52" y="25" width="1868" height="1055" />
     </state>
     <state x="328" y="132" key="SettingsEditor/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1615303580344" />
     <state x="343" y="173" width="1136" height="811" key="SettingsEditor/52.25.1628.1025@52.25.1628.1025" timestamp="1615936826695" />
-    <state x="782" y="180" key="SettingsEditor/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616076423659" />
+    <state x="782" y="180" key="SettingsEditor/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616245952852" />
     <state x="270" y="205" width="1424" height="843" key="SettingsEditor/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616184220230" />
     <state x="428" y="158" width="1296" height="843" key="SettingsEditor/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616176277945" />
-    <state x="761" y="274" key="VCS.ChangeListViewerDialog" timestamp="1616197510002">
-      <screen x="51" y="25" width="1629" height="1025" />
+    <state x="867" y="281" key="VCS.ChangeListViewerDialog" timestamp="1616240194283">
+      <screen x="53" y="25" width="1867" height="1055" />
     </state>
     <state x="761" y="274" key="VCS.ChangeListViewerDialog/51.25.1629.1025@51.25.1629.1025" timestamp="1616197510002" />
+    <state x="867" y="281" key="VCS.ChangeListViewerDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616240194283" />
     <state x="867" y="281" key="VCS.ChangeListViewerDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616056707246" />
-    <state x="564" y="360" key="Vcs.Push.Dialog.v2" timestamp="1616084405651">
-      <screen x="53" y="25" width="1867" height="1055" />
+    <state x="497" y="350" key="Vcs.Push.Dialog.v2" timestamp="1616197631557">
+      <screen x="51" y="25" width="1629" height="1025" />
     </state>
     <state x="564" y="360" key="Vcs.Push.Dialog.v2/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615312428803" />
     <state x="560" y="359" key="Vcs.Push.Dialog.v2/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@47.23.1873.1057" timestamp="1614970588000" />
     <state x="561" y="359" key="Vcs.Push.Dialog.v2/3600.-438.2560.1057/48.23.1872.1057/1920.-123.1680.1027@48.23.1872.1057" timestamp="1614857540272" />
     <state x="562" y="359" key="Vcs.Push.Dialog.v2/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614373429861" />
     <state x="562" y="359" key="Vcs.Push.Dialog.v2/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613417137307" />
+    <state x="497" y="350" key="Vcs.Push.Dialog.v2/51.25.1629.1025@51.25.1629.1025" timestamp="1616197631557" />
     <state x="564" y="360" key="Vcs.Push.Dialog.v2/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084405651" />
     <state x="565" y="360" key="Vcs.Push.Dialog.v2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615973139795" />
     <state x="400" y="328" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1615917416901">
@@ -806,15 +775,18 @@
     </state>
     <state x="520" y="84" width="1291" height="954" key="dock-window-1/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614372850695" />
     <state x="176" y="42" width="1070" height="981" key="dock-window-1/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613301157624" />
-    <state x="187" y="111" width="1141" height="939" key="find.popup" timestamp="1616192119700">
-      <screen x="51" y="25" width="1629" height="1025" />
+    <state x="560" y="113" width="1313" height="967" key="find.popup" timestamp="1616250425351">
+      <screen x="49" y="25" width="1871" height="1055" />
     </state>
     <state x="208" y="114" width="1308" height="966" key="find.popup/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616191215632" />
     <state x="2433" y="112" width="598" height="548" key="find.popup/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@1920.-123.1680.1027" timestamp="1613060659441" />
-    <state x="187" y="111" width="1141" height="939" key="find.popup/51.25.1629.1025@51.25.1629.1025" timestamp="1616192119700" />
+    <state x="560" y="113" width="1313" height="967" key="find.popup/49.25.1871.1055/1920.-57.1680.1025@49.25.1871.1055" timestamp="1616250425351" />
+    <state x="187" y="111" width="1141" height="939" key="find.popup/51.25.1629.1025@51.25.1629.1025" timestamp="1616198750243" />
+    <state x="561" y="113" width="1311" height="967" key="find.popup/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616250333794" />
     <state x="549" y="259" width="605" height="547" key="find.popup/52.25.1628.1025@52.25.1628.1025" timestamp="1616028301807" />
+    <state x="562" y="113" width="1310" height="967" key="find.popup/52.25.1868.1055/1920.-57.1680.1025@52.25.1868.1055" timestamp="1616243375782" />
     <state x="549" y="259" width="605" height="547" key="find.popup/53.25.1627.1025@53.25.1627.1025" timestamp="1616050969563" />
-    <state x="313" y="67" width="1307" height="966" key="find.popup/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616178063920" />
+    <state x="613" y="114" width="1307" height="966" key="find.popup/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616241166294" />
     <state x="210" y="114" width="1306" height="966" key="find.popup/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616179324996" />
     <state x="540" y="273" key="new project wizard" timestamp="1615708082484">
       <screen x="54" y="25" width="1866" height="1055" />
@@ -1158,13 +1130,13 @@
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>94</line>
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MyNoNamePlanetBotMasterZzz.java</url>
+          <line>131</line>
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>173</line>
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MyNoNamePlanetBotMasterZzz.java</url>
+          <line>223</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1178,28 +1150,13 @@
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>98</line>
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MyNoNamePlanetBotMasterZzz.java</url>
+          <line>135</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="236" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="237" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="238" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java</url>
-          <line>151</line>
+          <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MyNoNamePlanetBotMasterZzz.java</url>
+          <line>200</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1209,7 +1166,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Planet.java</url>
-          <line>120</line>
+          <line>121</line>
           <option name="timeStamp" value="251" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1292,9 +1249,14 @@
           <line>61</line>
           <option name="timeStamp" value="312" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jmonkeyengine/jme3-core/3.3.2-stable/jme3-core-3.3.2-stable-sources.jar!/com/jme3/asset/DesktopAssetManager.java</url>
+          <line>370</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Converter.java</url>
-          <line>193</line>
+          <line>194</line>
           <properties class="graphics.jmeplanet.Converter" method="convert">
             <option name="EMULATED" value="true" />
           </properties>

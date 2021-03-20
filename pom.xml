@@ -147,6 +147,14 @@
 
         <dependency>
             <groupId>${jme3_g}</groupId>
+            <artifactId>jme3-testdata</artifactId>
+            <version>${jme3_v}</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/distr/jme3-testdata.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>${jme3_g}</groupId>
             <artifactId>jme3-terrain</artifactId>
             <version>${jme3_v}</version>
             <scope>system</scope>
@@ -219,6 +227,12 @@
             <groupId>javax.vecmath</groupId>
             <artifactId>vecmath</artifactId>
             <version>1.5.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.stephengold</groupId>
+            <artifactId>SkyControl</artifactId>
+            <version>0.9.30</version>
         </dependency>
 
     </dependencies>

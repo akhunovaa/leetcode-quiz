@@ -1,6 +1,7 @@
 package graphics.jmeplanet;
 
 //import com.bulletphysics.collision.shapes.IndexedMesh;
+import com.bulletphysics.collision.shapes.IndexedMesh;
 import com.jme3.math.FastMath;
 import com.jme3.scene.Mesh;
 import com.jme3.scene.VertexBuffer.Type;
@@ -190,58 +191,58 @@ public class Converter {
 //        convert(in.basis, out.getRotation());
 //        return out;
 //    }
-//
-//    public static synchronized IndexedMesh convert(Mesh mesh) {
-//        IndexedMesh jBulletIndexedMesh = new IndexedMesh();
-//        jBulletIndexedMesh.triangleIndexBase = ByteBuffer.allocate(mesh.getTriangleCount() * 3 * 4);
-//        jBulletIndexedMesh.vertexBase = ByteBuffer.allocate(mesh.getVertexCount() * 3 * 4);
-//
-//        IndexBuffer indices = mesh.getIndicesAsList();
-//
-//        FloatBuffer vertices = mesh.getFloatBuffer(Type.Position);
-//        vertices.rewind();
-//
-//        int verticesLength = mesh.getVertexCount() * 3;
-//        jBulletIndexedMesh.numVertices = mesh.getVertexCount();
-//        jBulletIndexedMesh.vertexStride = 12; //3 verts * 4 bytes per.
-//        for (int i = 0; i < verticesLength; i++) {
-//            float tempFloat = vertices.get();
-//            jBulletIndexedMesh.vertexBase.putFloat(tempFloat);
-//        }
-//
-//        int indicesLength = mesh.getTriangleCount() * 3;
-//        jBulletIndexedMesh.numTriangles = mesh.getTriangleCount();
-//        jBulletIndexedMesh.triangleIndexStride = 12; //3 index entries * 4 bytes each.
-//        for (int i = 0; i < indicesLength; i++) {
-//            jBulletIndexedMesh.triangleIndexBase.putInt(indices.get(i));
-//        }
-//        vertices.rewind();
-//        vertices.clear();
-//
-//        return jBulletIndexedMesh;
-//    }
-//
-//    public static Mesh convert(IndexedMesh mesh) {
-//        Mesh jmeMesh = new Mesh();
-//
-//        jmeMesh.setBuffer(Type.Index, 3, BufferUtils.createShortBuffer(mesh.numTriangles * 3));
-//        jmeMesh.setBuffer(Type.Position, 3, BufferUtils.createFloatBuffer(mesh.numVertices * 3));
-//
-//        IndexBuffer indicess = jmeMesh.getIndexBuffer();
-//        FloatBuffer vertices = jmeMesh.getFloatBuffer(Type.Position);
-//
-//        for (int i = 0; i < mesh.numTriangles * 3; i++) {
-//            indicess.put(i, mesh.triangleIndexBase.getInt(i * 4));
-//        }
-//
-//        for (int i = 0; i < mesh.numVertices * 3; i++) {
-//            vertices.put(i, mesh.vertexBase.getFloat(i * 4));
-//        }
-//        jmeMesh.updateCounts();
-//        jmeMesh.updateBound();
-//        jmeMesh.getFloatBuffer(Type.Position).clear();
-//
-//        return jmeMesh;
-//    }
+
+    public static synchronized IndexedMesh convert(Mesh mesh) {
+        IndexedMesh jBulletIndexedMesh = new IndexedMesh();
+        jBulletIndexedMesh.triangleIndexBase = ByteBuffer.allocate(mesh.getTriangleCount() * 3 * 4);
+        jBulletIndexedMesh.vertexBase = ByteBuffer.allocate(mesh.getVertexCount() * 3 * 4);
+
+        IndexBuffer indices = mesh.getIndicesAsList();
+
+        FloatBuffer vertices = mesh.getFloatBuffer(Type.Position);
+        vertices.rewind();
+
+        int verticesLength = mesh.getVertexCount() * 3;
+        jBulletIndexedMesh.numVertices = mesh.getVertexCount();
+        jBulletIndexedMesh.vertexStride = 12; //3 verts * 4 bytes per.
+        for (int i = 0; i < verticesLength; i++) {
+            float tempFloat = vertices.get();
+            jBulletIndexedMesh.vertexBase.putFloat(tempFloat);
+        }
+
+        int indicesLength = mesh.getTriangleCount() * 3;
+        jBulletIndexedMesh.numTriangles = mesh.getTriangleCount();
+        jBulletIndexedMesh.triangleIndexStride = 12; //3 index entries * 4 bytes each.
+        for (int i = 0; i < indicesLength; i++) {
+            jBulletIndexedMesh.triangleIndexBase.putInt(indices.get(i));
+        }
+        vertices.rewind();
+        vertices.clear();
+
+        return jBulletIndexedMesh;
+    }
+
+    public static Mesh convert(IndexedMesh mesh) {
+        Mesh jmeMesh = new Mesh();
+
+        jmeMesh.setBuffer(Type.Index, 3, BufferUtils.createShortBuffer(mesh.numTriangles * 3));
+        jmeMesh.setBuffer(Type.Position, 3, BufferUtils.createFloatBuffer(mesh.numVertices * 3));
+
+        IndexBuffer indicess = jmeMesh.getIndexBuffer();
+        FloatBuffer vertices = jmeMesh.getFloatBuffer(Type.Position);
+
+        for (int i = 0; i < mesh.numTriangles * 3; i++) {
+            indicess.put(i, mesh.triangleIndexBase.getInt(i * 4));
+        }
+
+        for (int i = 0; i < mesh.numVertices * 3; i++) {
+            vertices.put(i, mesh.vertexBase.getFloat(i * 4));
+        }
+        jmeMesh.updateCounts();
+        jmeMesh.updateBound();
+        jmeMesh.getFloatBuffer(Type.Position).clear();
+
+        return jmeMesh;
+    }
 
 }
