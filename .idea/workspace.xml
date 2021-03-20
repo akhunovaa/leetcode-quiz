@@ -5,63 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7206c8a2-5e5c-43ed-adaf-90adb77fe92a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets.jmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Light/Lighting.frag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Light/Lighting.j3md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Light/Lighting.vert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Misc/Unshaded.frag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Misc/Unshaded.j3md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Misc/Unshaded.vert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Post/Fog.frag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/MatDefs/Post/Fog.j3md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LogDepthBuffer/ShaderLib/LogDepthBuffer.glsllib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Models/Models/Jaime/Jaime/Jaime.j3m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Models/Models/Jaime/Jaime/Jaime.j3o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Models/Models/Jaime/Jaime/NormalMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Models/Models/Jaime/Jaime/diffuseMap.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/clouds/cyclone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/clouds/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_back6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_bottom4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_front5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_left2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_right1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_top3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/t0neg0d/Clouds_L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/t0neg0d/Sun_L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/skies/t0neg0d/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Textures/terrain/height/basin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/CloudGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MeshCollisionShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/cloud/AbstractPointCloudGraphGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/cloud/PointCloudJme3GraphGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/cloud/RawPointCloudGraphGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Interface/Nifty/huds/test-sky-control.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Interface/Nifty/huds/test-sky-material.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Interface/bindings/TestSkyControl.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/clouds/cyclone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/clouds/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_back6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_bottom4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_front5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_left2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_right1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/star-maps/purple-nebula-complex/purple-nebula-complex_top3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/t0neg0d/Clouds_L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/t0neg0d/Sun_L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/skies/t0neg0d/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Textures/terrain/height/basin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MeshCollisionShapes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetPhysicsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/PlanetSimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/SpaceMonkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/MyNoNamePlanetBotMasterZzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/jmeplanet/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/town.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +146,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.PlanetSimpleTest" />
       <item itemvalue="Application.PlanetPhysicsTest" />
@@ -256,6 +213,7 @@
       <workItem from="1616077450378" duration="6840000" />
       <workItem from="1616180928044" duration="19080000" />
       <workItem from="1616232394192" duration="19632000" />
+      <workItem from="1616257631673" duration="342000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1613378568445</created>
@@ -383,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616197629388</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="games added">
+      <created>1616257646269</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616257646269</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,8 +432,8 @@
     <state x="912" y="385" width="887" height="585" key="#xdebugger.evaluate/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616177064343" />
     <state x="2750" y="399" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972433180" />
     <state x="390" y="140" width="1370" height="940" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616176789690" />
-    <state x="503" y="192" key="CommitChangelistDialog2" timestamp="1616197628283">
-      <screen x="51" y="25" width="1629" height="1025" />
+    <state x="570" y="197" key="CommitChangelistDialog2" timestamp="1616257645730">
+      <screen x="51" y="25" width="1869" height="1055" />
     </state>
     <state x="571" y="197" key="CommitChangelistDialog2/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615312427594" />
     <state x="567" y="195" key="CommitChangelistDialog2/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@47.23.1873.1057" timestamp="1614970586570" />
@@ -476,6 +441,7 @@
     <state x="569" y="195" key="CommitChangelistDialog2/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614373428630" />
     <state x="569" y="195" key="CommitChangelistDialog2/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613417135924" />
     <state x="503" y="192" key="CommitChangelistDialog2/51.25.1629.1025@51.25.1629.1025" timestamp="1616197628283" />
+    <state x="570" y="197" key="CommitChangelistDialog2/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616257645730" />
     <state x="571" y="197" key="CommitChangelistDialog2/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084401699" />
     <state x="572" y="197" key="CommitChangelistDialog2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615973138636" />
     <state width="509" height="466" key="DebuggerActiveHint" timestamp="1615667864107">
@@ -754,8 +720,8 @@
     <state x="761" y="274" key="VCS.ChangeListViewerDialog/51.25.1629.1025@51.25.1629.1025" timestamp="1616197510002" />
     <state x="867" y="281" key="VCS.ChangeListViewerDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616240194283" />
     <state x="867" y="281" key="VCS.ChangeListViewerDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616056707246" />
-    <state x="497" y="350" key="Vcs.Push.Dialog.v2" timestamp="1616197631557">
-      <screen x="51" y="25" width="1629" height="1025" />
+    <state x="563" y="360" key="Vcs.Push.Dialog.v2" timestamp="1616257648246">
+      <screen x="51" y="25" width="1869" height="1055" />
     </state>
     <state x="564" y="360" key="Vcs.Push.Dialog.v2/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615312428803" />
     <state x="560" y="359" key="Vcs.Push.Dialog.v2/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@47.23.1873.1057" timestamp="1614970588000" />
@@ -763,6 +729,7 @@
     <state x="562" y="359" key="Vcs.Push.Dialog.v2/3600.-438.2560.1057/49.23.1871.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1614373429861" />
     <state x="562" y="359" key="Vcs.Push.Dialog.v2/49.23.1871.1057/3600.-438.2560.1057/1920.-123.1680.1027@49.23.1871.1057" timestamp="1613417137307" />
     <state x="497" y="350" key="Vcs.Push.Dialog.v2/51.25.1629.1025@51.25.1629.1025" timestamp="1616197631557" />
+    <state x="563" y="360" key="Vcs.Push.Dialog.v2/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616257648246" />
     <state x="564" y="360" key="Vcs.Push.Dialog.v2/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084405651" />
     <state x="565" y="360" key="Vcs.Push.Dialog.v2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615973139795" />
     <state x="400" y="328" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1615917416901">
