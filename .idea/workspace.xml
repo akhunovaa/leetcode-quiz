@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7206c8a2-5e5c-43ed-adaf-90adb77fe92a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/one/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/three/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/two/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/four/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +65,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="interview.four" />
       <recent name="interview.three" />
       <recent name="interview.two" />
       <recent name="graphics.jmeplanet" />
       <recent name="graphics.jmonkey.vector" />
-      <recent name="calculator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/JmePlanet/MatDefs" />
@@ -82,7 +79,7 @@
       <recent name="$PROJECT_DIR$/assets/MatDefs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question (1)">
+  <component name="RunManager" selected="Application.Question (2)">
     <configuration name="MyNoNamePlanetBotMasterZzz" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="graphics.jmeplanet.MyNoNamePlanetBotMasterZzz" />
       <module name="exam" />
@@ -122,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.two.Question" />
+    <configuration name="Question (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.four.Question" />
       <module name="exam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.two.*" />
+          <option name="PATTERN" value="interview.four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpaceMonkeyTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphics.jmeplanet.SpaceMonkeyTwo" />
+    <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.two.Question" />
       <module name="exam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphics.jmeplanet.*" />
+          <option name="PATTERN" value="interview.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,18 +158,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MyNoNamePlanetBotMasterZzz" />
-      <item itemvalue="Application.SpaceMonkeyTwo" />
       <item itemvalue="Application.One" />
       <item itemvalue="Application.Question" />
       <item itemvalue="Application.Question (1)" />
+      <item itemvalue="Application.Question (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question (2)" />
         <item itemvalue="Application.Question (1)" />
         <item itemvalue="Application.Question" />
         <item itemvalue="Application.One" />
         <item itemvalue="Application.MyNoNamePlanetBotMasterZzz" />
-        <item itemvalue="Application.SpaceMonkeyTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +212,7 @@
       <workItem from="1616232394192" duration="19632000" />
       <workItem from="1616257631673" duration="362000" />
       <workItem from="1616258122177" duration="564000" />
-      <workItem from="1616346336499" duration="3144000" />
+      <workItem from="1616346336499" duration="3815000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1613378568445</created>
@@ -357,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616257980167</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="three questions added">
+      <created>1616349750648</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1616349750648</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +381,8 @@
     <MESSAGE value=" mandelbrot" />
     <MESSAGE value="game added" />
     <MESSAGE value="games added" />
-    <option name="LAST_COMMIT_MESSAGE" value="games added" />
+    <MESSAGE value="three questions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="three questions added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="617" y="365" key="#Notifications" timestamp="1615935359516">
@@ -390,13 +395,13 @@
     <state x="447" y="123" key="#Project_Structure/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1616186719444" />
     <state x="448" y="123" key="#Project_Structure/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616182630479" />
     <state x="449" y="123" key="#Project_Structure/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616175106438" />
-    <state x="406" y="211" width="1072" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616234642347">
-      <screen x="51" y="25" width="1869" height="1055" />
+    <state x="410" y="211" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616350068786">
+      <screen x="54" y="25" width="1866" height="1055" />
     </state>
     <state x="409" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/3600.-436.2560.1055/52.25.1868.1055/1920.-121.1680.1025@52.25.1868.1055" timestamp="1615303567190" />
     <state x="406" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616234642347" />
     <state x="408" y="211" width="1072" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616182040724" />
-    <state x="410" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616019918651" />
+    <state x="410" y="211" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616350068786" />
     <state x="704" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616250423560">
       <screen x="49" y="25" width="1871" height="1055" />
     </state>
@@ -441,8 +446,8 @@
     <state x="912" y="385" width="887" height="585" key="#xdebugger.evaluate/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616177064343" />
     <state x="2750" y="399" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@1920.-57.1680.1025" timestamp="1615972433180" />
     <state x="390" y="140" width="1370" height="940" key="#xdebugger.evaluate/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616176789690" />
-    <state x="570" y="197" key="CommitChangelistDialog2" timestamp="1616257980066">
-      <screen x="51" y="25" width="1869" height="1055" />
+    <state x="572" y="197" key="CommitChangelistDialog2" timestamp="1616349750481">
+      <screen x="54" y="25" width="1866" height="1055" />
     </state>
     <state x="571" y="197" key="CommitChangelistDialog2/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615312427594" />
     <state x="567" y="195" key="CommitChangelistDialog2/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@47.23.1873.1057" timestamp="1614970586570" />
@@ -452,7 +457,7 @@
     <state x="503" y="192" key="CommitChangelistDialog2/51.25.1629.1025@51.25.1629.1025" timestamp="1616197628283" />
     <state x="570" y="197" key="CommitChangelistDialog2/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616257980066" />
     <state x="571" y="197" key="CommitChangelistDialog2/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084401699" />
-    <state x="572" y="197" key="CommitChangelistDialog2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615973138636" />
+    <state x="572" y="197" key="CommitChangelistDialog2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616349750481" />
     <state width="509" height="466" key="DebuggerActiveHint" timestamp="1615667864107">
       <screen x="54" y="25" width="1866" height="1055" />
     </state>
@@ -729,8 +734,8 @@
     <state x="761" y="274" key="VCS.ChangeListViewerDialog/51.25.1629.1025@51.25.1629.1025" timestamp="1616197510002" />
     <state x="867" y="281" key="VCS.ChangeListViewerDialog/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616240194283" />
     <state x="867" y="281" key="VCS.ChangeListViewerDialog/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616056707246" />
-    <state x="563" y="360" key="Vcs.Push.Dialog.v2" timestamp="1616257981682">
-      <screen x="51" y="25" width="1869" height="1055" />
+    <state x="565" y="360" key="Vcs.Push.Dialog.v2" timestamp="1616349752039">
+      <screen x="54" y="25" width="1866" height="1055" />
     </state>
     <state x="564" y="360" key="Vcs.Push.Dialog.v2/3600.-436.2560.1055/53.25.1867.1055/1920.-121.1680.1025@53.25.1867.1055" timestamp="1615312428803" />
     <state x="560" y="359" key="Vcs.Push.Dialog.v2/3600.-438.2560.1057/47.23.1873.1057/1920.-123.1680.1027@47.23.1873.1057" timestamp="1614970588000" />
@@ -740,7 +745,7 @@
     <state x="497" y="350" key="Vcs.Push.Dialog.v2/51.25.1629.1025@51.25.1629.1025" timestamp="1616197631557" />
     <state x="563" y="360" key="Vcs.Push.Dialog.v2/51.25.1869.1055/1920.-57.1680.1025@51.25.1869.1055" timestamp="1616257981682" />
     <state x="564" y="360" key="Vcs.Push.Dialog.v2/53.25.1867.1055/1920.-57.1680.1025@53.25.1867.1055" timestamp="1616084405651" />
-    <state x="565" y="360" key="Vcs.Push.Dialog.v2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1615973139795" />
+    <state x="565" y="360" key="Vcs.Push.Dialog.v2/54.25.1866.1055/1920.-57.1680.1025@54.25.1866.1055" timestamp="1616349752039" />
     <state x="400" y="328" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1615917416901">
       <screen x="53" y="25" width="1867" height="1055" />
     </state>

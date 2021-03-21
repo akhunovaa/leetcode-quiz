@@ -14,4 +14,8 @@ public class Question {
         https://t.me/tiktiktokrobot
         return;
     }
+
+    /*
+    В JAVA https: это является меткой и поэтому правильный ответ #1  а что идет дальше // является комментарием
+     */
 }
