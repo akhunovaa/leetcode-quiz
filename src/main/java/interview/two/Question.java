@@ -4,6 +4,9 @@ public class Question {
 
     /**
      * Что выведется на экран?
+     * #1 method has been executed!
+     * #2 method has been executed
+     * #3 method has been executed!
      */
     public static void main(String[] args) {
        byte byteVariable = 10;

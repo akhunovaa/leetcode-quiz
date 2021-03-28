@@ -4,6 +4,10 @@ public class Question {
 
     /**
      * Какие сравнения напечатают true?
+     * Что выведется на экран?
+     * #1 System.out.println(s1 == s4);
+     * #2 System.out.println(s1 == s2 + s3);
+     * #3 System.out.println(s1 == s2 + "-best");
      */
     public static void main(String[] args) {
         String s1 = "java-best";
@@ -16,7 +20,8 @@ public class Question {
         System.out.println(s1 == s2 + "-best");// #3
 
         /*
-        Правильный ответ  #1 и #3 так как s2 тут является final и java при конкатенации  создаст новую переменную с новой ссылкой
+        Правильный ответ  #1 и #3 так как s2 тут является final и java при конкатенации
+        создаст новую переменную с новой ссылкой
          */
     }
 }
