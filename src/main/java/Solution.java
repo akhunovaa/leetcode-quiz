@@ -1,4 +1,4 @@
-
+import list.ListNode;
 import other.Phone;
 
 import java.util.*;
@@ -36,7 +36,7 @@ public class Solution {
         return false;
     }
 
-//    public int singleNumber2(int[] nums) {
+    //    public int singleNumber2(int[] nums) {
 //        int result = 0;
 //        int[] count = new int[list.size() - 1];
 //        for (int i = 1; i <= n + 1; i++) {
@@ -481,4 +481,53 @@ public class Solution {
         System.out.println(myHashMap.size());
         System.out.println(myHashMap.get(null));
     }
+
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     * int val;
+     * ListNode next;
+     * ListNode() {}
+     * ListNode(int val) { this.val = val; }
+     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+     * }
+     */
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        /* a dummy first node to hang the result on */
+        ListNode dummyNode = new ListNode(0);
+
+        /* tail points to the last result node */
+        ListNode tail = dummyNode;
+
+        while (true) {
+
+            /* if either list runs out, use the other list */
+            if (list1 == null) {
+                tail.next = list2;
+                break;
+            }
+            if (list2 == null) {
+                tail.next = list1;
+                break;
+            }
+
+        /* Compare the data of the two
+        lists whichever lists' data is
+        smaller, append it into tail and
+        advance the head to the next Node
+        */
+            if (list1.val <= list2.val) {
+                tail.next = list1;
+                list1 = list1.next;
+            } else {
+                tail.next = list2;
+                list2 = list2.next;
+            }
+
+            /* Advance the tail */
+            tail = tail.next;
+        }
+        return dummyNode.next;
+    }
 }
+
