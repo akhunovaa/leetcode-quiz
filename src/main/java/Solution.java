@@ -529,5 +529,41 @@ public class Solution {
         }
         return dummyNode.next;
     }
+
+    //Time Complexity: O(N), where N is the length of nums.
+    //Space Complexity: O(1), where the space used by leftsum and S.
+    public int pivotIndex(int[] nums) {
+        int sum = 0;
+        int leftsum = 0;
+        for (int x : nums) {
+            sum += x;
+        }
+        for (int i = 0; i < nums.length; ++i) {
+            if (leftsum == sum - leftsum - nums[i]) {
+                return i;
+            }
+            leftsum += nums[i];
+        }
+        return -1;
+    }
+
+    public int pivotIndex2(int[] nums) {
+        if (nums == null || nums.length == 0)
+            return -1;
+        long sum = Arrays.stream(nums).sum();
+
+        long prefixSum = 0;
+        for (int i = 0; i < nums.length; i++) {
+
+            if (sum - prefixSum - nums[i] == prefixSum) {
+                return i;
+            }
+
+            prefixSum += nums[i];
+        }
+
+        return -1;
+    }
+
 }
 
