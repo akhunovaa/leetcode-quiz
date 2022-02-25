@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 
 public class Exam {
 
@@ -6,7 +7,7 @@ public class Exam {
 
         Solution solution = new Solution();
         //int[] nums = {3, 5, 7, 8, 4, 2, 1, 9, 6};
-        int[][] nums = {{1, 2}, {3, 4}};
+
         //int[] nums = {4, 2, 1, 5, 3};
         //int[] nums = {4, 1, 2, 4, 2};
 //
@@ -32,8 +33,14 @@ public class Exam {
 //        int answer = solution.reverse(123);
 //        boolean answer = solution.isPalindrome("adaa");
 //        System.out.println(answer);
-        int[] answer = solution.findDiagonalOrder(nums);
-        System.out.println("Answer is: " + Arrays.toString(answer));
+        int[][] nums = {
+                {1,2,3}, // 1,2,3
+                {4,5,6}, // 4,5,6
+                {7,8,9}  // 7,8,9
+        };
+        // [1, 2, 4, 7, 5, 3, 6, 8, 9]
+        List<Integer> answer = solution.spiralOrder(nums);
+        System.out.println("Answer is: " + answer);
     }
 
     private void run() {

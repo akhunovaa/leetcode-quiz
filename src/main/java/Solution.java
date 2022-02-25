@@ -706,5 +706,68 @@ In this solution, we don't have any additional space apart from a couple of vari
         return result;
     }
 
+    public List<Integer> spiralOrder(int[][] matrix) {
+
+        // Check for empty matrices
+        if (matrix == null || matrix.length == 0) {
+            return Collections.emptyList();
+        }
+
+        int rows = matrix.length; // row
+        int cols = matrix[0].length; // column
+
+        List<Integer> result = new ArrayList<>(rows * cols);
+        // Defining the boundaries of the matrix.
+        int top = 0, bottom = rows - 1, left = 0, right = cols - 1;
+
+        // Defining the direction in which the array is to be traversed.
+        int dir = 1;
+
+        while (top <= bottom && left <= right) {
+
+            if (dir == 1) {    // moving left->right
+                for (int i = left; i <= right; ++i) {
+                    System.out.print(matrix[top][i] + " ");
+                    result.add(matrix[top][i]);
+                }
+                // Since we have traversed the whole first
+                // row, move down to the next row.
+                ++top;
+                dir = 2;
+            }
+            else if (dir == 2) {     // moving top->bottom
+                for (int i = top; i <= bottom; ++i) {
+                    System.out.print(matrix[i][right]+ " ");
+                    result.add(matrix[i][right]);
+                }
+                // Since we have traversed the whole last
+                // column, move left to the previous column.
+                --right;
+                dir = 3;
+            }
+            else if (dir == 3) {     // moving right->left
+                for (int i = right; i >= left; --i) {
+                    System.out.print(matrix[bottom][i]+ " ");
+                    result.add(matrix[bottom][i]);
+                }
+                // Since we have traversed the whole last
+                // row, move up to the previous row.
+                --bottom;
+                dir = 4;
+            }
+            else {     // moving bottom->up
+                for (int i = bottom; i >= top; --i) {
+                    System.out.print(matrix[i][left]+ " ");
+                    result.add(matrix[i][left]);
+                }
+                // Since we have traversed the whole first
+                // col, move right to the next column.
+                ++left;
+                dir = 1;
+            }
+        }
+        return result;
+    }
+
 }
 
