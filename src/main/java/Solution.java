@@ -734,30 +734,27 @@ In this solution, we don't have any additional space apart from a couple of vari
                 // row, move down to the next row.
                 ++top;
                 dir = 2;
-            }
-            else if (dir == 2) {     // moving top->bottom
+            } else if (dir == 2) {     // moving top->bottom
                 for (int i = top; i <= bottom; ++i) {
-                    System.out.print(matrix[i][right]+ " ");
+                    System.out.print(matrix[i][right] + " ");
                     result.add(matrix[i][right]);
                 }
                 // Since we have traversed the whole last
                 // column, move left to the previous column.
                 --right;
                 dir = 3;
-            }
-            else if (dir == 3) {     // moving right->left
+            } else if (dir == 3) {     // moving right->left
                 for (int i = right; i >= left; --i) {
-                    System.out.print(matrix[bottom][i]+ " ");
+                    System.out.print(matrix[bottom][i] + " ");
                     result.add(matrix[bottom][i]);
                 }
                 // Since we have traversed the whole last
                 // row, move up to the previous row.
                 --bottom;
                 dir = 4;
-            }
-            else {     // moving bottom->up
+            } else {     // moving bottom->up
                 for (int i = bottom; i >= top; --i) {
-                    System.out.print(matrix[i][left]+ " ");
+                    System.out.print(matrix[i][left] + " ");
                     result.add(matrix[i][left]);
                 }
                 // Since we have traversed the whole first
@@ -767,6 +764,52 @@ In this solution, we don't have any additional space apart from a couple of vari
             }
         }
         return result;
+    }
+
+    public String addBinary2(String a, String b) {
+
+        int len1 = a.length();
+        int len2 = b.length();
+        int carry = 0;
+        StringBuilder res = new StringBuilder();
+        // the final length of the result depends on the bigger length between b1
+        // and b,
+        // (also the value of carry, if carry = 1, add "1" at the head of result,
+        // otherwise)
+        int maxLen = Math.max(len1, len2);
+        for (int i = 0; i < maxLen; i++) {
+            // start from last char of String b1 and b2
+            // notice that left side is an int and right side is char
+            // so we need to minus the decimal value of '0'
+            int p = i < len1 ? a.charAt(len1 - 1 - i) - '0' : 0;
+            int q = i < len2 ? b.charAt(len2 - 1 - i) - '0' : 0;
+            int tmp = p + q + carry;
+            carry = tmp / 2;
+            res.insert(0, tmp % 2);
+        }
+        return (carry == 0) ? res.toString() : "1" + res;
+    }
+
+    public String addBinary(String a, String b) {
+        StringBuilder sb = new StringBuilder();
+        int i = a.length() - 1;
+        int j = b.length() - 1;
+        int carry = 0;
+        while (i >= 0 || j >= 0) {
+            int sum = carry;
+            if (i >= 0) {
+                sum += a.charAt(i--) - '0';
+            }
+            if (j >= 0) {
+                sum += b.charAt(j--) - '0';
+            }
+            sb.append(sum % 2);
+            carry = sum / 2;
+        }
+        if (carry > 0) {
+            sb.append(carry);
+        }
+        return sb.reverse().toString();
     }
 
 }

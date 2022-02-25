@@ -39,7 +39,8 @@ public class Exam {
                 {7,8,9}  // 7,8,9
         };
         // [1, 2, 4, 7, 5, 3, 6, 8, 9]
-        List<Integer> answer = solution.spiralOrder(nums);
+        //List<Integer> answer = solution.spiralOrder(nums);
+        String answer = solution.addBinary("111", "1");
         System.out.println("Answer is: " + answer);
     }
 
