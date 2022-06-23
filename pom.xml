@@ -13,30 +13,31 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <properties>
-        <jme3_g>org.jmonkeyengine</jme3_g>
-        <jme3_v>3.3.2-stable</jme3_v>
+<!--        <jme3_g>org.jmonkeyengine</jme3_g>-->
+<!--        <jme3_v>3.3.2-stable</jme3_v>-->
     </properties>
 
-    <repositories>
-        <repository>
-            <id>jcenter</id>
-            <url>https://jcenter.bintray.com</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>jcenter</id>-->
+<!--            <url>https://jcenter.bintray.com</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
     <dependencies>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
 
@@ -104,22 +105,22 @@
         <!--            </exclusions>-->
         <!--        </dependency>-->
 
-        <dependency>
-            <groupId>${jme3_g}</groupId>
-            <artifactId>jme3-core</artifactId>
-            <version>${jme3_v}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>${jme3_g}</groupId>-->
+<!--            <artifactId>jme3-core</artifactId>-->
+<!--            <version>${jme3_v}</version>-->
+<!--        </dependency>-->
 <!--                <dependency>-->
 <!--                    <groupId>${jme3_g}</groupId>-->
 <!--                    <artifactId>jme3-desktop</artifactId>-->
 <!--                    <version>${jme3_v}</version>-->
 <!--                    <scope>runtime</scope>-->
 <!--                </dependency>-->
-                <dependency>
-                    <groupId>${jme3_g}</groupId>
-                    <artifactId>jme3-lwjgl</artifactId>
-                    <version>${jme3_v}</version>
-                </dependency>
+<!--                <dependency>-->
+<!--                    <groupId>${jme3_g}</groupId>-->
+<!--                    <artifactId>jme3-lwjgl</artifactId>-->
+<!--                    <version>${jme3_v}</version>-->
+<!--                </dependency>-->
         <!--        <dependency>-->
         <!--            <groupId>${jme3_g}</groupId>-->
         <!--            <artifactId>jme3-terrain</artifactId>-->
@@ -137,51 +138,51 @@
         <!--            <type>pom</type>-->
         <!--        </dependency>-->
 
-        <dependency>
-            <groupId>${jme3_g}</groupId>
-            <artifactId>jme3-effects</artifactId>
-            <version>${jme3_v}</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/distr/jme3-effects.jar</systemPath>
-        </dependency>
-
-        <dependency>
-            <groupId>${jme3_g}</groupId>
-            <artifactId>jme3-testdata</artifactId>
-            <version>${jme3_v}</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/distr/jme3-testdata.jar</systemPath>
-        </dependency>
-
-        <dependency>
-            <groupId>${jme3_g}</groupId>
-            <artifactId>jme3-terrain</artifactId>
-            <version>${jme3_v}</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/distr/jme3-terrain.jar</systemPath>
-        </dependency>
-
-        <dependency>
-            <groupId>${jme3_g}</groupId>
-            <artifactId>jme3-desktop</artifactId>
-            <version>${jme3_v}</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/distr/jme3-desktop.jar</systemPath>
-        </dependency>
-
-        <dependency>
-            <groupId>org.jmonkeyengine</groupId>
-            <artifactId>jme3-jbullet</artifactId>
-            <version>3.3.2-stable</version>
+<!--        <dependency>-->
+<!--            <groupId>${jme3_g}</groupId>-->
+<!--            <artifactId>jme3-effects</artifactId>-->
+<!--            <version>${jme3_v}</version>-->
 <!--            <scope>system</scope>-->
-<!--            <systemPath>${project.basedir}/distr/jme3-bullet.jar</systemPath>-->
-        </dependency>
+<!--            <systemPath>${project.basedir}/distr/jme3-effects.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.bubblecloud.jbullet</groupId>
-            <artifactId>jbullet</artifactId>
-            <version>2.72.2.5-SNAPSHOT</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>${jme3_g}</groupId>-->
+<!--            <artifactId>jme3-testdata</artifactId>-->
+<!--            <version>${jme3_v}</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${project.basedir}/distr/jme3-testdata.jar</systemPath>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>${jme3_g}</groupId>-->
+<!--            <artifactId>jme3-terrain</artifactId>-->
+<!--            <version>${jme3_v}</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${project.basedir}/distr/jme3-terrain.jar</systemPath>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>${jme3_g}</groupId>-->
+<!--            <artifactId>jme3-desktop</artifactId>-->
+<!--            <version>${jme3_v}</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${project.basedir}/distr/jme3-desktop.jar</systemPath>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.jmonkeyengine</groupId>-->
+<!--            <artifactId>jme3-jbullet</artifactId>-->
+<!--            <version>3.3.2-stable</version>-->
+<!--&lt;!&ndash;            <scope>system</scope>&ndash;&gt;-->
+<!--&lt;!&ndash;            <systemPath>${project.basedir}/distr/jme3-bullet.jar</systemPath>&ndash;&gt;-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.bubblecloud.jbullet</groupId>-->
+<!--            <artifactId>jbullet</artifactId>-->
+<!--            <version>2.72.2.5-SNAPSHOT</version>-->
+<!--        </dependency>-->
 
 <!--        <dependency>-->
 <!--            <groupId>org.jmonkeyengine</groupId>-->
@@ -197,43 +198,43 @@
 <!--&lt;!&ndash;            <systemPath>${project.basedir}/distr/jme3-bullet-native.jar</systemPath>&ndash;&gt;-->
 <!--        </dependency>-->
 
-        <dependency>
-            <groupId>com.jme3</groupId>
-            <artifactId>jme3-lwjgl</artifactId>
-            <version>3.2.3</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/distr/jme3-lwjgl.jar</systemPath>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.jme3</groupId>-->
+<!--            <artifactId>jme3-lwjgl</artifactId>-->
+<!--            <version>3.2.3</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${project.basedir}/distr/jme3-lwjgl.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl</artifactId>
-            <version>3.2.3</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.lwjgl</groupId>-->
+<!--            <artifactId>lwjgl</artifactId>-->
+<!--            <version>3.2.3</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.lwjgl</groupId>
-            <artifactId>lwjgl-glfw</artifactId>
-            <version>3.2.3</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.lwjgl</groupId>-->
+<!--            <artifactId>lwjgl-glfw</artifactId>-->
+<!--            <version>3.2.3</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib</artifactId>
-            <version>3.3.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>cglib</groupId>-->
+<!--            <artifactId>cglib</artifactId>-->
+<!--            <version>3.3.0</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>javax.vecmath</groupId>
-            <artifactId>vecmath</artifactId>
-            <version>1.5.2</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>javax.vecmath</groupId>-->
+<!--            <artifactId>vecmath</artifactId>-->
+<!--            <version>1.5.2</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>com.github.stephengold</groupId>
-            <artifactId>SkyControl</artifactId>
-            <version>0.9.30</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.github.stephengold</groupId>-->
+<!--            <artifactId>SkyControl</artifactId>-->
+<!--            <version>0.9.30</version>-->
+<!--        </dependency>-->
 
     </dependencies>
 

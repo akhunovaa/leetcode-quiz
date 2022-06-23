@@ -1,4 +1,4 @@
-
+import list.ListNode;
 import other.Phone;
 
 import java.util.*;
@@ -36,7 +36,7 @@ public class Solution {
         return false;
     }
 
-//    public int singleNumber2(int[] nums) {
+    //    public int singleNumber2(int[] nums) {
 //        int result = 0;
 //        int[] count = new int[list.size() - 1];
 //        for (int i = 1; i <= n + 1; i++) {
@@ -481,4 +481,336 @@ public class Solution {
         System.out.println(myHashMap.size());
         System.out.println(myHashMap.get(null));
     }
+
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     * int val;
+     * ListNode next;
+     * ListNode() {}
+     * ListNode(int val) { this.val = val; }
+     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+     * }
+     */
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        /* a dummy first node to hang the result on */
+        ListNode dummyNode = new ListNode(0);
+
+        /* tail points to the last result node */
+        ListNode tail = dummyNode;
+
+        while (true) {
+
+            /* if either list runs out, use the other list */
+            if (list1 == null) {
+                tail.next = list2;
+                break;
+            }
+            if (list2 == null) {
+                tail.next = list1;
+                break;
+            }
+
+        /* Compare the data of the two
+        lists whichever lists' data is
+        smaller, append it into tail and
+        advance the head to the next Node
+        */
+            if (list1.val <= list2.val) {
+                tail.next = list1;
+                list1 = list1.next;
+            } else {
+                tail.next = list2;
+                list2 = list2.next;
+            }
+
+            /* Advance the tail */
+            tail = tail.next;
+        }
+        return dummyNode.next;
+    }
+
+    //Time Complexity: O(N), where N is the length of nums.
+    //Space Complexity: O(1), where the space used by leftsum and S.
+    public int pivotIndex(int[] nums) {
+        int sum = 0;
+        int leftsum = 0;
+        for (int x : nums) {
+            sum += x;
+        }
+        for (int i = 0; i < nums.length; ++i) {
+            if (leftsum == sum - leftsum - nums[i]) {
+                return i;
+            }
+            leftsum += nums[i];
+        }
+        return -1;
+    }
+
+    public int pivotIndex2(int[] nums) {
+        if (nums == null || nums.length == 0)
+            return -1;
+        long sum = Arrays.stream(nums).sum();
+
+        long prefixSum = 0;
+        for (int i = 0; i < nums.length; i++) {
+
+            if (sum - prefixSum - nums[i] == prefixSum) {
+                return i;
+            }
+
+            prefixSum += nums[i];
+        }
+
+        return -1;
+    }
+
+
+    // `x != m` with `m < 2*x`,
+    public int dominantIndex(int[] nums) {
+        int largest = 0;
+        int maxIndex = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            int num = nums[i];
+            if (largest <= num) {
+                largest = num;
+                maxIndex = i;
+            }
+        }
+        for (int i : nums) {
+            if (largest != i && largest < i << 1) {
+                return -1;
+            }
+        }
+
+        return maxIndex;
+    }
+
+    /*
+    From end to start,
+if the number[index] != 9, we plus one directly then quit the loop.
+if the number[index] == 9, we set it to 0, and continue the loop until we encounter the number don't equals to 9.
+After the loop, if number[0] == 0, it means that we need a bigger array to represent the number.
+so we create a new array rst, and set rst[0] to 1.
+/*
+Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.
+You may assume the integer do not contain any leading zero, except the number 0 itself.
+The digits are stored such that the most significant digit is at the head of the list.
+The description of this question is poor.
+You can look the explianation here for better understanding:
+suppose you have a number in your list/array such that adding 1 would make it a two digit number,
+eg: [9]
+output: [1,0]
+Plusone(9) would be [10], but the expected output should be [1,0] such that the most significant digit is on the head
+*/
+
+    public int[] plusOne(int[] digits) {
+        for (int i = digits.length - 1; i >= 0; i--) {
+            if (digits[i] != 9) {
+                digits[i]++;
+                break;
+            } else {
+                digits[i] = 0;
+            }
+        }
+        if (digits[0] == 0) {
+            int[] rst = new int[digits.length + 1];
+            rst[0] = 1;
+            return rst;
+        }
+        return digits;
+    }
+
+    /*
+    Time Complexity: O(NM) since we process each element of the matrix exactly once.
+Space Complexity: O(1) since we don't make use of any additional data structure.
+Note that the space occupied by the output array doesn't count towards the space complexity since that is a requirement of the problem itself.
+Space complexity comprises any additional space that we may have used to get to build the final array. For the previous solution,
+it was the intermediate arrays.
+In this solution, we don't have any additional space apart from a couple of variables.
+      */
+    public int[] findDiagonalOrder(int[][] matrix) {
+
+        // Check for empty matrices
+        if (matrix == null || matrix.length == 0) {
+            return new int[0];
+        }
+
+        // Variables to track the size of the matrix
+        int N = matrix.length;
+        int M = matrix[0].length;
+
+        // Incides that will help us progress through
+        // the matrix, one element at a time.
+        int row = 0, column = 0;
+
+        // As explained in the article, this is the variable
+        // that helps us keep track of what direction we are
+        // processing the current diaonal
+        int direction = 1;
+
+        // The final result array
+        int[] result = new int[N * M];
+        int r = 0;
+
+        // The uber while loop which will help us iterate over all
+        // the elements in the array.
+        while (row < N && column < M) {
+
+            // First and foremost, add the current element to
+            // the result matrix.
+            result[r++] = matrix[row][column];
+
+            // Move along in the current diagonal depending upon
+            // the current direction.[i, j] -> [i - 1, j + 1] if
+            // going up and [i, j] -> [i + 1][j - 1] if going down.
+            int new_row = row + (direction == 1 ? -1 : 1);
+            int new_column = column + (direction == 1 ? 1 : -1);
+
+            // Checking if the next element in the diagonal is within the
+            // bounds of the matrix or not. If it's not within the bounds,
+            // we have to find the next head.
+            if (new_row < 0 || new_row == N || new_column < 0 || new_column == M) {
+
+                // If the current diagonal was going in the upwards
+                // direction.
+                if (direction == 1) {
+
+                    // For an upwards going diagonal having [i, j] as its tail
+                    // If [i, j + 1] is within bounds, then it becomes
+                    // the next head. Otherwise, the element directly below
+                    // i.e. the element [i + 1, j] becomes the next head
+                    row += (column == M - 1 ? 1 : 0);
+                    column += (column < M - 1 ? 1 : 0);
+
+                } else {
+
+                    // For a downwards going diagonal having [i, j] as its tail
+                    // if [i + 1, j] is within bounds, then it becomes
+                    // the next head. Otherwise, the element directly below
+                    // i.e. the element [i, j + 1] becomes the next head
+                    column += (row == N - 1 ? 1 : 0);
+                    row += (row < N - 1 ? 1 : 0);
+                }
+
+                // Flip the direction
+                direction = 1 - direction;
+
+            } else {
+
+                row = new_row;
+                column = new_column;
+            }
+        }
+        return result;
+    }
+
+    public List<Integer> spiralOrder(int[][] matrix) {
+
+        // Check for empty matrices
+        if (matrix == null || matrix.length == 0) {
+            return Collections.emptyList();
+        }
+
+        int rows = matrix.length; // row
+        int cols = matrix[0].length; // column
+
+        List<Integer> result = new ArrayList<>(rows * cols);
+        // Defining the boundaries of the matrix.
+        int top = 0, bottom = rows - 1, left = 0, right = cols - 1;
+
+        // Defining the direction in which the array is to be traversed.
+        int dir = 1;
+
+        while (top <= bottom && left <= right) {
+
+            if (dir == 1) {    // moving left->right
+                for (int i = left; i <= right; ++i) {
+                    System.out.print(matrix[top][i] + " ");
+                    result.add(matrix[top][i]);
+                }
+                // Since we have traversed the whole first
+                // row, move down to the next row.
+                ++top;
+                dir = 2;
+            } else if (dir == 2) {     // moving top->bottom
+                for (int i = top; i <= bottom; ++i) {
+                    System.out.print(matrix[i][right] + " ");
+                    result.add(matrix[i][right]);
+                }
+                // Since we have traversed the whole last
+                // column, move left to the previous column.
+                --right;
+                dir = 3;
+            } else if (dir == 3) {     // moving right->left
+                for (int i = right; i >= left; --i) {
+                    System.out.print(matrix[bottom][i] + " ");
+                    result.add(matrix[bottom][i]);
+                }
+                // Since we have traversed the whole last
+                // row, move up to the previous row.
+                --bottom;
+                dir = 4;
+            } else {     // moving bottom->up
+                for (int i = bottom; i >= top; --i) {
+                    System.out.print(matrix[i][left] + " ");
+                    result.add(matrix[i][left]);
+                }
+                // Since we have traversed the whole first
+                // col, move right to the next column.
+                ++left;
+                dir = 1;
+            }
+        }
+        return result;
+    }
+
+    public String addBinary2(String a, String b) {
+
+        int len1 = a.length();
+        int len2 = b.length();
+        int carry = 0;
+        StringBuilder res = new StringBuilder();
+        // the final length of the result depends on the bigger length between b1
+        // and b,
+        // (also the value of carry, if carry = 1, add "1" at the head of result,
+        // otherwise)
+        int maxLen = Math.max(len1, len2);
+        for (int i = 0; i < maxLen; i++) {
+            // start from last char of String b1 and b2
+            // notice that left side is an int and right side is char
+            // so we need to minus the decimal value of '0'
+            int p = i < len1 ? a.charAt(len1 - 1 - i) - '0' : 0;
+            int q = i < len2 ? b.charAt(len2 - 1 - i) - '0' : 0;
+            int tmp = p + q + carry;
+            carry = tmp / 2;
+            res.insert(0, tmp % 2);
+        }
+        return (carry == 0) ? res.toString() : "1" + res;
+    }
+
+    public String addBinary(String a, String b) {
+        StringBuilder sb = new StringBuilder();
+        int i = a.length() - 1;
+        int j = b.length() - 1;
+        int carry = 0;
+        while (i >= 0 || j >= 0) {
+            int sum = carry;
+            if (i >= 0) {
+                sum += a.charAt(i--) - '0';
+            }
+            if (j >= 0) {
+                sum += b.charAt(j--) - '0';
+            }
+            sb.append(sum % 2);
+            carry = sum / 2;
+        }
+        if (carry > 0) {
+            sb.append(carry);
+        }
+        return sb.reverse().toString();
+    }
+
 }
+
