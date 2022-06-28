@@ -2,7 +2,7 @@ package stack;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
-public class BlockingQueueSample {
+public class   BlockingQueueSample {
 
     public static void main(String[] args) {
 
