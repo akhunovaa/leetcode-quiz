@@ -6,6 +6,7 @@ public class ArrayDequeSample {
 
     public static void main(String[] args) {
 
+
         ArrayDeque<String> states = new ArrayDeque<>();
         // стандартное добавление элементов
         states.add("Russia");
