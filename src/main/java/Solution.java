@@ -223,53 +223,43 @@ public class Solution {
 
     /**
      * В худшем случае рекурсивный вызов дойдет до самой вершины пирамиды
-     * прыжками к родителям каждого узла в отношении i/2. Всего потребуется log
-     * n прыжков до вершины, значит, сложность равна O(log n). Это ещё не всё! В
-     * связи с циклами for, которые итерируют весь массив, сложность heapSort()
-     * равна O(n). Это дает нам суммарную сложность пирамидальной сортировки
-     * O(nlog n).
+     * прыжками к родителям каждого узла в отношении i/2. Всего потребуется log n прыжков
+     * до вершины, значит, сложность равна O(log n). Это ещё не всё!
+     * В связи с циклами for, которые итерируют весь массив, сложность heapSort() равна O(n).
+     * Это дает нам суммарную сложность пирамидальной сортировки O(nlog n).
      */
-    // сложность O(nlog n)
+    // Heap sort | Пирамидальная сортировка |
+    // Сложность алгоритма: O(nlog n) КВАЗИ-ЛИНЕЙНАЯ
     public int[] heapSort(int[] array) {
         if (array.length == 0) {
             return array;
         }
-
-        // Строим кучу
         int length = array.length;
         // проходим от первого без ответвлений к корню
         for (int i = length / 2 - 1; i >= 0; i--) {
             heapify(array, length, i);
         }
-
         for (int i = length - 1; i >= 0; i--) {
             int temp = array[0];
             array[0] = array[i];
             array[i] = temp;
-
             heapify(array, i, 0);
         }
         return array;
     }
 
-    // Быстрая сортировка
-    // Quick Sort
-    // O(n^2)
     public void heapify(int[] array, int length, int i) {
         int leftChild = 2 * i + 1;
         int rightChild = 2 * i + 2;
         int largest = i;
-
         // если левый дочерний больше родительского
         if (leftChild < length && array[leftChild] > array[largest]) {
             largest = leftChild;
         }
-
         // если правый дочерний больше родительского
         if (rightChild < length && array[rightChild] > array[largest]) {
             largest = rightChild;
         }
-
         // если должна произойти замена
         if (largest != i) {
             array[largest] = array[largest] ^ array[i];

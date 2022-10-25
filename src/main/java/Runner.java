@@ -14,7 +14,7 @@ public class Runner {
         Vector<Class> classes =  (Vector<Class>) f.get(classLoader);
         System.out.println(classes);
         Solution solituion = new Solution();
-        int[] answer = solituion.mergeSort(new int[]{}, 1, 3);
+        int[] answer = solituion.heapSort(new int[]{});
     }
 
     public void printClassLoaders() throws ClassNotFoundException {
