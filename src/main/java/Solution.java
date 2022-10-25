@@ -184,11 +184,9 @@ public class Solution {
         // вычисляем длину
         int lengthLeft = mid - left + 1;
         int lengthRight = right - mid;
-
         // создаем временные подмассивы
         int[] leftArray = new int[lengthLeft];
         int[] rightArray = new int[lengthRight];
-
         // копируем отсортированные массивы во временные
         // System.arraycopy(array, left, leftArray, 0, lengthLeft);
         for (int i = 0; i < lengthLeft; i++) {
@@ -197,11 +195,9 @@ public class Solution {
         for (int i = 0; i < lengthRight; i++) {
             rightArray[i] = array[mid + i + 1];
         }
-
         // итераторы содержат текущий индекс временного подмассива
         int leftIndex = 0;
         int rightIndex = 0;
-
         // копируем из leftArray и rightArray обратно в массив
         for (int i = left; i < right + 1; i++) {
             // если остаются нескопированные элементы в R и L, копируем минимальный
