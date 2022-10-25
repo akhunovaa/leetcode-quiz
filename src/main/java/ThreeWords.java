@@ -11,7 +11,7 @@ public class ThreeWords {
 
     private static final String commandsLine = "You need to write down the true translation of these words:" + "\n Write the translation of - Dubious\n";
 
-    public static void main(String[] args) throws InterruptedException {
+    public static final void main(String[] args) throws InterruptedException {
         // main loop
         while (!needQuit) {
             getCommand();

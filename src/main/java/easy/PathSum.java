@@ -1,5 +1,10 @@
 package easy;
 
+import enumm.ClassD;
+import enumm.ClassF;
+
+import java.util.*;
+
 /*
     Input: root = [1,2,3], targetSum = 5
     Output: false
@@ -13,8 +18,110 @@ package easy;
  */
 public class PathSum {
 
-    public static void main(String[] args) {
+    public static final void main(String[] args) {
+        PathSum pathSum = new PathSum();
 
+        ClassD classF = new ClassF();
+        ((ClassF)classF).main(new String[] {});
+//
+//       int a = 5;
+//       int b = 5;
+//
+//        System.out.println(a == b);
+//
+//        Integer c = 10;
+//        Integer d = 10;
+//
+//        System.out.println(c == d);
+//
+//        Integer x = 128;
+//        Integer y = 128;
+//
+//        System.out.println(x == y);
+
+//
+//        // starting time
+//        start = System.currentTimeMillis();
+//
+//        runLinkedList();
+//
+//        // ending time
+//        end = System.currentTimeMillis();
+//
+//        System.out.println("Counting runLinkedList to 10000000 takes " + (end - start) + "ms");
+//
+//        PathSum pathSum = new PathSum();
+//        Thread first = new Thread(() -> {
+//            // starting time
+//            long start = System.currentTimeMillis();
+//
+//            pathSum.runArrayList();
+//
+//            // ending time
+//            long end = System.currentTimeMillis();
+//
+//            System.out.println("Counting runArrayList to 10000000 takes " + (end - start) + "ms");
+//        });
+//
+//        Thread second = new Thread(() -> {
+//            // starting time
+//            long start = System.currentTimeMillis();
+//
+//            pathSum.runLinkedList();
+//
+//            // ending time
+//            long end = System.currentTimeMillis();
+//
+//            System.out.println("Counting runLinkedList to 10000000 takes " + (end - start) + "ms");
+//        });
+//        second.start();
+//        first.start();
+
+//        Set<Number> set = new TreeSet<>(Comparator.comparingInt(Number::intValue));
+//
+//        set.add(5);
+//        set.add(5L);
+//        set.add(5.0);
+//        set.add(6.0);
+//
+//        System.out.println(set.size());
+
+//        byte a = 5;
+//        byte b = 6;
+//
+//        pathSum.foo(a, b);
+        Artist artist = new RockStar();
+        artist.sing();
+//        artist.dance();
+
+    }
+
+    public void foo(Byte a, Byte b) {
+        System.out.println("Byte Byte");
+    }
+    public void foo(long a, short b) {
+        System.out.println("long short");
+    }
+
+
+
+    public void foo(byte... args) {
+        System.out.println("byte... args");
+    }
+
+
+    private void runArrayList() {
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < 10000000; i++) {
+           list.add(i);
+        }
+    }
+
+    private void runLinkedList() {
+        List<Integer> list = new LinkedList<>();
+        for (int i = 0; i < 10000000; i++) {
+           list.add(i);
+        }
     }
 
     public static boolean hasPathSum(TreeNode root, int sum) {
