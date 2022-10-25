@@ -6,25 +6,6 @@ import java.util.stream.Stream;
 
 public class Solution {
 
-    static int partition(int[] array, int begin, int end) {
-        int pivot = end;
-
-        int counter = begin;
-        for (int i = begin; i < end; i++) {
-            if (array[i] < array[pivot]) {
-                int temp = array[counter];
-                array[counter] = array[i];
-                array[i] = temp;
-                counter++;
-            }
-        }
-        int temp = array[pivot];
-        array[pivot] = array[counter];
-        array[counter] = temp;
-
-        return counter;
-    }
-
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> hashset = new HashSet<>(nums.length);
         for (int key : nums) {
@@ -304,7 +285,7 @@ public class Solution {
 
     /**
      * На фоне алгоритмов сортировки со сложностью O(nlog n), выглядит не очень
-     * :( На практике быстрая сортировка применяется широко. Судите сами: у
+     * На практике быстрая сортировка применяется широко. Судите сами: у
      * алгоритма очень хорошее среднее время запуска, также равное O(nlog n), он
      * эффективен для больших потоков ввода. И на этом преимущества не
      * заканчиваются! Алгоритм не занимает дополнительного пространства, вся
@@ -321,6 +302,25 @@ public class Solution {
         quickSort(array, pivot + 1, end);
         return array;
     }
+    static int partition(int[] array, int begin, int end) {
+        int pivot = end;
+
+        int counter = begin;
+        for (int i = begin; i < end; i++) {
+            if (array[i] < array[pivot]) {
+                int temp = array[counter];
+                array[counter] = array[i];
+                array[i] = temp;
+                counter++;
+            }
+        }
+        int temp = array[pivot];
+        array[pivot] = array[counter];
+        array[counter] = temp;
+
+        return counter;
+    }
+
 
     /*
      * Template for using hash map to find duplicates.
