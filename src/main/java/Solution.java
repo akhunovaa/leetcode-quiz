@@ -167,7 +167,8 @@ public class Solution {
         return array;
     }
 
-    //O(nlog n)
+    // Merge sort | Сортировка слиянием |
+    // Сложность алгоритма: O(nlog n) КВАЗИ-ЛИНЕЙНАЯ
     public int[] mergeSort(int[] array, int left, int right) {
         if (right <= left) {
             return array;
@@ -179,8 +180,6 @@ public class Solution {
         return array;
     }
 
-    //Пирамидальная сортировка
-    //Heap Sort
     void merge(int[] array, int left, int mid, int right) {
         // вычисляем длину
         int lengthLeft = mid - left + 1;
@@ -191,6 +190,7 @@ public class Solution {
         int[] rightArray = new int[lengthRight];
 
         // копируем отсортированные массивы во временные
+        // System.arraycopy(array, left, leftArray, 0, lengthLeft);
         for (int i = 0; i < lengthLeft; i++) {
             leftArray[i] = array[left + i];
         }
