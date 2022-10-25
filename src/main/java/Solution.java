@@ -145,9 +145,9 @@ public class Solution {
         return array;
     }
 
-    // Selection Sort
-    // Сортировка выбором
-    public int[] insertionSort(int[] array) {
+    // | Selection Sort | Сортировка выбором |
+    // Сложность алгоритма: O(n2) КВАДРАТИЧНАЯ
+    public int[] selectionSort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             //берем [i + 1] элемент из массива
             int current = array[i];
@@ -169,7 +169,7 @@ public class Solution {
     //Сортировка слиянием
     //Merge Sort
     // O(n ^ 2) наихудший случай
-    public int[] selectionSort(int[] array) {
+    public int[] mergeSort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int min = array[i];
             int minId = i;
