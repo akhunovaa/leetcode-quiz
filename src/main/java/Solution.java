@@ -302,6 +302,7 @@ public class Solution {
         quickSort(array, pivot + 1, end);
         return array;
     }
+
     static int partition(int[] array, int begin, int end) {
         int pivot = end;
 
