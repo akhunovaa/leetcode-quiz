@@ -13,6 +13,8 @@ public class Runner {
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
         Vector<Class> classes =  (Vector<Class>) f.get(classLoader);
         System.out.println(classes);
+        Solution solituion = new Solution();
+        int[] answer = solituion.selectionSort(new int[]{});
     }
 
     public void printClassLoaders() throws ClassNotFoundException {

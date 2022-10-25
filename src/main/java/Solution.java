@@ -147,7 +147,7 @@ public class Solution {
 
     // | Selection Sort | Сортировка выбором |
     // Сложность алгоритма: O(n2) КВАДРАТИЧНАЯ
-    public int[] selectionSort(int[] array) {
+    public int[] selection33Sort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             // берем [i + 1] элемент из массива
             int current = array[i];
@@ -166,10 +166,9 @@ public class Solution {
         return array;
     }
 
-    //Сортировка слиянием
-    //Merge Sort
-    // O(n ^ 2) наихудший случай
-    public int[] mergeSort(int[] array) {
+    // | Selection Sort | Сортировка выбором |
+    // Сложность алгоритма: O(n2) КВАДРАТИЧНАЯ
+    public int[] selectionSort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int min = array[i];
             int minId = i;
