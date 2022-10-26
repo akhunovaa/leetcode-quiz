@@ -19,10 +19,10 @@ import java.util.*;
 public class PathSum {
 
     public static final void main(String[] args) {
-        PathSum pathSum = new PathSum();
 
-        ClassD classF = new ClassF();
-        ((ClassF)classF).main(new String[] {});
+        ClassD classX = new ClassF();
+        ((ClassF)classX).main(new String[] {});
+        classX.main(new String[] {});
 //
 //       int a = 5;
 //       int b = 5;
@@ -90,8 +90,8 @@ public class PathSum {
 //        byte b = 6;
 //
 //        pathSum.foo(a, b);
-        Artist artist = new RockStar();
-        artist.sing();
+//        Artist artist = new RockStar();
+//        artist.sing();
 //        artist.dance();
 
     }

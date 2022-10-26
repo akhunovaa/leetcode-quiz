@@ -6,6 +6,25 @@ import java.util.stream.Stream;
 
 public class Solution {
 
+    static int partition(int[] array, int begin, int end) {
+        int pivot = end;
+
+        int counter = begin;
+        for (int i = begin; i < end; i++) {
+            if (array[i] < array[pivot]) {
+                int temp = array[counter];
+                array[counter] = array[i];
+                array[i] = temp;
+                counter++;
+            }
+        }
+        int temp = array[pivot];
+        array[pivot] = array[counter];
+        array[counter] = temp;
+
+        return counter;
+    }
+
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> hashset = new HashSet<>(nums.length);
         for (int key : nums) {
@@ -17,19 +36,12 @@ public class Solution {
         return false;
     }
 
-    //    public int singleNumber2(int[] nums) {
-//        int result = 0;
-//        int[] count = new int[list.size() - 1];
-//        for (int i = 1; i <= n + 1; i++) {
-//            result ^= i;
-//        }
-//
-//        for (int i : nums) {
-//            result ^= i;
-//        }
-//
-//        return result;
-//    }
+    /*
+     1 ^ 0 = 1
+     1 ^ 1 = 0
+     0 ^ 0 = 0
+     0 ^ 1 = 1
+     */
     public int singleNumber(int[] nums) {
         int a = 0;
         for (int i : nums) {
@@ -288,25 +300,6 @@ public class Solution {
         quickSort(array, begin, pivot - 1);
         quickSort(array, pivot + 1, end);
         return array;
-    }
-
-    static int partition(int[] array, int begin, int end) {
-        int pivot = end;
-
-        int counter = begin;
-        for (int i = begin; i < end; i++) {
-            if (array[i] < array[pivot]) {
-                int temp = array[counter];
-                array[counter] = array[i];
-                array[i] = temp;
-                counter++;
-            }
-        }
-        int temp = array[pivot];
-        array[pivot] = array[counter];
-        array[counter] = temp;
-
-        return counter;
     }
 
 
@@ -798,6 +791,29 @@ In this solution, we don't have any additional space apart from a couple of vari
         }
         return sb.reverse().toString();
     }
+
+    public ArrayList<Integer> findDuplicate(int[] input) {
+        System.out.println(Arrays.toString(input));
+        ArrayList<Integer> arr = new ArrayList<>();
+        for (int i = 0; i < input.length - 1; i++) {
+            int x = input[i];
+            int y = input[i + 1];
+            x = x ^ 0;
+            x = x ^ x;
+            x = x ^ y;
+        }
+
+        int offset = 1;
+        int a = 0;
+        for (int i = 0; i < input.length; i++) {
+            a = a ^ (input[i] + offset) ^ i;
+        }
+
+        System.out.println(a);
+        System.out.println(Arrays.toString(input));
+        return arr;
+    }
+
 
 }
 
