@@ -815,5 +815,13 @@ In this solution, we don't have any additional space apart from a couple of vari
     }
 
 
+    public int doMethod() {
+        int num1 = 2, num2 = 10;   //declaring values
+        // bitwise XOR
+        // 00000011 ^ 00000100 = 00000111 = 7
+        int ans = num1 ^ num2;
+        System.out.println("num1 XOR num2 = " + (ans));
+        return ans;
+    }
 }
 
