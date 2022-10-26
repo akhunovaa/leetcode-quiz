@@ -21,7 +21,7 @@ public class Runner {
 //        doRecursiveMethod();
 //        Runner runner = new Runner();
 //        runner.doRecursiveVirtualMethod();
-        int  answer = solituion.singleNumber(new int[]{4, 1, 2, 1, 2});
+        int  answer = solituion.singleNumber(new int[]{1, 1, 2, 2, 5, 7, 7, 9, 9});
         System.out.println(answer);
 
     }
