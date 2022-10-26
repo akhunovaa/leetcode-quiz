@@ -30,7 +30,7 @@ public class TwoSum {
     Time complexity : O(n)
     Space complexity : O(n)
     */
-    public static int[] twoSum(int[] nums, int target) { // nums = {2, 11, 7, 15} target = 9
+    public static int[] twoSum3(int[] nums, int target) { // nums = {2, 11, 7, 15} target = 9
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i); // {2=0, 11=1, 7=2, 15=3} // добавление в HashMap не упорядочен
@@ -48,7 +48,7 @@ public class TwoSum {
     Time complexity : O(n)
     Space complexity : O(n)
     */
-    public int[] twoSum3(int[] nums, int target) { // nums = {2, 11, 7, 15} target = 9
+    public static int[] twoSum(int[] nums, int target) { // nums = {2, 11, 7, 15} target = 9
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i]; // 9 - 2
