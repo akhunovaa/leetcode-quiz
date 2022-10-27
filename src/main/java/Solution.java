@@ -900,5 +900,44 @@ In this solution, we don't have any additional space apart from a couple of vari
         }
         return num;
     }
+
+    public int searchInsert(int[] nums, int target) { //target = 60
+        int numsSize = nums.length; // 100
+        int mid =  numsSize / 2; // 50
+        int right = numsSize - 1; // 99
+        int idx = 0;
+        while (idx <= right) {
+
+            if (nums[mid] == target) {
+                return mid;
+            }
+
+
+
+            if (target > nums[mid]) {
+                if (nums.length == 1) {
+                    return idx + 1;
+                }
+                mid =+ numsSize - mid / 2;
+            }
+
+            if (target < nums[mid]) {
+                mid /= 2;
+            }
+
+            if (between(target, nums[Math.max(idx - 1, idx)], nums[Math.min(idx + 1, right)] )) {
+                return idx;
+            } else if (target <= nums[idx]) {
+                return idx;
+            }
+
+            idx++;
+        }
+        return idx;
+    }
+
+    public static boolean between(int i, int minValueInclusive, int maxValueInclusive) {
+        return (i >= minValueInclusive && i <= maxValueInclusive);
+    }
 }
 

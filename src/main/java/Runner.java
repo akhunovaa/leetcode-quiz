@@ -1,3 +1,6 @@
+import interview.matrix.Matrix;
+import interview.matrix.Matrix4f;
+
 import java.util.ArrayList;
 
 public class Runner {
@@ -17,8 +20,10 @@ public class Runner {
         // 987654321
         // 498828660196
         // 840477629533
-        String answer = solituion.multiplyMethodTwo("498828660196", "840477629533");
-        System.out.println(answer);
+        // int answer = solituion.searchInsert(new int[]{0, 1, 2, 3, 4, 5, 7, 8, 9}, 6);
+        // int answer = solituion.searchInsert(new int[]{1, 3, 5, 6}, 0);
+//        int answer = solituion.searchInsert(new int[]{1, 3}, 1);
+//        System.out.println(answer);
 //        int[] ansxwer = solituion.heapSort(new int[]{});
 //        doRecursiveMethod();
 //        Runner runner = new Runner();
@@ -33,7 +38,7 @@ public class Runner {
 //        System.out.println(runner.checkRecord("LPLPLPLPLPL")); // PPALLP
 //        System.out.println(runner.checkRecord("LALL"));
 //        System.out.println(runner.divide(10, 3));
-        runner.divide(10, 3);
+//        runner.divide(10, 3);
 
 
         int r = 4;
@@ -48,6 +53,23 @@ public class Runner {
         r = r ^ t;
 //        System.out.println("r:" + r);
 //        System.out.println("t:" + t);
+
+        Matrix matrixOne = new Matrix4f();
+        System.out.println(matrixOne);
+
+        Matrix matrixTwo = new Matrix4f();
+        matrixTwo.mul(
+                2f, 2f, 2f, 2f,
+                2f, 2f, 2f, 2f,
+                2f, 2f, 2f, 2f,
+                2f, 2f, 2f, 2f);
+        System.out.println(matrixTwo);
+
+        Matrix matrixThree = new Matrix4f();
+        matrixThree.mul(matrixTwo);
+        System.out.println(matrixThree);
+
+
 
     }
 
