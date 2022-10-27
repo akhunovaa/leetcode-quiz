@@ -17,7 +17,7 @@ public class Runner {
         // 987654321
         // 498828660196
         // 840477629533
-        String answer = solituion.multiply("498828660196", "840477629533");
+        String answer = solituion.multiplyMethodTwo("498828660196", "840477629533");
         System.out.println(answer);
 //        int[] ansxwer = solituion.heapSort(new int[]{});
 //        doRecursiveMethod();
