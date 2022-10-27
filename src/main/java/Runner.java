@@ -13,6 +13,12 @@ public class Runner {
 //        Vector<Class> classes =  (Vector<Class>) f.get(classLoader);
 //        System.out.println(classes);
         Solution solituion = new Solution();
+        // 123456789
+        // 987654321
+        // 498828660196
+        // 840477629533
+        String answer = solituion.multiply("498828660196", "840477629533");
+        System.out.println(answer);
 //        int[] ansxwer = solituion.heapSort(new int[]{});
 //        doRecursiveMethod();
 //        Runner runner = new Runner();
@@ -122,7 +128,7 @@ public class Runner {
         }
 
 
-        boolean isPositive = !((dividend < 0) ^ (divisor < 0));
+        boolean isPositive = dividend < 0 == divisor < 0;
 
         // If dividend and divisor have different symbols, the result is -ve
 
@@ -182,4 +188,5 @@ public class Runner {
         return highestPower;
 
     }
+
 }

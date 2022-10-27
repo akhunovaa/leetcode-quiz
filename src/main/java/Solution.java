@@ -260,6 +260,26 @@ public class Solution {
         return array;
     }
 
+
+    /*
+     * Template for using hash map to find duplicates.
+     * Replace ReturnType with the actual type of your return value.
+     */
+//    ReturnType aggregateByKey_hashmap(List<Type>& keys) {
+//        // Replace Type and InfoType with actual type of your key and value
+//        Map<Type, InfoType> hashmap = new HashMap<>();
+//        for (Type key : keys) {
+//            if (hashmap.containsKey(key)) {
+//                if (hashmap.get(key) satisfies the requirement) {
+//                    return needed_information;
+//                }
+//            }
+//            // Value can be any information you needed (e.g. index)
+//            hashmap.put(key, value);
+//        }
+//        return needed_information;
+//    }
+
     public void heapify(int[] array, int length, int i) {
         int leftChild = 2 * i + 1;
         int rightChild = 2 * i + 2;
@@ -301,26 +321,6 @@ public class Solution {
         quickSort(array, pivot + 1, end);
         return array;
     }
-
-
-    /*
-     * Template for using hash map to find duplicates.
-     * Replace ReturnType with the actual type of your return value.
-     */
-//    ReturnType aggregateByKey_hashmap(List<Type>& keys) {
-//        // Replace Type and InfoType with actual type of your key and value
-//        Map<Type, InfoType> hashmap = new HashMap<>();
-//        for (Type key : keys) {
-//            if (hashmap.containsKey(key)) {
-//                if (hashmap.get(key) satisfies the requirement) {
-//                    return needed_information;
-//                }
-//            }
-//            // Value can be any information you needed (e.g. index)
-//            hashmap.put(key, value);
-//        }
-//        return needed_information;
-//    }
 
     /*
     Time complexity : O(n^2)
@@ -527,6 +527,24 @@ public class Solution {
         return -1;
     }
 
+    /*
+    From end to start,
+if the number[index] != 9, we plus one directly then quit the loop.
+if the number[index] == 9, we set it to 0, and continue the loop until we encounter the number don't equals to 9.
+After the loop, if number[0] == 0, it means that we need a bigger array to represent the number.
+so we create a new array rst, and set rst[0] to 1.
+/*
+Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.
+You may assume the integer do not contain any leading zero, except the number 0 itself.
+The digits are stored such that the most significant digit is at the head of the list.
+The description of this question is poor.
+You can look the explianation here for better understanding:
+suppose you have a number in your list/array such that adding 1 would make it a two digit number,
+eg: [9]
+output: [1,0]
+Plusone(9) would be [10], but the expected output should be [1,0] such that the most significant digit is on the head
+*/
+
     public int pivotIndex2(int[] nums) {
         if (nums == null || nums.length == 0)
             return -1;
@@ -544,7 +562,6 @@ public class Solution {
 
         return -1;
     }
-
 
     // `x != m` with `m < 2*x`,
     public int dominantIndex(int[] nums) {
@@ -566,24 +583,6 @@ public class Solution {
 
         return maxIndex;
     }
-
-    /*
-    From end to start,
-if the number[index] != 9, we plus one directly then quit the loop.
-if the number[index] == 9, we set it to 0, and continue the loop until we encounter the number don't equals to 9.
-After the loop, if number[0] == 0, it means that we need a bigger array to represent the number.
-so we create a new array rst, and set rst[0] to 1.
-/*
-Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.
-You may assume the integer do not contain any leading zero, except the number 0 itself.
-The digits are stored such that the most significant digit is at the head of the list.
-The description of this question is poor.
-You can look the explianation here for better understanding:
-suppose you have a number in your list/array such that adding 1 would make it a two digit number,
-eg: [9]
-output: [1,0]
-Plusone(9) would be [10], but the expected output should be [1,0] such that the most significant digit is on the head
-*/
 
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
@@ -814,7 +813,6 @@ In this solution, we don't have any additional space apart from a couple of vari
         return arr;
     }
 
-
     public int doMethod() {
         int num1 = 2, num2 = 10;   //declaring values
         // bitwise XOR
@@ -822,6 +820,36 @@ In this solution, we don't have any additional space apart from a couple of vari
         int ans = num1 ^ num2;
         System.out.println("num1 XOR num2 = " + (ans));
         return ans;
+    }
+
+    public String multiply(String num1, String num2) {
+
+        // Пограничные случаи
+        if (num1.isEmpty() || num2.isEmpty()) {
+            return "0";
+        }
+        if (num1.length() > 200 || num2.length() > 200) {
+            return "0";
+        }
+        if (num1.startsWith("0") || num2.startsWith("0")) {
+            return "0";
+        }
+
+        long answer = parseToDigit(num1) * parseToDigit(num2);
+        return answer + "";
+    }
+
+    // Converting character to its integer value
+    public static int parseToDigit(final String input) {
+        final int len = input.length();
+        final char ch = input.charAt(0);
+        int num = '0' - ch;
+
+        int i = 1;
+        while (i < len) {
+            num = num * 10 + '0' - input.charAt(i++);
+        }
+        return num;
     }
 }
 
