@@ -1,8 +1,5 @@
 package interview.matrix;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-
 public class Matrix4f implements Matrix {
 
     float m00, m01, m02, m03;
