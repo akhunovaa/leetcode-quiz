@@ -16,9 +16,9 @@ public class PascalsTriangle {
 // Space Complexity: O(n^2)
 // columnNumber = previous_number_in_row * (row–column) / column
     public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> trinagle = new ArrayList<>(numRows);
+        List<List<Integer>> triangle = new ArrayList<>(numRows);
         if (numRows <= 0) {
-            return trinagle;
+            return triangle;
         }
         for (int i = 1; i <= numRows; i++) {
             int columnNumber = 1;
@@ -27,8 +27,8 @@ public class PascalsTriangle {
                 row.add(columnNumber);
                 columnNumber = columnNumber * (i - j) / j; // column = 1 * (3 - 1) / 1
             }
-            trinagle.add(row);
+            triangle.add(row);
         }
-        return trinagle;
+        return triangle;
     }
 }
