@@ -939,5 +939,38 @@ In this solution, we don't have any additional space apart from a couple of vari
     public static boolean between(int i, int minValueInclusive, int maxValueInclusive) {
         return (i >= minValueInclusive && i <= maxValueInclusive);
     }
+
+    // Constraints:
+    //              1 <= temperatures.length <= 10^5
+    //              30 <= temperatures[i] <= 100
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
+    public int[] dailyTemperatures(int[] temperatures) {
+        Stack<C> tempStack = new Stack<>();
+        int[] answer = new int[temperatures.length];
+
+        for (int i = temperatures.length - 1; i >= 0; i--) {
+            while (!tempStack.isEmpty() && tempStack.peek().value <= temperatures[i]) {
+                tempStack.pop();
+            }
+
+            if (!tempStack.isEmpty()) {
+                answer[i] = tempStack.peek().index - i;
+            }
+            tempStack.push(new C(temperatures[i], i));
+        }
+
+        return answer;
+    }
+
+    static class C {
+        int value;
+        int index;
+
+        public C(int value, int index) {
+            this.value = value;
+            this.index = index;
+        }
+    }
 }
 

@@ -2,6 +2,7 @@ import interview.matrix.Matrix;
 import interview.matrix.Matrix4f;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Runner {
 
@@ -41,35 +42,37 @@ public class Runner {
 //        runner.divide(10, 3);
 
 
-        int r = 4;
-        int t = 7;
+//        int r = 4;
+//        int t = 7;
 
 
 //        System.out.println("r:" + r);
 //        System.out.println("t:" + t);
 
-        r = r ^ t;
-        t = t ^ r;
-        r = r ^ t;
+//        r = r ^ t;
+//        t = t ^ r;
+//        r = r ^ t;
 //        System.out.println("r:" + r);
 //        System.out.println("t:" + t);
 
-        Matrix matrixOne = new Matrix4f();
-        System.out.println(matrixOne);
+//        Matrix matrixOne = new Matrix4f();
+//        System.out.println(matrixOne);
+//
+//        Matrix matrixTwo = new Matrix4f();
+//        matrixTwo.mul(
+//                2f, 2f, 2f, 2f,
+//                2f, 2f, 2f, 2f,
+//                2f, 2f, 2f, 2f,
+//                2f, 2f, 2f, 2f);
+//        System.out.println(matrixTwo);
+//
+//        Matrix matrixThree = new Matrix4f();
+//        matrixThree.mul(matrixTwo);
+//        System.out.println(matrixThree);
 
-        Matrix matrixTwo = new Matrix4f();
-        matrixTwo.mul(
-                2f, 2f, 2f, 2f,
-                2f, 2f, 2f, 2f,
-                2f, 2f, 2f, 2f,
-                2f, 2f, 2f, 2f);
-        System.out.println(matrixTwo);
-
-        Matrix matrixThree = new Matrix4f();
-        matrixThree.mul(matrixTwo);
-        System.out.println(matrixThree);
-
-
+        int[] inputData = new int[]{73,74,75,71,69,72,76,73};
+        int[] temperatures = solituion.dailyTemperatures(inputData);
+        System.out.println(Arrays.toString(temperatures));
 
     }
 
