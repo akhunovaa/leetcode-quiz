@@ -10,6 +10,13 @@ public class PascalsTriangle {
         PascalsTriangle pascal = new PascalsTriangle();
         List<List<Integer>> triangle = pascal.generate(10);
         System.out.println(triangle);
+
+        int x = 351;
+        int y = 40;
+//        System.out.println(x * y);
+        System.out.println((x<<5) + (x << 3));
+
+
     }
 
 // Time Complexity: O(n^2)
