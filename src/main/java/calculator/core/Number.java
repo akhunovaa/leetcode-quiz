@@ -2,7 +2,7 @@ package calculator.core;
 
 public abstract class Number {
 
-    protected String number;
+    String number;
 
     public Number(String number) {
       this.number = number;
