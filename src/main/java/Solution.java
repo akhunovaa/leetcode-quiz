@@ -26,6 +26,7 @@ public class Solution {
     }
 
     public boolean containsDuplicate(int[] nums) {
+
         Set<Integer> hashset = new HashSet<>(nums.length);
         for (int key : nums) {
             if (hashset.contains(key)) {
