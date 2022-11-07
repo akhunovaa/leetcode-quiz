@@ -1,4 +1,4 @@
-package interview;
+package interview.array;
 
 /**
  * Remove Element from Array

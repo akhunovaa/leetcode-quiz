@@ -1,4 +1,4 @@
-package interview;
+package interview.array;
 
 public class FinNumbersWithEvenNumberOfDigits {
 
