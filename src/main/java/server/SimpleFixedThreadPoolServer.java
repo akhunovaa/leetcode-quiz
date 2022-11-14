@@ -4,25 +4,26 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
-public class SimpleServer {
+public class SimpleFixedThreadPoolServer {
 
     static final int PORT = 8080;
     static final String NEW_LINE = "\r\n";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         run();
     }
 
-    static void run() {
-        try {
-            ServerSocket socket = new ServerSocket(PORT);
+    static void run() throws IOException {
+
+        try (ServerSocket serverSocket = new ServerSocket(PORT)) {
+            ExecutorService threadPoolExecutor = Executors.newFixedThreadPool(80);
             while (true) {
-                Socket connection = socket.accept();
-                new Thread(() -> handle(connection)).start();
+                Socket connection = serverSocket.accept();
+                threadPoolExecutor.submit(() -> handle(connection));
             }
-        } catch (Throwable tr) {
-            System.err.println("Could not start server: " + tr);
         }
     }
 
@@ -37,14 +38,14 @@ public class SimpleServer {
             String request = in.readLine();
             if (request == null) return;
 
-//            // we ignore the rest
+            // we ignore the rest
             while (true) {
                 String ignore = in.readLine();
                 if (ignore == null || ignore.length() == 0) break;
             }
 
             System.out.println(connection);
-            Thread.sleep(2000);
+//            Thread.sleep(2000);
             if (!request.startsWith("GET ") ||
                     !(request.endsWith(" HTTP/1.0") || request.endsWith(" HTTP/1.1"))) {
                 // bad request

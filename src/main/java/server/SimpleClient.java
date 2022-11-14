@@ -16,33 +16,33 @@ public class SimpleClient {
 
     public static void main(String[] args) throws InterruptedException {
 
-        Socket[] socketList = new Socket[100000];
+        Socket[] socketList = new Socket[12000];
 
         for (int i = 0; i < socketList.length; i++) {
             try {
                 socketList[i] = new Socket(HOSTNAME, PORT);
 
 
-//                OutputStream output = socketList[i].getOutputStream();
-//                PrintWriter writer = new PrintWriter(output, true);
-//
-//                writer.println("GET " + "/test/" + i + " HTTP/1.1");
-//                writer.println("Host: " + HOSTNAME);
-//                writer.println("User-Agent: Simple Http Client");
-//                writer.println("Accept: text/html");
-//                writer.println("Accept-Language: en-US");
-//                writer.println("Connection: close");
-//                writer.println();
-//
-//                InputStream input = socketList[i].getInputStream();
-//
-//                BufferedReader reader = new BufferedReader(new InputStreamReader(input));
-//
-//                String line;
-//
-//                while ((line = reader.readLine()) != null) {
-//                    System.out.println(line);
-//                }
+                OutputStream output = socketList[i].getOutputStream();
+                PrintWriter writer = new PrintWriter(output, true);
+
+                writer.println("GET " + "/test/" + i + " HTTP/1.1");
+                writer.println("Host: " + HOSTNAME);
+                writer.println("User-Agent: Simple Http Client");
+                writer.println("Accept: text/html");
+                writer.println("Accept-Language: en-US");
+                writer.println("Connection: close");
+                writer.println();
+
+                InputStream input = socketList[i].getInputStream();
+
+                BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+
+                String line;
+
+                while ((line = reader.readLine()) != null) {
+                    System.out.println(line);
+                }
 
 
             } catch (UnknownHostException ex) {
