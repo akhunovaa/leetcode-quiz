@@ -364,8 +364,8 @@ public class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i]; // 9 - 2
-            if (map.containsKey(complement)) {//7
-                return new int[]{map.get(complement), i};// возвращаем индексы данных значений 2 с индексом 0 (который уже был добавлен) и 7 с индексом 2
+            if (map.containsKey(complement)) { //7
+                return new int[]{map.get(complement), i}; // возвращаем индексы данных значений 2 с индексом 0 (который уже был добавлен) и 7 с индексом 2
             }
             map.put(nums[i], i);
         }
