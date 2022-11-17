@@ -973,5 +973,21 @@ In this solution, we don't have any additional space apart from a couple of vari
             this.index = index;
         }
     }
+
+    public void moveZeroes(int[] nums) {
+        int possibleZero = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            int num = nums[i];
+            if (num != 0) {
+                nums[possibleZero++] =  nums[i];
+            }
+        }
+
+        for (int i = possibleZero; i < nums.length; i++) {
+            nums[i] = 0;
+
+        }
+    }
 }
 

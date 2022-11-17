@@ -19,6 +19,10 @@ public class Runner {
 //        Vector<Class> classes =  (Vector<Class>) f.get(classLoader);
 //        System.out.println(classes);
         Solution solituion = new Solution();
+
+        int[] input = {0, 1, 0, 3, 12};
+        solituion.moveZeroes(input);
+        System.out.println("Move zeros: " + Arrays.toString(input));
         // 123456789
         // 987654321
         // 498828660196
