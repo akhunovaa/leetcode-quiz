@@ -23,13 +23,25 @@ public class MaximumSubarray {
     public static void main(String[] args) {
         int[] nums = {4000, 3000, 1000, 2000};
         int answer = maxSubArray(nums);
-//        System.out.println("Answer: " + answer);
+        System.out.println("Answer: " + answer);
 //        System.out.println(average(nums));
-        System.out.println(min(new int[]{66, 7, 8, 3, 6, 999999, 8, -56, -55, -5423, 9999}));
+//        System.out.println(min(new int[]{66, 7, 8, 3, 6, 999999, 8, -56, -55, -5423, 9999}));
 //        int[] input = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 //        int target = 15;
 //        int ans = searchBin(input, target);
 //        System.out.println("ANS: " + ans);
+    }
+
+    public static int maxSubArray(int[] nums) {
+
+        int maxSoFar = nums[0], maxEndingHere = nums[0];
+
+        for (int i = 1; i < nums.length; ++i) {
+            maxEndingHere = Math.max(maxEndingHere + nums[i], nums[i]);
+            maxSoFar = Math.max(maxSoFar, maxEndingHere);
+        }
+
+        return maxSoFar;
     }
 
     static int min(int[] arr) {
@@ -120,15 +132,4 @@ public class MaximumSubarray {
 
     }
 
-    public static int maxSubArray(int[] nums) {
-
-        int maxSoFar = nums[0], maxEndingHere = nums[0];
-
-        for (int i = 1; i < nums.length; ++i) {
-            maxEndingHere = Math.max(maxEndingHere + nums[i], nums[i]);
-            maxSoFar = Math.max(maxSoFar, maxEndingHere);
-        }
-
-        return maxSoFar;
-    }
 }
