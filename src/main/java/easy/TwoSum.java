@@ -9,6 +9,9 @@ public class TwoSum {
         int target = 9;
         int[] answer = twoSum(nums, target);
         System.out.println(Arrays.toString(answer));
+        int bts = 4;
+        long unsignedValue = bts & 0xffffffffL;
+        System.out.println(count(unsignedValue));
     }
 
     /*
@@ -59,6 +62,15 @@ public class TwoSum {
             map.put(nums[i], i);
         }
         throw new IllegalArgumentException("No two sum solution");
+    }
+
+    public static long count(long n) {
+        long ones = 0;
+        while(n!=0) {
+            ones = ones + (n & 1);
+            n = n>>>1;
+        }
+        return ones;
     }
 
 }
