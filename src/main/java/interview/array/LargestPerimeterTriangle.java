@@ -1,7 +1,6 @@
 package interview.array;
 
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 
 /**
  * <b>Largest Perimeter Triangle</b>
@@ -23,7 +22,7 @@ public class LargestPerimeterTriangle {
         int[] nums = {2, 1, 2};
         int answer = largestPerimeter(nums);
         System.out.println("Answer: " + answer);
-        System.out.println(firstUniqChar("leetcode"));
+        System.out.println(firstUniqChar("aabb"));
     }
 
     public static int largestPerimeter(int[] nums) {
@@ -46,6 +45,16 @@ public class LargestPerimeterTriangle {
             if (count.get(s.charAt(i)) == 1) {
                 return i;
             }
+        }
+        return -1;
+    }
+
+    public static int findDuplicate(int[] nums) {
+        Set<Integer> seen = new HashSet<Integer>();
+        for (int num : nums) {
+            if (seen.contains(num))
+                return num;
+            seen.add(num);
         }
         return -1;
     }
