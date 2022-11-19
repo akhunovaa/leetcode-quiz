@@ -22,7 +22,7 @@ public class LargestPerimeterTriangle {
         int[] nums = {2, 1, 2};
         int answer = largestPerimeter(nums);
         System.out.println("Answer: " + answer);
-        System.out.println(firstUniqChar("aabb"));
+        System.out.println(findDuplicate(new int[] {1, 3, 4, 1}));
     }
 
     public static int largestPerimeter(int[] nums) {
@@ -50,7 +50,7 @@ public class LargestPerimeterTriangle {
     }
 
     public static int findDuplicate(int[] nums) {
-        Set<Integer> seen = new HashSet<Integer>();
+        Set<Integer> seen = new HashSet<>();
         for (int num : nums) {
             if (seen.contains(num))
                 return num;
