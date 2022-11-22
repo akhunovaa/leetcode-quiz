@@ -54,7 +54,6 @@ public class MergeTwoBinaryTrees {
         root1.left = mergeTreesRecursively(root1.left, root2.left);
         root1.right = mergeTreesRecursively(root1.right, root2.right);
         return root1;
-
     }
 
     public static TreeNode mergeTreesStack(TreeNode t1, TreeNode t2) {
