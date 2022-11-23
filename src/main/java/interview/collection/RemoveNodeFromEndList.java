@@ -21,13 +21,27 @@ public class RemoveNodeFromEndList {
 
     public static void main(String[] args) {
 
-        ListNode head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
-        int n = 2;
-        ListNode answer = removeNthFromEnd(head, n);
+        ListNode head = new ListNode(7, new ListNode(7, new ListNode(7, new ListNode(7))));
+        //ListNode head = new ListNode(1, new ListNode(2, new ListNode(6, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6)))))));
+        int n = 7;
+        ListNode answer = removeElements(head, n);
         while (answer != null) {
             System.out.println("Answer: " + answer);
             answer = answer.next;
         }
+    }
+
+    public static ListNode removeElements(ListNode head, int val) {
+        if (head == null) {
+            return null;
+        }
+        // Once removeElements call is done, right side of the list is solved.
+        ListNode rightSideHead = removeElements(head.next, val);
+        if (head.val == val) {
+            return rightSideHead;
+        }
+        head.next = rightSideHead;
+        return head;
     }
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
