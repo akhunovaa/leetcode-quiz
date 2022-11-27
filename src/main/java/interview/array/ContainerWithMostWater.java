@@ -14,8 +14,27 @@ public class ContainerWithMostWater {
         //int[] input = {1, 8, 6, 2, 5, 4, 8, 3, 7};
         int[] input = {1, 2, 1};
         // int[] input = {1, 1};
-        int answer = maxArea(input);
+        double answer = mySqrt(25);
+//        double x = Math.sqrt(25);
         System.out.println("Answer: " + answer);
+    }
+
+    public static float mySqrt(float x) {
+        float xhalf = 0.5f * x;
+        int i = Float.floatToIntBits(x);
+        i = 0x5f3759df - (i >> 1);
+        x = Float.intBitsToFloat(i);
+        x *= (1.5f - xhalf * x * x);
+        return x;
+    }
+
+    public static int mySqrt(int x) {
+        double xhalf = 0.5d * x;
+        long i = Double.doubleToLongBits(x);
+        i = 0x5fe6ec85e7de30daL - (i >> 1);
+        double ans = Double.longBitsToDouble(i);
+        ans *= (1.5d - xhalf * ans * ans);
+        return (int) ans;
     }
 
     public static int maxArea(int[] height) {
