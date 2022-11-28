@@ -36,7 +36,8 @@ public class Cinema {
         if (girlsCount > 2 * boysCount || boysCount > 2 * girlsCount) {
             return answer;
         }
-        int delta = 0;
+
+        int delta;
 
         if (boysCount >= girlsCount) {
             delta = boysCount - girlsCount;
