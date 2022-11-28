@@ -50,15 +50,4 @@ public class SwapNodesPairs {
         return dummy.next;
     }
 
-    // Time Complexity: O(N)
-    // Space Complexity: O(N)
-    public static boolean hasPathSum(TreeNode root, int targetSum) {
-        // return false if the root is null
-        if(root == null) return false;
-        // if it reaches to the end and the val is equal to the sum, return true
-        if(root.left == null && root.right == null && root.val == targetSum) return true;
-        // otherwise, we traverse left node and right node with the new targetSum `targetSum - root.val`
-        return hasPathSum(root.left, targetSum - root.val) || hasPathSum(root.right, targetSum - root.val);
-    }
-
 }
