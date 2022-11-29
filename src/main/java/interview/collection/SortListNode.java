@@ -59,7 +59,7 @@ public class SortListNode {
         }
         if (list1 != null) {
             tail.next = list1;
-        }else {
+        } else {
             tail.next = list2;
         }
         return dummyHead.next;
