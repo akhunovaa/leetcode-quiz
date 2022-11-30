@@ -4,7 +4,9 @@ public class DefangingIPAddress {
 
     public static void main(String[] args) {
         String s = "1.1.1.1";
-        String answer = defangIPaddr(s);
+//        String answer = defangIPaddr(s);
+//        System.out.println("Answer: " + answer);
+        int answer = finalValueAfterOperations(new String[]{"--X","X++","X++"});
         System.out.println("Answer: " + answer);
     }
 
@@ -22,6 +24,24 @@ public class DefangingIPAddress {
             }
         }
         return String.valueOf(charArray);
+    }
+
+    public static int finalValueAfterOperations(String[] operations) {
+        final int PLUS = 43;
+        final int MINUS = 45;
+        int total = 0;
+        for(int i = 0; i < operations.length; i++) {
+            if(operations[i].charAt(0) == PLUS) {
+                ++total;
+            } else if(operations[i].charAt(0) == MINUS) {
+                --total;
+            } else if(operations[i].charAt(1) == PLUS) {
+                total++;
+            } else {
+                total--;
+            }
+        }
+        return total;
     }
 
 }
