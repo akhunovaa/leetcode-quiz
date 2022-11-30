@@ -26,11 +26,11 @@ public class LongestPalindrome {
 
     public static void main(String[] args) {
         String s = "abccccdd"; // dccaccd
-        int answer = longestPalindrome(s);
+        int answer = setLongestPalindrome(s);
         System.out.println("Answer: " + answer);
-
-        answer = longestPalindrome(new String[] {"ab","ty","yt","lc","cl","ab"}); // ab cl lc yt ty ab // ab ab yt ty cl lc
-        System.out.println("Answer: " + answer);
+//
+//        answer = longestPalindrome(new String[] {"ab","ty","yt","lc","cl","ab"}); // ab cl lc yt ty ab // ab ab yt ty cl lc
+//        System.out.println("Answer: " + answer);
     }
 
     public static int longestPalindrome(String s) {
@@ -97,8 +97,9 @@ public class LongestPalindrome {
             else
                 set.add(s.charAt(i));
         }
-        if (set.size() <= 1)
+        if (set.size() <= 1) {
             return s.length();
+        }
         return s.length() - set.size() + 1;
     }
 
