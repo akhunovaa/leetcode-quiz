@@ -26,6 +26,14 @@ public class PermutationString {
     }
 
     public static boolean checkInclusion(String s1, String s2) {
+
+//        char[] newStr = new char[s.length() * 2 + 1];
+//        newStr[0] = '#';
+//        for (int i = 0; i < s.length(); i++) {
+//            newStr[2 * i + 1] = s.charAt(i);
+//            newStr[2 * i + 2] = '#';
+//        }
+
         int n = s1.length(), m = s2.length();
         int[] f = new int[26];
         for (int i = 0; i < n; i++) {
