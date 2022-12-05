@@ -13,11 +13,11 @@ public class ReplaceDigitsWithCharacters {
         char[] result = new char[s.length()];
 
         result[0] = s.charAt(0);
-        for(int i = 1; i < s.length(); i++){
-            if(Character.isLetter(s.charAt(i))) {
+        for (int i = 1; i < s.length(); i++) {
+            if (Character.isLetter(s.charAt(i))) {
                 result[i] = s.charAt(i);
                 i++;
-                if(i == s.length()) break;
+                if (i == s.length()) break;
             }
             int shift = Character.getNumericValue(s.charAt(i));
             char replace = (char) (s.charAt(i - 1) + shift);
@@ -25,5 +25,19 @@ public class ReplaceDigitsWithCharacters {
         }
 
         return String.valueOf(result);
+    }
+
+    public String reversePrefix(String word, char ch) {
+        char[] chArr = word.toCharArray();
+
+        int i = 0, len = chArr.length;
+        while (i < len && chArr[i] != ch) i++;
+        if (i >= len) return word;
+        for (int j = 0; j < i; j++, i--) {
+            char temp = chArr[j];
+            chArr[j] = chArr[i];
+            chArr[i] = temp;
+        }
+        return String.valueOf(chArr);
     }
 }
