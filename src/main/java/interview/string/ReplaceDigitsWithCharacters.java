@@ -8,6 +8,7 @@ public class ReplaceDigitsWithCharacters {
         System.out.println("Answer: " + answer);
     }
 
+
     static String replaceDigits(String s) {
         char[] result = new char[s.length()];
 
@@ -18,7 +19,7 @@ public class ReplaceDigitsWithCharacters {
                 i++;
                 if(i == s.length()) break;
             }
-            int shift = Character.getNumericValue(s.charAt(i * 2 - 1));
+            int shift = Character.getNumericValue(s.charAt(i));
             char replace = (char) (s.charAt(i - 1) + shift);
             result[i] = replace;
         }
