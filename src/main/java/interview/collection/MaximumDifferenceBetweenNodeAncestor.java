@@ -1,5 +1,8 @@
 package interview.collection;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // [8,3,10,1,6,null,14,null,null,4,7,13]
 public class MaximumDifferenceBetweenNodeAncestor {
 
@@ -12,7 +15,8 @@ public class MaximumDifferenceBetweenNodeAncestor {
         TreeNode leftSix = new TreeNode(6);
         leftSix.left = new TreeNode(4);
         leftSix.right = new TreeNode(7);
-
+        List<Integer> entryList = new ArrayList<>(10);
+        entryList.add(1, 1);
         TreeNode leftThree = new TreeNode(3);
         leftThree.left = new TreeNode(1);
         leftThree.right = leftSix;
