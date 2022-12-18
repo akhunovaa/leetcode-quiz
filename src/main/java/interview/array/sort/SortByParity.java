@@ -17,7 +17,7 @@ import java.util.Arrays;
  * Input: nums = [0]
  * Output: [0]
  */
-public class SortArrayByParity {
+public class SortByParity {
 
     public static void main(String[] args) {
         int[] nums = {2, 3, 2, 5, 9, 4};
