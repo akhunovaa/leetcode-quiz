@@ -25,4 +25,21 @@ public class LengthOfLastWord {
         }
         return answer;
     }
+
+
+    public static int lengthOfLastWord2(String s) {
+        int answer = 0;
+
+        for(int i =  s.length() - 1; i >= 0; i--) {
+            if(s.charAt(i) != 32) {
+                answer++;
+            }
+            if(s.charAt(i) == 32 && answer > 0) {
+                return answer;
+            }
+        }
+
+        return answer;
+    }
+
 }
