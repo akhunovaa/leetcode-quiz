@@ -22,7 +22,7 @@ package interview.array;
 public class SearchInsertPosition {
 
     public static void main(String[] args) {
-        int[] nums = {-1, 0, 3, 5, 9, 12};
+        int[] nums = {1,3,5,6};
         int target = 4;
         int answer = searchInsert(nums, target);
         System.out.println("Answer: " + answer);
@@ -47,5 +47,25 @@ public class SearchInsertPosition {
             }
         }
         return start;
+    }
+
+    public static int searchInsert2(int[] nums, int target) {
+        // The left and right most indices in our range of consideration.
+        int left = 0;
+        int right = nums.length - 1;
+        // Find the target or insertion index.
+        while (left <= right) {
+            // Get the middle index of our range.
+            int middle = left + ((right - left) / 2);
+            // Check if we've found our target, or shift our range.
+            if (nums[middle] == target)
+                return middle;
+            else if (nums[middle] > target)
+                right = middle - 1;
+            else
+                left = middle + 1;
+        }
+        // Left will be the index to insert at.
+        return left;
     }
 }

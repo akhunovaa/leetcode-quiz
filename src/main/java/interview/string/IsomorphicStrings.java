@@ -27,7 +27,7 @@ import java.util.Objects;
 public class IsomorphicStrings {
 
     public static void main(String[] args) {
-        String s = "egg", t = "add";
+        String s = "foo", t = "bar";
         boolean answer = isIsomorphic(s, t);
         System.out.println("Answer: " + answer);
     }
@@ -39,7 +39,9 @@ public class IsomorphicStrings {
         Map<Character, Integer> map2 = new HashMap<>();
 
         for (int i = 0; i < s.length(); i++) {
-            if (!Objects.equals(map1.put(s.charAt(i), i), map2.put(t.charAt(i), i))) {
+            Integer one = map1.put(s.charAt(i), i);
+            Integer two = map2.put(t.charAt(i), i);
+            if (!Objects.equals(one, two)) {
                 return false;
             }
         }
