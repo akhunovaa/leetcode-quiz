@@ -34,14 +34,56 @@ public class MaximumSubarray {
 
     public static int maxSubArray(int[] nums) {
 
-        int maxSoFar = nums[0], maxEndingHere = nums[0];
+        // nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+
+        // maxSoFar = 1
+        // максимальная сумма в первых элементах i - 1
+        int maxSoFar = nums[0];
+
+        // maxEndingHere = 1
+        // сумма субвектора, который заканчивается в позиции i
+        // maxEndingHere — это либо nums[i] плюс предыдущий maxEndingHere
+        // либо просто nums[i], в зависимости от того, какое значение больше
+        int maxEndingHere = nums[0];
 
         for (int i = 1; i < nums.length; ++i) {
-            maxEndingHere = Math.max(maxEndingHere + nums[i], nums[i]);
+
+            // 1 + 2 = 3
+            // temporary = 3
+
+            // 3 + 2 = 5
+            // temporary = 5
+            int temporary = maxEndingHere + nums[i];
+
+            // MAX (3, 2)
+            // maxEndingHere = 3
+
+            // MAX (5, 2)
+            // maxEndingHere = 5
+            maxEndingHere = Math.max(temporary, nums[i]);
+
+            // MAX (1, 3)
+            // maxSoFar = 3
+
+            // MAX (3, 5)
+            // maxSoFar = 5
             maxSoFar = Math.max(maxSoFar, maxEndingHere);
         }
 
         return maxSoFar;
+    }
+
+    static int maxSubArray2(int[] nums) {
+        int n = nums.length;
+        int sum = 0;
+        int max = nums[0];
+        for (int i = 0; i < n; i++) {
+            sum += nums[i];
+            max = sum > max ? sum : max;
+            if (sum < 0)
+                sum = 0;
+        }
+        return max;
     }
 
     static int min(int[] arr) {

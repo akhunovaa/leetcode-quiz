@@ -49,4 +49,14 @@ public class SquaresOfSortedArray {
         return idx;
     }
 
+    static int swap(int x) {
+        // swap nibbles
+        x = x >>> 4 | x << 4;
+// swap groups of 2
+        x = (x >>> 2) & 0x33 | (x & 0x33) << 2;
+// swap groups of 1
+        x = (x >>> 1) & 0x55 | (x & 0x55) << 1;
+        return x;
+    }
+
 }
