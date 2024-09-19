@@ -5,11 +5,20 @@ import java.util.Arrays;
 public class SquaresOfSortedArray {
 
     public static void main(String[] args) {
-        int[] input = {-4, -1, 0, 3, 10};
+        int[] input = {2, 4, 6, 8, 10};
         // int[] input = {10};
+        long time = System.nanoTime();
         int[] answer = sortedSquares(input);
+        long end = System.nanoTime() - time;
         System.out.println("Answer: " + Arrays.toString(answer));
+        System.out.println("Time: " + end);
 
+
+        // Answer: [4, 16, 36, 64, 100]
+        // Time: 173 461
+
+        // Answer: [4, 16, 36, 64, 100]
+        //Time: 194 313
     }
 
     public static int[] sortedSquares(int[] nums) {
@@ -17,6 +26,7 @@ public class SquaresOfSortedArray {
         for (int i = 0; i < nums.length; i++) {
             int num = Math.abs(nums[i]);
             int k = power(num, num);
+            // int k = (int) Math.pow(num, 2);
             a[i] = k;
         }
         Arrays.sort(a);

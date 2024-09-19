@@ -1,5 +1,8 @@
 package interview.array;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Container With Most Water
  * <p/>
@@ -11,15 +14,50 @@ package interview.array;
 public class ContainerWithMostWater {
 
     public static void main(String[] args) {
-        //int[] input = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-        int[] input = {1, 2, 1};
+        int[] input = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+//        int[] input = {1, 2, 1};
         // int[] input = {1, 1};
-        double answer = mySqrt(25);
+        long time = System.nanoTime();
+        // double answer =  1 / mySqrt(2);
+        double answer =  Math.sqrt(500);
+        long end = System.nanoTime() - time;
 //        double x = Math.sqrt(25);
+        System.out.println("Time: " + end);
         System.out.println("Answer: " + answer);
+        System.out.println("=================================");
+        time = System.nanoTime();
+        answer =  1 / mySqrtFloat(500);
+        end = System.nanoTime() - time;
+        System.out.println("Time: " + end);
+        System.out.println("Answer: " + answer);
+//         Time: 25325 25242            18514
+//         Answer: 1.4145671129226685   1.414579489411209
+//
+//          Time: 14728
+//         Answer: 1.4142135623730951
+//        mapTest();
     }
 
-    public static float mySqrt(float x) {
+    private static void mapTest() {
+        class Key {
+            private String key;
+            public Key(String key){
+                this.key = key;
+            }
+            public void set(String key){
+                this.key = key;
+            }
+        }
+
+        Map<Key, String> map = new HashMap<>();
+        Key key = new Key("a");
+        map.put(key, "xxx");
+        key.set("b");
+        System.out.println(map.get(key)); // что будет
+    }
+
+
+    public static float mySqrtFloat(float x) {
         float xhalf = 0.5f * x;
         int i = Float.floatToIntBits(x);
         i = 0x5f3759df - (i >> 1);
@@ -28,13 +66,13 @@ public class ContainerWithMostWater {
         return x;
     }
 
-    public static int mySqrt(int x) {
+    public static double mySqrt(int x) {
         double xhalf = 0.5d * x;
         long i = Double.doubleToLongBits(x);
         i = 0x5fe6ec85e7de30daL - (i >> 1);
         double ans = Double.longBitsToDouble(i);
         ans *= (1.5d - xhalf * ans * ans);
-        return (int) ans;
+        return ans;
     }
 
     public static int maxArea(int[] height) {
